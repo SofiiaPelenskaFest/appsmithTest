@@ -10,7 +10,7 @@
   "backgroundColor": "#FFFFFF",
   "borderColor": "#C4D1F4",
   "borderRadius": "16px",
-  "bottomRow": 85,
+  "bottomRow": 93,
   "boxShadow": "none",
   "children": [
     {
@@ -124,6 +124,8 @@
   "mobileTopRow": 35,
   "needsErrorInfo": false,
   "onPageChange": "{{\nawait TokenValidator.validateToken();\nutils.getAllAssignments();}}",
+  "originalBottomRow": 101,
+  "originalTopRow": 21,
   "pageSize": 7,
   "parentColumnSpace": 20.75,
   "parentId": "knu7q53kg9",
@@ -137,7 +139,7 @@
   "serverSidePagination": true,
   "shouldScrollContents": true,
   "templateHeight": 160,
-  "topRow": 5,
+  "topRow": 13,
   "totalRecordsCount": "{{get_all_assignments.data?.data?.people_assignment_v0_aggregate?.aggregate?.count}}",
   "triggeredItemView": "{{{}}}",
   "type": "FC_LIST_WIDGET",
