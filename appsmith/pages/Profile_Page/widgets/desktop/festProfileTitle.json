@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "bottomRow": 8,
+  "bottomRow": 25,
   "dynamicBindingPathList": [
     {
       "key": "text"
@@ -33,7 +33,7 @@
   "text": "{{i18n.translate(\"profileTitle\")}}",
   "textAlign": "LEFT",
   "textColor": "#212121",
-  "topRow": 5,
+  "topRow": 22,
   "type": "FC_TEXT_WIDGET",
   "typography": "h4-b",
   "version": 1,

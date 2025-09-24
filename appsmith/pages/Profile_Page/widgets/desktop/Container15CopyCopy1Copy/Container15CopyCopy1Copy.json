@@ -9,7 +9,7 @@
   "borderColorHover": "#f1d9a8",
   "borderRadius": "1rem",
   "borderWidth": "1",
-  "bottomRow": 19,
+  "bottomRow": 35,
   "bottomRowBeforeCollapse": 23,
   "boxShadow": "NONE",
   "children": [
@@ -98,7 +98,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": false,
-  "topRow": 9,
+  "topRow": 25,
   "topRowBeforeCollapse": 16,
   "type": "FC_CONTAINER_WIDGET",
   "version": 1,

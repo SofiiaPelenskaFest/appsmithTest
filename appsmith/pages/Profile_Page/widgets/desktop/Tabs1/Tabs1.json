@@ -5,7 +5,7 @@
   "borderColor": "#c4d1f4",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 0,
-  "bottomRow": 253,
+  "bottomRow": 266,
   "boxShadow": "",
   "children": [
     {
@@ -467,7 +467,7 @@
     }
   },
   "tabsSize": "MEDIUM",
-  "topRow": 47,
+  "topRow": 60,
   "type": "FC_TABS_WIDGET",
   "version": 3,
   "widgetId": "tdhnx6ei8w",
