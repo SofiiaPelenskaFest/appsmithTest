@@ -1,0 +1,5 @@
+mutation MyMutation2($id: String!) {
+  delete_people_contentitem_v0(where: {FestCloudID: {_eq: $id}}) {
+    affected_rows
+  }
+}

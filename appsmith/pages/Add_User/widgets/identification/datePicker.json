@@ -1,0 +1,93 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderColorHover": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{utils.taxNumberValidation(taxpayerInput.text.trim()) ? utils.getDataFromTaxNumber(taxpayerInput.text.trim()).birthday : get_person_by_id.data?.data?.person[0]?.Birthday}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "labelText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "4k1kx2on1t",
+  "label": "{{i18n.translate(\"userBirthPickerLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"userBirthPickerLabel\")}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 16,
+  "maxDate": "{{moment()}}",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{moment().subtract(60, 'years')}}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "originalBottomRow": 22,
+  "originalTopRow": 15,
+  "parentColumnSpace": 23.921875,
+  "parentId": "nlv0u7kgr1",
+  "parentRowSpace": 10,
+  "placeholder": "день/місяць/рік",
+  "placeholderText": "день/місяць/рік",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 15,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetId": "k51zlmfnm1",
+  "widgetName": "datePicker"
+}

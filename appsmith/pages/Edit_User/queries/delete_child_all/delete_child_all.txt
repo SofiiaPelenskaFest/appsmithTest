@@ -1,0 +1,5 @@
+mutation Delete($personId: String!) {
+  delete_people_child_v0(where: {PersonFestCloudID: {_eq: $personId}}) {
+    affected_rows
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderColorActive": "#3A77DC",
+  "borderColorDisabled": "#CBCED4",
+  "borderColorHover": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 81,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD HH:mm",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{get_substitution_assignment?.data?.data?.assignment[0]?.EndDate}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": "{{get_substitution_assignment?.data?.data?.assignment[0]?.stage?.Stage === \"Ex-Substitution\"}}",
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{init.substitutionEdit}}",
+  "key": "veq44arc27",
+  "label": "{{i18n.translate(\"substitutionEndDateLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 17,
+  "maxDate": "{{moment(EditSubstitutionStartDatePicke.selectedDate).add(2, 'weeks').format(\"YYYY-MM-DD\")}}",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{moment(EditSubstitutionStartDatePicke.selectedDate).add(1, 'day').format(\"YYYY-MM-DD\")}}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 81,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 74,
+  "needsErrorInfo": false,
+  "originalBottomRow": 85,
+  "originalTopRow": 78,
+  "parentColumnSpace": 20.09375,
+  "parentId": "l5jerhepvd",
+  "parentRowSpace": 10,
+  "placeholder": "день/місяць/рік",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shortcuts": false,
+  "shouldScrollContents": true,
+  "timePrecision": "minute",
+  "topRow": 76,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetHeight": "200px",
+  "widgetId": "7t9q9it7dv",
+  "widgetName": "EditSubstitutionEndDatePicker",
+  "widgetWidth": "200px"
+}

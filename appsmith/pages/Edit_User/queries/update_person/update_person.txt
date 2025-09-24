@@ -1,0 +1,10 @@
+mutation Update($personId: String!, $data: people_person_v0_set_input ){
+  update_people_person_v0(where: {
+    FestCloudID: {_eq: $personId}
+    }, _set: $data){
+    affected_rows
+		returning {
+			Gender
+		}
+  }
+}

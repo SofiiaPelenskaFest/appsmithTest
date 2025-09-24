@@ -1,0 +1,36 @@
+query check($id: String!) {
+  assignment: people_assignment_v0(where: {FestCloudID: {_eq: $id}}) {
+    JobTitle
+    Role
+    ManagerFestCloudId
+    EmployeeFestCloudID
+		FestCloudID
+    workgroup: assignment_workgroupfestcloudid_workgroup {
+      FestCloudID
+      Name
+    }
+    position: assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    manager: assignment_managerfestcloudid_employee {
+      manager_employee: employee_festcloudid_person {
+        Name
+        FamilyName
+      }
+    }
+    StartDate
+    assigment_ext: assignment_festcloudid_assignmentext {
+      CooperationType
+			Token
+    }
+		content_items:contentitemvalue_assignmentfestcloudid_array {
+			FestCloudID
+      ContentItemFestCloudID
+      Value
+   		 content_item:contentitemvalue_contentitemfestcloudid_contentitem{
+        ContentKey
+      }
+    }
+  }
+}

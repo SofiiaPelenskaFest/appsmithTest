@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 76,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0hygkoc5k4",
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 76,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 74,
+  "needsErrorInfo": false,
+  "originalBottomRow": 76,
+  "originalTopRow": 74,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "shouldTruncate": false,
+  "text": "{{appsmith.store.triger}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 74,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4",
+  "version": 1,
+  "widgetId": "t4d6mh3v7y",
+  "widgetName": "Text27"
+}

@@ -1,0 +1,44 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_623a5e84-f176-4c1e-a53a-618fdf5edae4",
+  "id": "Edit_Assigment_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Edit_Assigment",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "employeeFestCloudId",
+        "value": "appsmith.URL.queryParams.employeeFestCloudId"
+      },
+      {
+        "name": "selectedAssigmentId",
+        "value": "appsmith.URL.queryParams.selectedAssigmentId"
+      },
+      {
+        "name": "fileData",
+        "value": "null"
+      },
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "isFirstRender",
+        "value": "true"
+      },
+      {
+        "name": "beforeJobTitle",
+        "value": "null"
+      },
+      {
+        "name": "allAssignmentsRoles",
+        "value": "null"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "borderRadius": "20px",
+  "bottomRow": 18,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "progress"
+    },
+    {
+      "key": "filledDots"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "thickness"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillBgColor": "#c4d1f4",
+  "fillColor": "#5d9aff",
+  "filledDots": "{{utils.normalizeDate(currentItem?.StartDate,currentItem?.EndDate).months}}",
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0isr46xqmm",
+  "leftColumn": 1,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 12.3125,
+  "parentId": "gma18nmpka",
+  "parentRowSpace": 10,
+  "progress": 0,
+  "progressType": "dots",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 17,
+  "showResult": false,
+  "steps": 12,
+  "text": "{{i18n.translate(\"monthProgressLabel\")}} ",
+  "textColor": "#9FA2A8",
+  "textTransform": "uppercase",
+  "thickness": "16",
+  "topRow": 17,
+  "type": "FC_PROGRESSBAR_WIDGET",
+  "typography": "overline4",
+  "version": 1,
+  "widgetId": "br1ntco78v",
+  "widgetName": "Progress1CopyCopyCopy",
+  "widgetWidth": "200px"
+}

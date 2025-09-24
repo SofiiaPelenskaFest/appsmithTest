@@ -1,0 +1,69 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#D53939",
+  "backgroundColorActive": "#FF4A43",
+  "backgroundColorDisabled": "#FFC7C5",
+  "backgroundColorHover": "#ED3B3B",
+  "backgroundFocusColor": "#ef4444",
+  "borderColor": "#D53939",
+  "borderColorActive": "#FF4A43",
+  "borderColorDisabled": "#FFC7C5",
+  "borderColorHover": "#ED3B3B",
+  "borderFocusColor": "#ef4444",
+  "bottomRow": 3,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "ERROR",
+  "color": "#ffffff",
+  "colorActive": "#ffffff",
+  "colorDisabled": "#ffffff",
+  "colorHover": "#ffffff",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "01k29ilo92",
+  "leftColumn": 25,
+  "minWidth": 120,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{CRUD.deleteUser(waiting_list.triggeredItem.FestCloudID);\ncloseModal(deletePeopleModal.name);}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 18,
+  "parentColumnSpace": 6.9375,
+  "parentId": "5jwrdt5dwc",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 41,
+  "text": "{{i18n.translate(\"dismissaLModalSubmitButton\")}}",
+  "textFocusColor": "#ffffff",
+  "topRow": 0,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "l2ai6dpdpt",
+  "widgetName": "DeleteBtn"
+}

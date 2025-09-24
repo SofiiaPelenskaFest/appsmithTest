@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_0dcf3796-add6-402b-976e-ebf73f06fead",
+  "id": "Dismissal_TokenValidator",
+  "unpublishedCollection": {
+    "name": "TokenValidator",
+    "pageId": "Dismissal",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "origin",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "refreshPromise",
+        "value": "null"
+      }
+    ]
+  }
+}

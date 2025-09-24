@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_517b273b-3a60-4d3a-a10c-0157008345aa",
+  "id": "Dismissal_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Dismissal",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

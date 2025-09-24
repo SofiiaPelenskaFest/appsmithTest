@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2mufgmohg8",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 2,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "okhnaa50od",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 55,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"modalExistedProfileFindedLabel\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 2,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h5-b",
+  "version": 1,
+  "widgetId": "mcvcrgnf2k",
+  "widgetName": "Text22"
+}

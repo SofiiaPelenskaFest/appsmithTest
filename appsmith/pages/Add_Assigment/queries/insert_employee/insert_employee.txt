@@ -1,0 +1,13 @@
+mutation AddEmployee($festCloudId: String!) {
+  inserted:insert_people_employee_v0(
+    objects: {
+			FestCloudID: $festCloudId,
+      Stage: "New"
+    }
+  ) {
+    affected_rows
+		returning {
+      FestCloudID
+    }
+  }
+}

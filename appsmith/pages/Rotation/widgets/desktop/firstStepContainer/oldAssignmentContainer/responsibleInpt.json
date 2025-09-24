@@ -1,0 +1,75 @@
+{
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderColorActive": "#c4d1f4",
+  "borderColorDisabled": "#c4d1f4",
+  "borderColorHover": "#c4d1f4",
+  "borderRadius": "8px",
+  "bottomRow": 62,
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isOneProperty": true,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "vb6jmrvcaa",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"responsiblePersonSelectLabel\")}}",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 66,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 59,
+  "needsErrorInfo": false,
+  "optionAvatar": "avatar",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "optionalLabelText": "",
+  "originalBottomRow": 63,
+  "originalTopRow": 55,
+  "parentColumnSpace": 20.71875,
+  "parentId": "51vgarlrvn",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"responsiblePersonSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{utils.dismissalResponsiblePeople}}",
+  "topRow": 55,
+  "type": "FC_LOOKUP_WIDGET",
+  "version": 1,
+  "widgetHeight": "200px",
+  "widgetId": "6ygikc9zfi",
+  "widgetName": "responsibleInpt",
+  "widgetWidth": "200px"
+}

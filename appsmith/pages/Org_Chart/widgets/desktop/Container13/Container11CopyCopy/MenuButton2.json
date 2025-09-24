@@ -1,0 +1,185 @@
+{
+  "activeItemColor": "#E3EEFF",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonSize": "MEDIUM",
+  "color": "#d53939",
+  "colorActive": "#d53939",
+  "colorDisabled": "#585c60",
+  "colorHover": "#ff4a43",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItemstrfch01y4.backgroundColor"
+    },
+    {
+      "key": "menuItems.menuItem6p0hchjr2c.backgroundColor"
+    },
+    {
+      "key": "menuItems.menuItemx8ks0j19nk.backgroundColor"
+    },
+    {
+      "key": "menuItems.menuItem91x23hkknc.backgroundColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemstrfch01y4.onClick"
+    },
+    {
+      "key": "menuItems.menuItem6p0hchjr2c.onClick"
+    },
+    {
+      "key": "menuItems.menuItem91x23hkknc.onClick"
+    },
+    {
+      "key": "menuItems.menuItemx8ks0j19nk.onClick"
+    },
+    {
+      "key": "menuItems.menuItemstrfch01y4.backgroundColor"
+    },
+    {
+      "key": "menuItems.menuItem6p0hchjr2c.backgroundColor"
+    },
+    {
+      "key": "menuItems.menuItem91x23hkknc.backgroundColor"
+    },
+    {
+      "key": "menuItems.menuItemx8ks0j19nk.backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItemstrfch01y4.onClick"
+    },
+    {
+      "key": "menuItems.menuItem6p0hchjr2c.onClick"
+    },
+    {
+      "key": "menuItems.menuItem91x23hkknc.onClick"
+    },
+    {
+      "key": "menuItems.menuItemx8ks0j19nk.onClick"
+    }
+  ],
+  "hoverItemColor": "#EEF4FF",
+  "iconAlign": "left",
+  "iconName": "SortAscending",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6duro80owv",
+  "label": "",
+  "leftColumn": 36,
+  "menuColor": "transparent",
+  "menuItems": {
+    "menuItem6p0hchjr2c": {
+      "backgroundColor": "{{appsmith.store.sort === \"ascDate\" ? \"#E3EEFF\" : \"#ffffff\"}}",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItem6p0hchjr2c",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Старіші",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"date-asc_nulls_last\"\nutils.getAllAssignments();\nstoreValue('sort', \"ascDate\");\nresetWidget('assigneesList')}}",
+      "widgetId": "osu0wng9si"
+    },
+    "menuItem91x23hkknc": {
+      "backgroundColor": "{{appsmith.store.sort === \"ascName\" ? \"#E3EEFF\" : \"#ffffff\"}}",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItem91x23hkknc",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "А-Я",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"name-asc_nulls_last\"\nutils.getAllAssignments();\nstoreValue('sort', \"ascName\");\nresetWidget('assigneesList')}}",
+      "widgetId": "mv3vvp0i19"
+    },
+    "menuItemstrfch01y4": {
+      "backgroundColor": "{{appsmith.store.sort === \"descDate\" ? \"#E3EEFF\" : \"#ffffff\"}}",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItemstrfch01y4",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Новіші",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"date-desc_nulls_last\";\nutils.getAllAssignments();\nstoreValue('sort', \"descDate\");\nresetWidget('assigneesList');\n}}",
+      "widgetId": "f9vz0254ml"
+    },
+    "menuItemx8ks0j19nk": {
+      "backgroundColor": "{{appsmith.store.sort === \"descName\" ? \"#E3EEFF\" : \"#ffffff\"}}",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItemx8ks0j19nk",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Я-А",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"name-desc_nulls_last\"\nutils.getAllAssignments();\nstoreValue('sort', \"descName\");\nresetWidget('assigneesList')}}",
+      "widgetId": "wpouvy18lf"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 8.7265625,
+  "parentId": "036imgcl1j",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 41,
+  "textColor": "#585c60",
+  "topRow": 0,
+  "type": "FC_MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "acackj1s01",
+  "widgetName": "MenuButton2"
+}

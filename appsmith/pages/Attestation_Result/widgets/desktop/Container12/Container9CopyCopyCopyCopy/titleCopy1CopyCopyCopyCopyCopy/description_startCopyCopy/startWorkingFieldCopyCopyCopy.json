@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 6,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 6,
+  "originalTopRow": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "bqs6gfqz5n",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "shouldTruncate": false,
+  "text": "{{ moment().format(\"DD/MM/YYYY\") || 'Невідомо'}}",
+  "textAlign": "LEFT",
+  "textColor": "#585c60",
+  "topRow": 4,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5-m",
+  "version": 1,
+  "widgetId": "qkqvubv6yl",
+  "widgetName": "startWorkingFieldCopyCopyCopy"
+}

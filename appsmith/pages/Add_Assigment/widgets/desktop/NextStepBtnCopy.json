@@ -1,0 +1,92 @@
+{
+  "align": "flex-start",
+  "animateLoading": true,
+  "backgroundColor": "#3A77DC",
+  "backgroundColorActive": "#5d9aff",
+  "backgroundColorDisabled": "#c4d1f4",
+  "backgroundColorHover": "#4987ee",
+  "backgroundDisabledColor": "#C4D1F4",
+  "backgroundFocusColor": "#5D9AFF",
+  "backgroundHoverColor": "#4987EE",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#5d9aff",
+  "borderColorDisabled": "#c4d1f4",
+  "borderColorHover": "#4987ee",
+  "borderDisabledColor": "#C4D1F4",
+  "borderFocusColor": "#5D9AFF",
+  "borderHoverColor": "#4987EE",
+  "bottomRow": 288,
+  "bottomRowBeforeCollapse": 8,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "PRIMARY",
+  "color": "#ffffff",
+  "colorActive": "#ffffff",
+  "colorDisabled": "#777b82",
+  "colorHover": "#ffffff",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!workgroupSelectAssign.isValid || !roleSelectAssign.isValid || !positionSelectAssign.isValid || !managerSelectAssign.isValid || !legalEntitTypeSelectAssign.isValid || !startDatePickerAssign.isValid ||\n(!responsibleSelectAssign.isValid && init.needAdaptation)}}",
+  "isLoading": false,
+  "isVisible": "{{workgroupSelectAssign.selectedOptionValue !== \"\" && roleSelectAssign.selectedOptionValue !== \"\" && positionSelectAssign.selectedOptionValue !== \"\" && !init.substitution}}",
+  "key": "n119t28v2n",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 57,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onClick": "{{init.handleSubmit()}}",
+  "originalBottomRow": 296,
+  "originalTopRow": 292,
+  "parentColumnSpace": 22.328125,
+  "parentId": "g4re4y02sb",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 2,
+  "text": "{{i18n.translate(\"addAssignmentButton\")}}",
+  "textColor": "#ffffff",
+  "textDisabledColor": "#777B82",
+  "textFocusColor": "#ffffff",
+  "textHoverColor": "#ffffff",
+  "topRow": 284,
+  "topRowBeforeCollapse": 4,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "j0qyut1yr7",
+  "widgetName": "NextStepBtnCopy"
+}

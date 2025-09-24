@@ -1,0 +1,116 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3F0",
+  "evaluationVersion": 2,
+  "icon": "bicycle",
+  "pages": [
+    {
+      "id": "Profile_Page",
+      "isDefault": true
+    },
+    {
+      "id": "Org_Chart",
+      "isDefault": false
+    },
+    {
+      "id": "Content_Item",
+      "isDefault": false
+    },
+    {
+      "id": "Waiting_List",
+      "isDefault": false
+    },
+    {
+      "id": "Adaptation_Form",
+      "isDefault": false
+    },
+    {
+      "id": "Attestation_Form",
+      "isDefault": false
+    },
+    {
+      "id": "Attestation_Result",
+      "isDefault": false
+    },
+    {
+      "id": "Dismissal",
+      "isDefault": false
+    },
+    {
+      "id": "Add_Assigment",
+      "isDefault": false
+    },
+    {
+      "id": "Edit_Assigment",
+      "isDefault": false
+    },
+    {
+      "id": "Dismissal_Form",
+      "isDefault": false
+    },
+    {
+      "id": "Add_User",
+      "isDefault": false
+    },
+    {
+      "id": "Dictionary",
+      "isDefault": false
+    },
+    {
+      "id": "Edit_User",
+      "isDefault": false
+    },
+    {
+      "id": "Rotation",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

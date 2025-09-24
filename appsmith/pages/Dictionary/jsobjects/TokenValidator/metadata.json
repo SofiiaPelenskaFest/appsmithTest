@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_13322731-e754-4359-87c3-9df778171296",
+  "id": "Dictionary_TokenValidator",
+  "unpublishedCollection": {
+    "name": "TokenValidator",
+    "pageId": "Dictionary",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "origin",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "refreshPromise",
+        "value": "null"
+      }
+    ]
+  }
+}

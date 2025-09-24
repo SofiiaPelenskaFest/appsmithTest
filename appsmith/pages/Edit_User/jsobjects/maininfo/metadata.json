@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_cd2c8375-46c6-4dcd-a81e-1b116ab19811",
+  "id": "Edit_User_maininfo",
+  "unpublishedCollection": {
+    "name": "maininfo",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "beforeData",
+        "value": "null"
+      },
+      {
+        "name": "isPhoneValid",
+        "value": "false"
+      },
+      {
+        "name": "isMyPage",
+        "value": "appsmith.URL.queryParams.isMyPage"
+      },
+      {
+        "name": "storage",
+        "value": "'internal'"
+      },
+      {
+        "name": "isContact",
+        "value": "false"
+      },
+      {
+        "name": "isValid",
+        "value": "true"
+      },
+      {
+        "name": "employeeID",
+        "value": "appsmith.URL.queryParams.employeeFestCloudId"
+      }
+    ]
+  }
+}

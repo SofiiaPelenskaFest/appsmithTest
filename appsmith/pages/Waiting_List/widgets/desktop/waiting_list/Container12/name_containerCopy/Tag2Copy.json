@@ -1,0 +1,69 @@
+{
+  "align": "flex-start",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "backgroundColor": "#ccead7",
+  "backgroundColorActive": "#ccead7",
+  "backgroundColorHover": "#ccead7",
+  "borderColor": "#ccead7",
+  "borderColorActive": "#ccead7",
+  "borderColorHover": "#ccead7",
+  "bottomRow": 3,
+  "color": "#107336",
+  "colorActive": "#107336",
+  "colorHover": "#107336",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorText": "",
+  "helperText": "",
+  "iconColor": "#107336",
+  "iconColorActive": "#107336",
+  "iconColorHover": "#107336",
+  "iconCrossColor": "#107336",
+  "iconCrossColorActive": "#107336",
+  "iconCrossColorHover": "#107336",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{utils.isWithin24Hours(currentItem.AuditCreatedAt)}} ",
+  "key": "8q1efdmpix",
+  "label": "Label",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 28,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 20.1875,
+  "parentId": "ez278t8xj1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "showCrossIcon": false,
+  "tagSize": "MEDIUM",
+  "tagVariant": "FILLED",
+  "text": "{{i18n.translate(\"newEmployeeLabel\")}}",
+  "topRow": 0,
+  "type": "FC_TAG_WIDGET",
+  "version": 1,
+  "widgetId": "9ux5bg2xhp",
+  "widgetName": "Tag2Copy"
+}

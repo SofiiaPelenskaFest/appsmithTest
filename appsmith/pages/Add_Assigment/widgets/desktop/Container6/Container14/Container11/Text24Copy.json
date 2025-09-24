@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 9,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{init.fileData.length > 0}}",
+  "key": "ecv8xp0ssq",
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 93,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 91,
+  "needsErrorInfo": false,
+  "originalBottomRow": 9,
+  "originalTopRow": 7,
+  "overflow": "NONE",
+  "parentColumnSpace": 14.9765625,
+  "parentId": "zi9qsdiqnu",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 46,
+  "shouldTruncate": false,
+  "text": "{{utils.photoVisible().name}}",
+  "textAlign": "LEFT",
+  "textColor": "#585c60",
+  "topRow": 7,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "khkbt0oukx",
+  "widgetName": "Text24Copy"
+}

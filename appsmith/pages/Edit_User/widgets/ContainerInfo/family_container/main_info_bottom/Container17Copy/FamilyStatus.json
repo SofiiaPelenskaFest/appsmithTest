@@ -1,0 +1,77 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_family_identification.data?.data?.family[0]?.FamilyStatus ? String(get_family_identification.data?.data?.family[0]?.FamilyStatus) : \"false\"))(FamilyStatus.options, FamilyStatus.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "labelText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "sawjlt6f90",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"familyStatusSelectTitle\")}}",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 11,
+  "originalTopRow": 4,
+  "parentColumnSpace": 12.984375,
+  "parentId": "980bvkipmx",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"familyUnmarriedSelectOption\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 53,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n[\n  {\n    \"name\": `${i18n.translate(\"familyMarriedSelectOption\")}`,\n    \"code\": \"true\"\n  },\n  {\n    \"name\": `${i18n.translate(\"familyUnmarriedSelectOption\")}`,\n    \"code\": \"false\"\n  }\n]\n}}",
+  "topRow": 4,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ncie26djqn",
+  "widgetName": "FamilyStatus"
+}

@@ -1,0 +1,5 @@
+query getDictionaryName {
+  names: people_dictionary_v0(distinct_on: DictionaryName) {
+    DictionaryName
+  }
+}

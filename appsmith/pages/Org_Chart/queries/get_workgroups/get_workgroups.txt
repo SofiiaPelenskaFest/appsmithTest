@@ -1,0 +1,104 @@
+query get_workgroup_with_assignment {
+  people_assignment_v0(distinct_on: WorkgroupFestCloudID, where: {EndDate: {_is_null: true}, assignment_workgroupfestcloudid_workgroup: {StructureType: {_eq: "Організаційна структура"}}}) {
+    assignment_workgroupfestcloudid_workgroup {
+      FestCloudID
+      Name
+      StructureType
+      WorkgroupFestCloudID
+      workgroup_workgroupfestcloudid_workgroup {
+        FestCloudID
+        Name
+        StructureType
+        WorkgroupFestCloudID
+        workgroup_workgroupfestcloudid_workgroup {
+          FestCloudID
+          Name
+          StructureType
+          WorkgroupFestCloudID
+          workgroup_workgroupfestcloudid_workgroup {
+            FestCloudID
+            Name
+            StructureType
+            WorkgroupFestCloudID
+            workgroup_workgroupfestcloudid_workgroup {
+              FestCloudID
+              Name
+              StructureType
+              WorkgroupFestCloudID
+              workgroup_workgroupfestcloudid_workgroup {
+                FestCloudID
+                Name
+                WorkgroupFestCloudID
+                workgroup_workgroupfestcloudid_workgroup {
+                  FestCloudID
+                  Name
+                  WorkgroupFestCloudID
+                  workgroup_workgroupfestcloudid_workgroup {
+                    FestCloudID
+                    Name
+                    WorkgroupFestCloudID
+                    workgroup_workgroupfestcloudid_workgroup {
+                      FestCloudID
+                      Name
+                      WorkgroupFestCloudID
+                      workgroup_workgroupfestcloudid_workgroup {
+                        FestCloudID
+                        Name
+                        WorkgroupFestCloudID
+                        workgroup_workgroupfestcloudid_workgroup {
+                          FestCloudID
+                          Name
+                          WorkgroupFestCloudID
+                          workgroup_workgroupfestcloudid_workgroup {
+                            FestCloudID
+                            Name
+                            WorkgroupFestCloudID
+                            workgroup_workgroupfestcloudid_workgroup {
+                              FestCloudID
+                              Name
+                              WorkgroupFestCloudID
+                              workgroup_workgroupfestcloudid_workgroup {
+                                FestCloudID
+                                Name
+                                WorkgroupFestCloudID
+                                workgroup_workgroupfestcloudid_workgroup {
+                                  FestCloudID
+                                  Name
+                                  WorkgroupFestCloudID
+                                  workgroup_workgroupfestcloudid_workgroup {
+                                    FestCloudID
+                                    Name
+                                    WorkgroupFestCloudID
+                                    workgroup_workgroupfestcloudid_workgroup {
+                                      FestCloudID
+                                      Name
+                                      WorkgroupFestCloudID
+                                      workgroup_workgroupfestcloudid_workgroup {
+                                        FestCloudID
+                                        Name
+                                        WorkgroupFestCloudID
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      amountOfAssignments: assignment_workgroupfestcloudid_array_aggregate {
+        aggregate {
+          count
+        }
+      }
+    }
+  }
+}

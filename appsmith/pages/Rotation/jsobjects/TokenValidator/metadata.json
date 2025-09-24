@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68b00db619976b28d4c6e970_62caf731-7513-41b0-807e-e9fe4843a275",
+  "id": "Rotation_TokenValidator",
+  "unpublishedCollection": {
+    "name": "TokenValidator",
+    "pageId": "Rotation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "origin",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "refreshPromise",
+        "value": "null"
+      }
+    ]
+  }
+}

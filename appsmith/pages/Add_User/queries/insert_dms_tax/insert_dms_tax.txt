@@ -1,0 +1,7 @@
+mutation Insert(
+  $dataTax: dms_personaltaxdata_v0_insert_input!){
+  inserted_personaltax:insert_dms_personaltaxdata_v0_one(object: $dataTax) {
+    FestCloudID
+    IndividualTaxpayerNumber
+  }
+}

@@ -1,0 +1,9 @@
+query MyQuery($personId: String!) {
+  language:people_language_v0(where: 
+    {PersonFestCloudID: {_eq: $personId}
+    }) {
+    Level
+    Name
+		FestCloudID
+  } 
+}

@@ -1,0 +1,113 @@
+{
+  "alignContent": "stretch",
+  "alignItems": "stretch",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderColor": "#C4D1F4",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 923,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2470,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "9yb17s30qo",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 180,
+      "minWidth": 450,
+      "mobileBottomRow": 180,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 334.41064453125,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "vdad0rcspm",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 334.41064453125,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "a02wav5wrc",
+      "widgetName": "Canvas57"
+    }
+  ],
+  "containerStyle": "card",
+  "containerVariant": "LARGE",
+  "dynamicBindingPathList": [
+    {
+      "key": "isLoadingState"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isLoadingState"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexDirection": "row",
+  "flexVerticalAlignment": "stretch",
+  "flexWrap": "nowrap",
+  "gap": 4,
+  "hoverColor": "transparent",
+  "isCanvas": true,
+  "isErrorState": false,
+  "isLoading": false,
+  "isLoadingState": "{{switcher.isLoading}}",
+  "isVisible": "{{switcher.listKey === 'education'}}",
+  "justifyContent": "stretch",
+  "key": "481ttmwivz",
+  "layoutType": "DEFAULT",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 665,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 647,
+  "needsErrorInfo": false,
+  "originalBottomRow": 923,
+  "originalTopRow": 677,
+  "parentColumnSpace": 15.92431640625,
+  "parentId": "wpiftas9b9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "topRow": 677,
+  "type": "FC_CONTAINER_WIDGET",
+  "version": 1,
+  "widgetHeight": "200px",
+  "widgetId": "vdad0rcspm",
+  "widgetName": "education_container",
+  "widgetWidth": "200px"
+}

@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 9,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eruy3w4l9r",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 9,
+  "originalTopRow": 6,
+  "overflow": "NONE",
+  "parentColumnSpace": 22.328125,
+  "parentId": "5kcoe4btwd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 29,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"attestationFormTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 6,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h4-b",
+  "version": 1,
+  "widgetId": "epgv1xc6lg",
+  "widgetName": "Text14"
+}

@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_e69b7b02-2522-4a97-ab9b-630a19f245a3",
+  "id": "Profile_Page_contentItems",
+  "unpublishedCollection": {
+    "name": "contentItems",
+    "pageId": "Profile_Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "adaptationItems",
+        "value": "[]"
+      },
+      {
+        "name": "attestationItems",
+        "value": "[]"
+      },
+      {
+        "name": "dismissalItems",
+        "value": "[]"
+      }
+    ]
+  }
+}

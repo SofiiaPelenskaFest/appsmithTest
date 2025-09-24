@@ -1,0 +1,87 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 51,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "errorMessage": "",
+  "helperText": "",
+  "inputPosition": "top",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{!init.substitution}}",
+  "key": "qp1yjudhlx",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"accessRoleSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 27,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "optionalLabelText": "",
+  "originalBottomRow": 53,
+  "originalTopRow": 46,
+  "parentColumnSpace": 20.515625,
+  "parentId": "l5jerhepvd",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"accessRoleSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{[{label: \"workgroup_manager\", value: \"workgroup_manager\" },{label: \"workgroup_viewer\", value: \"workgroup_viewer\"}]\n// get_roles_all.data.map((role) => ({\n\t// label: role.name,\n\t// value: role.name\n// })).sort((a, b) => a.label.localeCompare(b.label))}}",
+  "topRow": 44,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5xnbrobjdq",
+  "widgetName": "roleSelectAssign"
+}

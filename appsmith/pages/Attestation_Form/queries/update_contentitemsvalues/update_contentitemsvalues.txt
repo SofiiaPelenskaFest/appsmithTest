@@ -1,0 +1,5 @@
+mutation Update($dataAccess: [people_contentitemvalue_v0_updates!]!) {
+  updated:update_people_contentitemvalue_v0_many(updates: $dataAccess){
+    affected_rows
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "{{(() => {\n    const passport = get_identification_dms.data?.data?.dms_passport[0]?.passport;\n    return passport?.DocumentNumber ? \n        `${passport.DocumentSeries || ''}${passport.DocumentNumber}` : \n    '';\n})()}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "validation"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "errorMessage"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "{{i18n.translate(\"passportInputError\")}}",
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "rc8zjvq8am",
+  "label": "{{i18n.translate(\"passportInputLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onTextChanged": "",
+  "originalBottomRow": 13,
+  "originalTopRow": 5,
+  "parentColumnSpace": 12.984375,
+  "parentId": "pnczeiqcc2",
+  "parentRowSpace": 10,
+  "placeholderText": "XX000000 або 000000000",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "showStepArrows": false,
+  "topRow": 5,
+  "type": "FC_INPUT_WIDGET",
+  "validation": "{{utils.isNewPassport(documentInput.text.trim()) || utils.isOldPassport(documentInput.text.trim())}}",
+  "version": 2,
+  "widgetId": "vc72nexla9",
+  "widgetName": "documentInput"
+}

@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "buttonColor": "#5d9aff",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hoverButtonColor": "#ff4a43",
+  "iconName": "CopySimple",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{currentItem?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.person_festcloudid_principal?.WorkEmail[0]?.Email.length>0 && \nappsmith.store.hoveredAssignmentId === currentItem?.FestCloudID \n}}",
+  "key": "j957yb317c",
+  "leftColumn": 21,
+  "minWidth": 16,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{copyToClipboard(currentItem.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.person_festcloudid_principal?.WorkEmail[0]?.Email || \"no email\").then(() => {\n  showAlert('Емейл скопійовано', 'success');\n}).catch(() => {\n  showAlert('Сталася проблема', 'error');\n});}}",
+  "originalBottomRow": 9,
+  "originalTopRow": 6,
+  "parentColumnSpace": 20.75,
+  "parentId": "2oxx0ej4nr",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 24,
+  "toolTipPosition": "bottom",
+  "topRow": 0,
+  "type": "FC_ICON_WIDGET",
+  "version": 1,
+  "widgetId": "cyc8fzfgvn",
+  "widgetName": "copyPhoneIconCopyCopy"
+}

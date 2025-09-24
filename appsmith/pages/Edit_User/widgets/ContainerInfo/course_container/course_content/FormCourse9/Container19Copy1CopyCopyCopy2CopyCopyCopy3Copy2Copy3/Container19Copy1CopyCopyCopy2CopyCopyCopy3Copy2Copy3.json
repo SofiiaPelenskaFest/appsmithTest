@@ -1,0 +1,105 @@
+{
+  "alignContent": "stretch",
+  "alignItems": "stretch",
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderColor": "",
+  "borderRadius": "24px",
+  "borderWidth": "0",
+  "bottomRow": 24,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 40,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "sdjmgnkgo7",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 180,
+      "minWidth": 450,
+      "mobileBottomRow": 180,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 207.1061553955078,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "5t9rcycxxg",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 207.1061553955078,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "awerj5ekh9",
+      "widgetName": "Canvas54Copy1CopyCopyCopy2CopyCopyCopy3Copy2Copy3"
+    }
+  ],
+  "containerStyle": "card",
+  "containerVariant": "LARGE",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexDirection": "row",
+  "flexVerticalAlignment": "stretch",
+  "flexWrap": "nowrap",
+  "gap": 4,
+  "hoverColor": "transparent",
+  "isCanvas": true,
+  "isErrorState": false,
+  "isLoading": false,
+  "isLoadingState": false,
+  "isVisible": "{{courses.formCounter !== 10}}",
+  "justifyContent": "stretch",
+  "key": "krjnenoiru",
+  "layoutType": "DEFAULT",
+  "leftColumn": 8,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 9.862197875976562,
+  "parentId": "7ma05ndyu2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 29,
+  "shouldScrollContents": false,
+  "topRow": 21,
+  "type": "FC_CONTAINER_WIDGET",
+  "version": 1,
+  "widgetHeight": "200px",
+  "widgetId": "5t9rcycxxg",
+  "widgetName": "Container19Copy1CopyCopyCopy2CopyCopyCopy3Copy2Copy3",
+  "widgetWidth": "200px"
+}

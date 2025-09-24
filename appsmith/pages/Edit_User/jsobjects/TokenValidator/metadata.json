@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_e601ee19-a369-4270-abf8-f3f8d49243c7",
+  "id": "Edit_User_TokenValidator",
+  "unpublishedCollection": {
+    "name": "TokenValidator",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "origin",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "refreshPromise",
+        "value": "null"
+      }
+    ]
+  }
+}

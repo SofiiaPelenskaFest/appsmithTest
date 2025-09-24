@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_277696dd-2733-4e93-8398-380215c1dfe2",
+  "id": "Dismissal_Form_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Dismissal_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "toUpdate",
+        "value": "[]"
+      },
+      {
+        "name": "toAdd",
+        "value": "[]"
+      },
+      {
+        "name": "dismissalList",
+        "value": "[]"
+      },
+      {
+        "name": "readOnly",
+        "value": "false"
+      }
+    ]
+  }
+}

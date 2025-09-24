@@ -1,0 +1,136 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderColor": "transparent",
+  "borderRadius": "8px",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 560,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dropDisabled": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kx9jcqhxim",
+      "leftColumn": 12,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 412,
+      "mobileLeftColumn": 12,
+      "mobileRightColumn": 61.10614013671875,
+      "mobileTopRow": 12,
+      "needsErrorInfo": false,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "9frqic1gmm",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 61.10614013671875,
+      "topRow": 12,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "bsh8y1e1z7",
+      "widgetName": "Canvas66"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "dividerColor": "transparent",
+  "dividerHeight": "0",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "listData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "flexVerticalAlignment": "start",
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "isCanvas": true,
+  "isLoading": false,
+  "isLoadingState": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": "0",
+  "key": "jfsidafqln",
+  "leftColumn": 0,
+  "listData": "[\n\t\t{\n\t\t\t\"id\": \"main_info\",\n\t\t\t\"name\": {{i18n.translate(\"editUserFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"identity_data\",\n\t\t\t\"name\": {{i18n.translate(\"identificationFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"experience\",\n\t\t\t\"name\": {{i18n.translate(\"experienceFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"family\",\n\t\t\t\"name\": {{i18n.translate(\"familyFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"education\",\n\t\t\t\"name\": {{i18n.translate(\"educationFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"courses\",\n\t\t\t\"name\": {{i18n.translate(\"coursesFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"languages\",\n\t\t\t\"name\": {{i18n.translate(\"languagesFormTitle\")}}\n\t\t},\n\t\t{\n\t\t\t\"id\": \"additional_info\",\n\t\t\t\"name\": {{i18n.translate(\"additionalFormTitle\")}}\n\t\t}\n\t]",
+  "mainCanvasId": "bsh8y1e1z7",
+  "mainContainerId": "9yk72sznjr",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 53,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "originalBottomRow": 60,
+  "originalTopRow": 4,
+  "pageSize": 10,
+  "parentColumnSpace": 2.0460891723632812,
+  "parentId": "y8ca6e5qoh",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{List5.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "selectedItemView": "{{{}}}",
+  "shouldScrollContents": true,
+  "templateHeight": 160,
+  "topRow": 4,
+  "triggeredItemView": "{{{}}}",
+  "type": "FC_LIST_WIDGET",
+  "widgetHeight": "200px",
+  "widgetId": "9frqic1gmm",
+  "widgetName": "List5",
+  "widgetWidth": "200px"
+}

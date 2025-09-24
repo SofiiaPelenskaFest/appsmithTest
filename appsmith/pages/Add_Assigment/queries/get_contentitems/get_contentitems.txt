@@ -1,0 +1,10 @@
+query MyQuery {
+  content_items:people_contentitem_v0(where: {Category: {_eq: "Access"}}) {
+    ContentKey
+    ContentText
+    DictionaryName
+    SubCategory
+    ValueType
+		FestCloudID
+  }
+}

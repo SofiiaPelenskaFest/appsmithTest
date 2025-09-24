@@ -1,0 +1,17 @@
+query GetAllManagers($positionNames: [String]) {
+  peopleAssignment: people_assignment_v0(where:{ 
+    assignment_positionfestcloudid_position: {PositionName: {_in: $positionNames}}}, 
+    distinct_on: EmployeeFestCloudID) {
+    EmployeeFestCloudID
+    FestCloudID
+    assignmentEmployee: assignment_employeefestcloudid_employee {
+      employeeInfo: employee_festcloudid_person {
+        Name
+        FamilyName
+      }
+    }
+    assignment_positionfestcloudid_position {
+      PositionName
+    }
+  }
+}

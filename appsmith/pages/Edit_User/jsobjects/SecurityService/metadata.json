@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_d5d2112a-cef8-4c84-b934-ddf0caffbf0c",
+  "id": "Edit_User_SecurityService",
+  "unpublishedCollection": {
+    "name": "SecurityService",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "userPermissions",
+        "value": "_.uniq(get_roles_user.data.flatMap(role => role.Permissions.map(permission => permission.Name)))"
+      },
+      {
+        "name": "permissions",
+        "value": "{\n  \"assignment_view\": \"assignment_view\",\n  \"assignment_edit\": \"assignment_edit\",\n  \"context_view\": \"context_view\",\n  \"context_edit\": \"context_edit\",\n  \"content_view\": \"content_view\",\n  \"content_edit\": \"content_edit\",\n  \"dictionary_view\": \"dictionary_view\",\n  \"dictionary_edit\": \"dictionary_edit\",\n  \"person_edit\": \"person_edit\",\n  \"person_view\": \"person_view\",\n  person_admin: \"person_admin\",\n  \"piidocument_view\": \"piidocument_view\",\n  \"piidocument_edit\": \"piidocument_edit\",\n  \"position_view\": \"position_view\",\n  \"position_edit\": \"position_edit\",\n  \"principal_view\": \"principal_view\",\n  \"principal_edit\": \"principal_edit\",\n  \"taxonomy_view\": \"taxonomy_view\",\n  \"workgroup_view\": \"workgroup_view\",\n  \"workgroup_edit\": \"workgroup_edit\",\n  \"address_view\": \"address_view\",\n  \"address_edit\": \"address_edit\"\n}"
+      }
+    ]
+  }
+}

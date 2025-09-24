@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_cfb5bbcf-04ff-40a8-a80a-00f726f364cf",
+  "id": "Edit_User_language",
+  "unpublishedCollection": {
+    "name": "language",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "formCounter",
+        "value": "0"
+      }
+    ]
+  }
+}

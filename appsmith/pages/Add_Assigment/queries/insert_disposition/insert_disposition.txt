@@ -1,0 +1,5 @@
+mutation insert($dataDisposition: [people_disposition_v0_insert_input!]!){
+	inserted_disposition:insert_people_disposition_v0(objects: $dataDisposition) {
+    affected_rows
+  }
+}

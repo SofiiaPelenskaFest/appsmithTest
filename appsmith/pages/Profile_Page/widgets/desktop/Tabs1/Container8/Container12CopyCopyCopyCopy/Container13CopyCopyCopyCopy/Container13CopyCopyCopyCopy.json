@@ -1,0 +1,105 @@
+{
+  "alignContent": "stretch",
+  "alignItems": "stretch",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#C4D1F4",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 9,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 240,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "b8gsg13wfa",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 180,
+      "minWidth": 450,
+      "mobileBottomRow": 180,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 420,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "e4oz314qyd",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 420,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "uqvfitltcx",
+      "widgetName": "Canvas35CopyCopyCopyCopy"
+    }
+  ],
+  "containerStyle": "card",
+  "containerVariant": "LARGE",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexDirection": "row",
+  "flexVerticalAlignment": "stretch",
+  "flexWrap": "nowrap",
+  "gap": "12",
+  "hoverColor": "transparent",
+  "isCanvas": true,
+  "isErrorState": false,
+  "isLoading": false,
+  "isLoadingState": false,
+  "isVisible": "{{get_all_assignment?.data?.data?.person[0]?.EducationCount.aggregate.count >= 5}}",
+  "justifyContent": "stretch",
+  "key": "ojvq5zj93v",
+  "layoutType": "FLEX",
+  "leftColumn": 17,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 80,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 62,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 20,
+  "parentId": "m6fziym60m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "shouldScrollContents": false,
+  "topRow": 1,
+  "type": "FC_CONTAINER_WIDGET",
+  "version": 1,
+  "widgetHeight": "84px",
+  "widgetId": "e4oz314qyd",
+  "widgetName": "Container13CopyCopyCopyCopy",
+  "widgetWidth": "660px"
+}

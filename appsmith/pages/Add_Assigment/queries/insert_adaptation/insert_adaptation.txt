@@ -1,0 +1,7 @@
+mutation AddAdaptation($AssignmentFestCloudID: String!, $ResponsibleEmployeeFestCloudID: String!) {
+  insert_people_adaptation_v0_one(object: {AssignmentFestCloudID: $AssignmentFestCloudID, ResponsibleEmployeeFestCloudID: $ResponsibleEmployeeFestCloudID}) {
+    ResponsibleEmployeeFestCloudID
+    FestCloudID
+    AssignmentFestCloudID
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "{{get_identification_dms.data?.data?.dms_tax[0]?.tax?.IndividualTaxpayerNumber || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "validation"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "errorMessage"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "{{i18n.translate(\"taxNumberError\")}}",
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "rc8zjvq8am",
+  "label": "{{i18n.translate(\"taxNumberLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onTextChanged": "",
+  "originalBottomRow": 13,
+  "originalTopRow": 5,
+  "parentColumnSpace": 12.984375,
+  "parentId": "pnczeiqcc2",
+  "parentRowSpace": 10,
+  "placeholderText": "0000000000",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "showStepArrows": false,
+  "topRow": 5,
+  "type": "FC_INPUT_WIDGET",
+  "validation": "{{taxpayerInput.text.trim().length === 10 && utils.isDigitsOnly(taxpayerInput.text.trim())}}",
+  "version": 2,
+  "widgetId": "tg186oi62q",
+  "widgetName": "taxpayerInput"
+}

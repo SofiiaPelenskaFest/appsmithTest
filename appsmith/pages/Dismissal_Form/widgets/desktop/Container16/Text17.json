@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 9,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "clkz8zue8f",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.25,
+  "parentId": "io6t8vxcex",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"checkListDescription\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#777b82",
+  "topRow": 5,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "t3zws2725t",
+  "widgetName": "Text17"
+}

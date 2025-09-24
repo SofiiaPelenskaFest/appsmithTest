@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tfiegt26u9",
+  "leftColumn": 11,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "originalBottomRow": 3,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.25,
+  "parentId": "nqpz30udux",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 19,
+  "shouldTruncate": false,
+  "text": "{{get_all_assignment?.data?.data?.person[0]?.additionalInfo[0]?.Interests || i18n.translate(\"unknown\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 1,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5-m",
+  "version": 1,
+  "widgetId": "p527lh9mdh",
+  "widgetName": "Text3Copy2CopyCopyCopyCopy1CopyCopyCopy1CopyCopy3CopyCopyCopyCopy1Copy1CopyCopyCopyCopyCopyCopy1"
+}

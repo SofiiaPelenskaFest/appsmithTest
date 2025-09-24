@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_6e444801-59cc-4ca2-8350-d30c0dc4488d",
+  "id": "Dismissal_Form_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Dismissal_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "assigmentId",
+        "value": "appsmith.URL.queryParams.selectedAssigmentId"
+      }
+    ]
+  }
+}

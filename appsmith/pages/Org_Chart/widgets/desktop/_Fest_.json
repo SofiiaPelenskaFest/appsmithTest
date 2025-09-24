@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "bx9n3k64wx",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 2,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 2,
+  "overflow": "NONE",
+  "parentColumnSpace": 22.328125,
+  "parentId": "e34etbtj7p",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 16,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"orgChartTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 2,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h4-b",
+  "version": 1,
+  "widgetId": "100ivuziej",
+  "widgetName": "_Fest_"
+}

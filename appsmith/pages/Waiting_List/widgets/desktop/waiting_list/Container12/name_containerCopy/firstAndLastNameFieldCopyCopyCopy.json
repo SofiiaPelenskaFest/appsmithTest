@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "maxLength": "20",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 4,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "ez278t8xj1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "shouldTruncate": false,
+  "text": "{{currentItem?.FamilyName}} {{currentItem?.Name}} ",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 0,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body2-b",
+  "version": 1,
+  "widgetId": "3kkmwb76xz",
+  "widgetName": "firstAndLastNameFieldCopyCopyCopy"
+}

@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "{{utils.getContentItemByKey(utils.contentItemsKey.RequiresPC).filter(item => item.Status === 'GRANTED')[0]?.Value || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "72mx2o6in9",
+  "label": "{{i18n.translate(\"accessEquipmentInputLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 13,
+  "originalTopRow": 4,
+  "parentColumnSpace": 20,
+  "parentId": "e2asc759f4",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"accessEquipmentInputPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 4,
+  "type": "FC_INPUT_WIDGET",
+  "version": 2,
+  "widgetHeight": "200px",
+  "widgetId": "quawh0uv4k",
+  "widgetName": "RequiresPC",
+  "widgetWidth": "200px"
+}

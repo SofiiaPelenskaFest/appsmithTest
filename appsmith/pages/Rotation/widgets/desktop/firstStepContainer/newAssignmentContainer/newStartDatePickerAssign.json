@@ -1,0 +1,91 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 62,
+  "bottomRowBeforeCollapse": 62,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY HH:mm",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{moment(endDatePicker.selectedDate)}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "minDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": "0",
+  "helperText": "",
+  "inputPosition": "top",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "4k1kx2on1t",
+  "label": "{{i18n.translate(\"startDateLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDate": "{{moment(endDatePicker.selectedDate).add(2, 'weeks')}}",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{moment(endDatePicker.selectedDate)}}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 44,
+  "needsErrorInfo": false,
+  "originalBottomRow": 62,
+  "originalTopRow": 55,
+  "parentColumnSpace": 23.921875,
+  "parentId": "zqeujw6z9d",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "shortcuts": false,
+  "shouldScrollContents": true,
+  "timePrecision": "minute",
+  "topRow": 55,
+  "topRowBeforeCollapse": 55,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetId": "yyjaej6bd3",
+  "widgetName": "newStartDatePickerAssign"
+}

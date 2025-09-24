@@ -1,0 +1,16 @@
+query MyQuery($limit: Int, $offset: Int) {
+	count: people_contentitem_v0_aggregate {
+    aggregate {
+      count
+    }
+  }
+  items: people_contentitem_v0(limit: $limit, offset: $offset, order_by: {AuditCreatedAt: desc_nulls_last}) {
+    Category
+    ContentKey
+    ContentText
+    DictionaryName
+    FestCloudID
+    SubCategory
+    ValueType
+  }
+}

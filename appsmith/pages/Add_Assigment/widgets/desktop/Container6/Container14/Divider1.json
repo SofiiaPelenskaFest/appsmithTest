@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "bottomRow": 35,
+  "capSide": 0,
+  "capType": "nc",
+  "dividerColor": "transparent",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{!init.substitution}}",
+  "key": "e5wlgkbecg",
+  "leftColumn": 1,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 37,
+  "originalTopRow": 36,
+  "parentColumnSpace": 13.21875,
+  "parentId": "l5jerhepvd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "strokeStyle": "solid",
+  "thickness": 2,
+  "topRow": 34,
+  "type": "FC_DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "0lpdthgj4g",
+  "widgetLenght": "200px",
+  "widgetName": "Divider1"
+}

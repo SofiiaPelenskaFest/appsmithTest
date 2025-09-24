@@ -1,0 +1,70 @@
+{
+  "allowedFileTypes": [
+    "image/jpeg",
+    "image/png"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#b3b7be",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "colorIconTrash": "#575757",
+  "colorIconUpload": "#D7D7D7",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "fileDataType": "Binary",
+  "files": [],
+  "hoverBorderColor": "#88b5ff",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "alnzla9ndt",
+  "label": "{{i18n.translate(\"dropzoneDescription1\")}}",
+  "leftColumn": 2,
+  "maxFileSize": "5",
+  "maxNumFiles": 1,
+  "minWidth": 200,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{console.log('here')}}",
+  "originalBottomRow": 22,
+  "originalTopRow": 9,
+  "parentColumnSpace": 6.9375,
+  "parentId": "0rulvbrho9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "selectedFiles": [],
+  "topRow": 11,
+  "type": "FC_FILE_PICKER_WIDGET",
+  "version": 1,
+  "widgetId": "67usxx6ebz",
+  "widgetName": "DropzoneImage"
+}

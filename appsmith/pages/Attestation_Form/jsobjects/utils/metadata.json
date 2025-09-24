@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_a116151a-aba9-450f-b61f-8ee0a0c79ba4",
+  "id": "Attestation_Form_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Attestation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "toUpdate",
+        "value": "[]"
+      },
+      {
+        "name": "toAdd",
+        "value": "[]"
+      },
+      {
+        "name": "attestationList",
+        "value": "[]"
+      },
+      {
+        "name": "readOnly",
+        "value": "false"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "backgroundColor": "transparent",
+  "borderColor": "",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "defaultModel": "{{get_all_assignment.data.data}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "cqqo9s82mt",
+  "leftColumn": 0,
+  "maxDynamicHeight": 7,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 96,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 66,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 15,
+  "originalTopRow": 8,
+  "parentColumnSpace": 19.8125,
+  "parentId": "gwn9b1e25k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": ".app {\n    height: 150px;\n    width: calc(var(--appsmith-ui-width) * 1px);\n    justify-content: flex-start; /* Вирівнювання чіпсів по лівому краю */\n    align-items: flex-start; /* Вирівнювання чіпсів по лівому краю */\n    display: flex;\n    flex-direction: column; /* Відображення у вертикальну колонку */\n    padding: 10px;\n    border-radius: var(--appsmith-theme-borderRadius);\n    box-shadow: var(--appsmith-theme-boxShadow);\n    overflow: hidden;\n}\n\n.chip-container {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    gap: 8px;\n    width: 100%;\n    align-items: flex-start;\n    max-height: 150px;\n    overflow-y: auto;\n    margin: 0;           \n    padding: 0;           \n}\n\n.chip {\n    background: transparent;\n    color: #1762DE;\n    padding: 6px 8px;\n    border-radius: 9999px;\n    font-size: 14px;\n    font-weight: 500;\n    text-align: center;\n    cursor: pointer;\n    box-shadow: none;\n    border: 1px solid #1762DE;\n    width: auto;                         /* ⬅️ Автоматична ширина */\n    max-width: 100%;                     /* ⬅️ Щоб не вилазило за контейнер */\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n\n.chip:last-child {\n    background: transparent;\n    color: #1762DE;\n    border: 1px solid #1762DE;\n}\n\n/* Глобальні стилі для шрифтів */\n{\n    -webkit-font-smoothing: antialiased;\n}\n\n*, html, body {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: \"Onest\", sans-serif;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nconst Box = ({\n  style,\n  children\n}) => {\n  return /*#__PURE__*/React.createElement(\"div\", {\n    style: style\n  }, children);\n};\n\n// Функція для витягування повного шляху workgroup-ів\nconst extractFullPath = group => {\n  const path = [];\n  let current = group;\n  while (current) {\n    if (current.Name) {\n      path.push(current.Name);\n    }\n    const next = current.workgroup_workgroupfestcloudid_workgroup;\n    if (Array.isArray(next) && next.length > 0) {\n      current = next[0]; // беремо перший, якщо масив\n    } else {\n      current = next || null;\n    }\n  }\n  return path;\n};\nconst App = () => {\n  const data = appsmith.model;\n  const allAssignments = data?.activeAssignments?.concat(data.activeSubstitution);\n  if (!data || !Array.isArray(allAssignments) || allAssignments.length === 0) {\n    return null;\n  }\n\n  // Отримати лише останній (глибший) рівень з кожного assignment\n  const lastLevels = allAssignments.map(assignment => {\n    const group = assignment.assignment_workgroupfestcloudid_workgroup;\n    const path = extractFullPath(group);\n    return path.length > 0 ? path[0] : null; // беремо останній знизу (path вже зворотний)\n  }).filter(Boolean);\n  const uniqueLastLevels = [...new Set(lastLevels)];\n  if (uniqueLastLevels.length === 0) {\n    return null;\n  }\n  return /*#__PURE__*/React.createElement(Box, {\n    style: {\n      padding: '0px'\n    }\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"chip-container\"\n  }, uniqueLastLevels.map((name, index) => /*#__PURE__*/React.createElement(\"div\", {\n    className: \"chip\",\n    key: index\n  }, name))));\n};\nappsmith.onModelChange(() => {\n  reactDom.render(/*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});\nappsmith.onReady(() => {\n  reactDom.render(/*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 3,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".app {\n    height: 150px;\n    width: calc(var(--appsmith-ui-width) * 1px);\n    justify-content: flex-start; /* Вирівнювання чіпсів по лівому краю */\n    align-items: flex-start; /* Вирівнювання чіпсів по лівому краю */\n    display: flex;\n    flex-direction: column; /* Відображення у вертикальну колонку */\n    padding: 10px;\n    border-radius: var(--appsmith-theme-borderRadius);\n    box-shadow: var(--appsmith-theme-boxShadow);\n    overflow: hidden;\n}\n\n.chip-container {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    gap: 8px;\n    width: 100%;\n    align-items: flex-start;\n    max-height: 150px;\n    overflow-y: auto;\n    margin: 0;           \n    padding: 0;           \n}\n\n.chip {\n    background: transparent;\n    color: #1762DE;\n    padding: 6px 8px;\n    border-radius: 9999px;\n    font-size: 14px;\n    font-weight: 500;\n    text-align: center;\n    cursor: pointer;\n    box-shadow: none;\n    border: 1px solid #1762DE;\n    width: auto;                         /* ⬅️ Автоматична ширина */\n    max-width: 100%;                     /* ⬅️ Щоб не вилазило за контейнер */\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n\n.chip:last-child {\n    background: transparent;\n    color: #1762DE;\n    border: 1px solid #1762DE;\n}\n\n/* Глобальні стилі для шрифтів */\n{\n    -webkit-font-smoothing: antialiased;\n}\n\n*, html, body {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: \"Onest\", sans-serif;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n\nconst Box = ({ style, children }) => {\n  return <div style={style}>{children}</div>;\n};\n\n// Функція для витягування повного шляху workgroup-ів\nconst extractFullPath = (group) => {\n  const path = [];\n  let current = group;\n  while (current) {\n    if (current.Name) {\n      path.push(current.Name);\n    }\n\n    const next = current.workgroup_workgroupfestcloudid_workgroup;\n    if (Array.isArray(next) && next.length > 0) {\n      current = next[0]; // беремо перший, якщо масив\n    } else {\n      current = next || null;\n    }\n  }\n\n  return path;\n};\n\nconst App = () => {\n  const data = appsmith.model;\n\tconst allAssignments = data?.activeAssignments?.concat(data.activeSubstitution)\n\n  if (!data || !Array.isArray(allAssignments) || allAssignments.length === 0) {\n    return null;\n  }\n\n  // Отримати лише останній (глибший) рівень з кожного assignment\n  const lastLevels = allAssignments\n    .map(assignment => {\n      const group = assignment.assignment_workgroupfestcloudid_workgroup;\n      const path = extractFullPath(group);\n      return path.length > 0 ? path[0] : null; // беремо останній знизу (path вже зворотний)\n    })\n    .filter(Boolean);\n\n  const uniqueLastLevels = [...new Set(lastLevels)];\n\n  if (uniqueLastLevels.length === 0) {\n    return null;\n  }\n\n  return (\n    <Box style={{ padding: '0px' }}>\n      <div className=\"chip-container\">\n        {uniqueLastLevels.map((name, index) => (\n          <div className=\"chip\" key={index}>\n            {name}\n          </div>\n        ))}\n      </div>\n    </Box>\n  );\n};\n\nappsmith.onModelChange(() => {\n  reactDom.render(<App />, document.getElementById(\"root\"));\n});\n\nappsmith.onReady(() => {\n  reactDom.render(<App />, document.getElementById(\"root\"));\n});\n"
+  },
+  "version": 1,
+  "widgetId": "7hgi1xy19o",
+  "widgetName": "chipsLocationsCopy"
+}

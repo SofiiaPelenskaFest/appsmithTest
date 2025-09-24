@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_5fb05c36-e7d1-46bd-8f18-530f055b3bc1",
+  "id": "Content_Item_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Content_Item",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"contentItemTitle\": \"Елементи вмісту\",\n  \"createItemButton\": \"Створити елемент\",\n  \"editColumn\": \"Редагувати\",\n  \"dublicateButton\": \"Дублювати\",\n  \"deleteButton\": \"Видалити\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"contentItemTitle\": \"Content Item\",\n  \"createItemButton\": \"Create item\",\n  \"editColumn\": \"Edit\",\n  \"dublicateButton\": \"Dublicate\",\n  \"deleteButton\": \"Delete\"\n}"
+      }
+    ]
+  }
+}

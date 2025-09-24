@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_fac7ba59-2a2a-4fdd-a7ad-dcc8d86d07a5",
+  "id": "Attestation_Result_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Attestation_Result",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "allAttestationList",
+        "value": "[]"
+      },
+      {
+        "name": "personAttestationList",
+        "value": "[]"
+      },
+      {
+        "name": "readOnly",
+        "value": "false"
+      }
+    ]
+  }
+}

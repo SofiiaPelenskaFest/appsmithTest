@@ -1,0 +1,158 @@
+{
+  "activeItemColor": "#E3EEFF",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "color": "#585c60",
+  "colorActive": "#ff4a43",
+  "colorDisabled": "#9fa2a8",
+  "colorHover": "#ff4a43",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItem1.label"
+    },
+    {
+      "key": "menuItems.menuItem2.label"
+    },
+    {
+      "key": "menuItems.menuIteml2gqqun2t4.label"
+    },
+    {
+      "key": "menuItems.menuItemmf1z6lultg.label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuIteml2gqqun2t4.onClick"
+    },
+    {
+      "key": "menuItems.menuItemmf1z6lultg.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuIteml2gqqun2t4.onClick"
+    },
+    {
+      "key": "menuItems.menuItemmf1z6lultg.onClick"
+    }
+  ],
+  "hoverItemColor": "#EEF4FF",
+  "iconAlign": "left",
+  "iconName": "SortAscending",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cj09s88t5b",
+  "label": "",
+  "leftColumn": 17,
+  "menuColor": "transparent",
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorHover": "#f5f9ff",
+      "colorHover": "",
+      "id": "menuItem1",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"asc\")}}",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"name-asc_nulls_last\"\nutils.getAllPeoplePerson();\nresetWidget('waiting_list')}}",
+      "textColor": "#212121",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorHover": "#f5f9ff",
+      "id": "menuItem2",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"desc\")}}",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"name-desc_nulls_last\"\nutils.getAllPeoplePerson();\nresetWidget('waiting_list')}}",
+      "textColor": "#212121",
+      "widgetId": ""
+    },
+    "menuIteml2gqqun2t4": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuIteml2gqqun2t4",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"descDateSortOption\")}}",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"date-desc_nulls_last\";\nawait utils.getAllPeoplePerson();\nresetWidget('waiting_list');\n}}",
+      "widgetId": "zcoqh2fqeh"
+    },
+    "menuItemmf1z6lultg": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItemmf1z6lultg",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"ascDateSortOption\")}}",
+      "onClick": "{{appsmith.URL.queryParams.waitingsort = \"date-asc_nulls_last\"\nutils.getAllPeoplePerson();\nresetWidget('waiting_list')}}",
+      "widgetId": "aiyw4anpif"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 5.021484375,
+  "parentId": "w9xnbaoc7x",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 21,
+  "textColor": "#777b82",
+  "textHoverColor": "#FF4A43",
+  "topRow": 0,
+  "type": "FC_MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "oli5lrx5me",
+  "widgetName": "Sorting"
+}

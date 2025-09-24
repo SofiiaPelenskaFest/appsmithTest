@@ -1,0 +1,86 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": "{{init.loading}}",
+  "autoFocus": false,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultText": "{{get_dms_by_id.data?.data?.dms_tax[0]?.tax?.IndividualTaxpayerNumber || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "animateLoading"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "validation"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "errorMessage"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "animateLoading"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorMessage": "{{i18n.translate(\"taxNumberError\")}}",
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "9u7tqbwy75",
+  "label": "{{i18n.translate(\"taxNumberLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 16,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 14,
+  "originalTopRow": 6,
+  "parentColumnSpace": 23.3125,
+  "parentId": "nlv0u7kgr1",
+  "parentRowSpace": 10,
+  "placeholderText": "0000000000",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "showStepArrows": false,
+  "topRow": 6,
+  "type": "FC_INPUT_WIDGET",
+  "validation": "{{taxpayerInput.text.trim().length === 10 && utils.isDigitsOnly(taxpayerInput.text.trim()) && utils.taxNumberValidation(taxpayerInput.text.trim())}}",
+  "version": 2,
+  "widgetHeight": "200px",
+  "widgetId": "5zlrknuckr",
+  "widgetName": "taxpayerInput",
+  "widgetWidth": "200px"
+}

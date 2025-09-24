@@ -1,0 +1,14 @@
+mutation update(
+  $dataAddress: [people_address_v0_updates!]!
+) {
+  update_people_address_v0_many(updates: $dataAddress) {
+    affected_rows
+    returning{
+      City
+      Country
+      Apartment
+      BuildingNumber
+      PostalCode
+    }
+  }
+}

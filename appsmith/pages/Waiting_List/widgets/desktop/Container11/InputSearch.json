@@ -1,0 +1,67 @@
+{
+  "align": "flex-start",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderColor": "#3A77DC",
+  "borderRadius": "8px",
+  "borderWidth": 1,
+  "bottomRow": 3,
+  "color": "#5D9AFF",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "iconColor": "#585c60",
+  "iconHoverColor": "#ff4a43",
+  "iconName": "MagnifyingGlass",
+  "iconSize": 24,
+  "inputWidth": 326,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "697ziu9d8q",
+  "label": "Label",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onBlur": "",
+  "onSubmit": "{{await TokenValidator.validateToken();\nresetWidget('waiting_list')\ndebData.debouncedFetch()}}",
+  "onTextChanged": "{{\nresetWidget('waiting_list')\ndebData.debouncedFetch()\n}}",
+  "parentColumnSpace": 18.484375,
+  "parentId": "w9xnbaoc7x",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 9,
+  "topRow": 0,
+  "type": "FC_INPUTICON_WIDGET",
+  "version": 1,
+  "widgetId": "t21in75yen",
+  "widgetName": "InputSearch"
+}

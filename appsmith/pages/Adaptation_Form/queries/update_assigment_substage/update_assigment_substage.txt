@@ -1,0 +1,8 @@
+mutation ChangeSubstage($FestCloudIDs: [String!]!, $Substage: String!) {
+  update_people_assignmentext_v0(where: {FestCloudID: {_in: $FestCloudIDs}}, _set: {Substage: $Substage}) {
+    returning {
+      FestCloudID
+      Substage
+    }
+  }
+}

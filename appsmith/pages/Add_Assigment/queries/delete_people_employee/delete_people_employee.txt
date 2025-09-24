@@ -1,0 +1,3 @@
+mutation MyMutation($id: String!) {
+  delete_people_employee_v0(where: {FestCloudID: {_eq: $id}})
+}

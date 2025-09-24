@@ -1,0 +1,63 @@
+{
+  "align": "flex-end",
+  "animateLoading": true,
+  "backgroundColor": "#3A77DC",
+  "backgroundColorActive": "#5D9AFF",
+  "backgroundColorDisabled": "#C4D1F4",
+  "backgroundColorHover": "#4987EE",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#3A77DC",
+  "borderColorDisabled": "#C4D1F4",
+  "borderColorHover": "#3A77DC",
+  "bottomRow": 6,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "PRIMARY",
+  "color": "#ffffff",
+  "colorActive": "#ffffff",
+  "colorDisabled": "#777B82",
+  "colorHover": "#ffffff",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "Plus",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yh48zlpmxk",
+  "leftColumn": 62,
+  "minWidth": 120,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 58,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(Modal1.name);}}",
+  "parentColumnSpace": 17.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "{{i18n.translate(\"createItemButton\")}}",
+  "tooltipPosition": "top",
+  "topRow": 2,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "pwy9w18hnq",
+  "widgetName": "Button1"
+}

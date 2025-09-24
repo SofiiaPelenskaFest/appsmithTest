@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0mc59wh8am",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 4,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 12.984375,
+  "parentId": "7m5u4iifey",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"additionalFormTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 1,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body3-b",
+  "version": 1,
+  "widgetId": "pjfewpla3c",
+  "widgetName": "Text3Copy"
+}

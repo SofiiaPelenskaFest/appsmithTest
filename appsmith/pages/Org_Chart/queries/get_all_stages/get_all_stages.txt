@@ -1,0 +1,5 @@
+query GetAllDistinctStage($stageFilter: String!){
+  people_assignmentext_v0(distinct_on: Stage, order_by: {Stage: asc}, where: {Stage: {_nilike: $stageFilter}, assignmentext_festcloudid_assignment: {assignment_workgroupfestcloudid_workgroup: {StructureType: {_eq: "Організаційна структура"}}}}) {
+    Stage
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderColor": "#C4D1F4",
+  "borderColorActive": "",
+  "borderColorHover": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "iconAlign": "left",
+  "inputPosition": "top",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!init.substitution}}",
+  "key": "kigukhqx16",
+  "label": "{{i18n.translate(\"workPositionInputLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "originalBottomRow": 45,
+  "originalTopRow": 37,
+  "parentColumnSpace": 19.1279296875,
+  "parentId": "l5jerhepvd",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"workPositionInputPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "optional",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shouldScrollContents": true,
+  "showStepArrows": false,
+  "topRow": 35,
+  "type": "FC_INPUT_WIDGET",
+  "version": 2,
+  "widgetHeight": "200px",
+  "widgetId": "6r8ap59vk2",
+  "widgetName": "jobTitle",
+  "widgetWidth": "200px"
+}

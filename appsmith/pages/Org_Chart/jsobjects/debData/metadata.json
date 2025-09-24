@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_404dbc3c-22a3-4c0e-bdf4-f0a5716250fd",
+  "id": "Org_Chart_debData",
+  "unpublishedCollection": {
+    "name": "debData",
+    "pageId": "Org_Chart",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "timeoutId",
+        "value": "null"
+      },
+      {
+        "name": "prevCheck",
+        "value": "null"
+      }
+    ]
+  }
+}

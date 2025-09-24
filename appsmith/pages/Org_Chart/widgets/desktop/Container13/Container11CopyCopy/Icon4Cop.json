@@ -1,0 +1,69 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 3,
+  "boxShadow": "none",
+  "buttonColor": "#585c60",
+  "buttonVariant": "TEXT",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hoverButtonColor": "#ff4a43",
+  "iconColor": "#585c60",
+  "iconColorActive": "#d53939",
+  "iconColorDisabled": "#9FA2A8",
+  "iconColorHover": "#ff4a43",
+  "iconName": "DownloadSimple",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isDisabled": "{{utils.isExcelLoading}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9cxcce07ll",
+  "leftColumn": 62,
+  "minWidth": 16,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{utils.downloadExcel()}}",
+  "parentColumnSpace": 19.625,
+  "parentId": "036imgcl1j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "toolTipPosition": "bottom",
+  "topRow": 2,
+  "type": "FC_ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "swhw64x5so",
+  "widgetName": "Icon4Cop"
+}

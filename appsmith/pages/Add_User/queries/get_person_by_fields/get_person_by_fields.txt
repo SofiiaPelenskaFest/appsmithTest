@@ -1,0 +1,35 @@
+query CheckIfPersonExists($name: String!, $familyName: String!, $birthday: date!) {
+  person: people_person_v0(where: {
+  	_and: [
+       {Name: {_ilike: $name}},
+    	 {FamilyName: {_ilike: $familyName}},
+       {Birthday: {_eq: $birthday}}
+    ]
+  }) {
+    FestCloudID
+    Name
+    FamilyName
+    employee: person_festcloudid_employee {
+      PhotoLink
+      FestCloudID
+      assignment: assignment_employeefestcloudid_array {
+				FestCloudID
+        EndDate
+        assignment_position: assignment_positionfestcloudid_position {
+          PositionName
+        }
+        assignment_ext: assignment_festcloudid_assignmentext {
+          Stage
+          FestCloudID
+        }
+      }
+    }
+    principal: person_festcloudid_principal {
+      contact: contact_principalfestcloudid_array {
+        ContactType
+        ContactSource
+        ContactValue
+      }
+    }
+  }
+}

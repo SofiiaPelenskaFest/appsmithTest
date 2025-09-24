@@ -1,0 +1,20 @@
+query checkDMS($taxNumber: String) {
+  taxNumber: dms_personaltaxdata_v0(where: {IndividualTaxpayerNumber: {_eq: $taxNumber}}) {
+    IndividualTaxpayerNumber
+    PersonFestCloudID
+    person: personaltaxdata_personfestcloudid_person {
+      FamilyName
+      Name
+      employee: person_festcloudid_employee {
+        PhotoLink
+      }
+      principal: person_festcloudid_principal {
+        contact: contact_principalfestcloudid_array {
+          ContactType
+          ContactSource
+          ContactValue
+        }
+    	}
+    }
+  }
+}

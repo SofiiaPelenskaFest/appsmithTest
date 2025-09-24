@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_f1809935-0a5e-4746-b3ad-acf4c6436084",
+  "id": "Adaptation_Form_TokenValidator",
+  "unpublishedCollection": {
+    "name": "TokenValidator",
+    "pageId": "Adaptation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "origin",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "refreshPromise",
+        "value": "null"
+      }
+    ]
+  }
+}

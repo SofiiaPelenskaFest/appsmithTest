@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "688f7f4587c169738493abd7_5dd3f1f4-e307-45b9-b887-400f1cc80106",
+  "id": "Content_Item_SecurityService",
+  "unpublishedCollection": {
+    "name": "SecurityService",
+    "pageId": "Content_Item",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "userPermissions",
+        "value": "_.uniq(get_roles_user.data.flatMap(role => role.Permissions.map(permission => permission.Name)))"
+      },
+      {
+        "name": "permissions",
+        "value": "{\n  \"assignment_view\": \"assignment_view\",\n  \"assignment_edit\": \"assignment_edit\",\n  \"context_view\": \"context_view\",\n  \"content_view\": \"content_view\",\n  \"content_edit\": \"content_edit\",\n  \"dictionary_view\": \"dictionary_view\",\n  \"dictionary_edit\": \"dictionary_edit\",\n  \"person_edit\": \"person_edit\",\n  \"person_view\": \"person_view\",\n  \"principal_view\": \"principal_view\",\n  \"content_admin\": \"content_admin\"\n}"
+      }
+    ]
+  }
+}

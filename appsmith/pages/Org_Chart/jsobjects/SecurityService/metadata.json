@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_7350c1bf-b100-4079-b37b-9fdee0868d72",
+  "id": "Org_Chart_SecurityService",
+  "unpublishedCollection": {
+    "name": "SecurityService",
+    "pageId": "Org_Chart",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "userPermissions",
+        "value": "_.uniq(get_roles_user.data.flatMap(role => role.Permissions.map(permission => permission.Name)))"
+      },
+      {
+        "name": "permissions",
+        "value": "{\n  \"assignment_view\": \"assignment_view\",\n  \"assignment_edit\": \"assignment_edit\",\n  \"context_view\": \"context_view\",\n  \"person_edit\": \"person_edit\",\n  \"person_view\": \"person_view\",\n  \"principal_view\": \"principal_view\",\n  \"workgroup_view\": \"workgroup_view\",\n  \"workgroup_edit\": \"workgroup_edit\",\n  \"position_view\": \"position_view\",\n  \"assignment_workgroupfestcloudid_view\": \"assignment_workgroupfestcloudid_view\",\n  \"assignment_workgroupfestcloudid_edit\": \"assignment_workgroupfestcloudid_edit\"\n}"
+      }
+    ]
+  }
+}

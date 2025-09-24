@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 30,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 4,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "88w621h48x",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "shouldTruncate": false,
+  "text": "{{get_user_byEmail?.data?.data?.people_contact_v0[0]?.person?.personData?.Name || get_all_assignment?.data?.data?.person[0]?.Name }} {{get_user_byEmail?.data?.data?.people_contact_v0[0]?.person?.personData?.FamilyName || get_all_assignment?.data?.data?.person[0]?.FamilyName}} ",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 1,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h4-b",
+  "version": 1,
+  "widgetId": "aeh7iwcwtg",
+  "widgetName": "firstAndLastNameFieldCopy"
+}

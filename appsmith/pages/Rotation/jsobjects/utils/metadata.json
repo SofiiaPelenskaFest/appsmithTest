@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68b00db619976b28d4c6e970_3a619ec8-9197-4c63-8771-90b74f99efd7",
+  "id": "Rotation_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Rotation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "deepestWorkgroups",
+        "value": "[]"
+      },
+      {
+        "name": "positions",
+        "value": "[]"
+      },
+      {
+        "name": "dismissalResponsiblePeople",
+        "value": "[]"
+      }
+    ]
+  }
+}

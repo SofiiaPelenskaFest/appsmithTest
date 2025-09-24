@@ -1,0 +1,5 @@
+mutation attestation($result: String!, $id: String!) {
+  insert_people_affiliation_v0_one(object: {Type: "AttestationResult", Description: $result, AssignmentFestCloudID: $id}) {
+    FestCloudID
+  }
+}

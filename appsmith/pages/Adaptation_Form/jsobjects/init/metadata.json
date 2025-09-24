@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_29bdba62-ac21-485c-8d89-5282f571b15d",
+  "id": "Adaptation_Form_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Adaptation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "showCow",
+        "value": "null"
+      },
+      {
+        "name": "assigmentId",
+        "value": "appsmith.URL.queryParams.selectedAssigmentId"
+      }
+    ]
+  }
+}

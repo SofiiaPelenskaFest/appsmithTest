@@ -1,0 +1,14 @@
+mutation Insert(
+  $data: [people_workexperience_v0_insert_input!]!
+){
+  insert_people_workexperience_v0(objects: $data) {
+    affected_rows
+    returning{
+      CompanyName
+      PositionName
+      StartDate
+      EndDate
+      PersonFestCloudID
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "activeItemColor": "#ef4444",
+  "align": "center",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "color": "#585c60",
+  "colorActive": "#d53939",
+  "colorDisabled": "#585c60",
+  "colorHover": "#ff4a43",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "menuItems.menuItem1.label"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    }
+  ],
+  "hoverItemColor": "#ef4444",
+  "iconAlign": "left",
+  "iconName": "DotsThreeCircle",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{SecurityService.isPermissionMatches({operator:\"or\", permissions:[SecurityService.permissions.assignment_edit, SecurityService.permissions.assignment_workgroupfestcloudid_edit]}) && appsmith.store.hoveredAssignmentId === currentItem?.FestCloudID && currentItem.EmployeeFestCloudID !== appsmith.store.myFestCloudId}}",
+  "key": "0vofat3bbn",
+  "label": "",
+  "leftColumn": 59,
+  "menuColor": "transparent",
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#e3eeff",
+      "backgroundColorDisabled": "#f1f1f1",
+      "backgroundColorHover": "#eef4ff",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "rgba(24, 24, 24, 0.4)",
+      "colorHover": "#212121",
+      "iconAlign": "left",
+      "iconName": "PencilSimple",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"editMenuOption\")}}",
+      "onClick": "{{ \n  navigateTo('Edit_Assigment', { returnTo: appsmith.currentPageName,\n    employeeFestCloudId: currentItem?.EmployeeFestCloudID,\n    selectedAssigmentId: currentItem?.FestCloudID,\n  });\n}}",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 348,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 344,
+  "needsErrorInfo": false,
+  "originalBottomRow": 348,
+  "originalTopRow": 344,
+  "parentColumnSpace": 19.8125,
+  "parentId": "jhy8gz9pdj",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "textColor": "#585c60",
+  "topRow": 1,
+  "type": "FC_MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8gje13gwq0",
+  "widgetName": "MenuButton1CopyCopy"
+}

@@ -1,0 +1,130 @@
+{
+  "activeItemColor": "#E3EEFF",
+  "align": "center",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonVariant": "TEXT",
+  "color": "#585c60",
+  "colorActive": "#d53939",
+  "colorDisabled": "#585c60",
+  "colorHover": "#d53939",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItemr9d512665z.label"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "menuItems.menuItem1.isVisible"
+    },
+    {
+      "key": "menuItems.menuItem1.label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "menuItems.menuItem1.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItemr9d512665z.onClick"
+    }
+  ],
+  "hoverItemColor": "#EEF4FF",
+  "iconAlign": "left",
+  "iconName": "DotsThreeCircle",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{SecurityService.isPermissionMatches({permissions: [SecurityService.permissions.person_edit]}) || init.isMyPage}}",
+  "key": "5d9mhtwhj9",
+  "label": "",
+  "leftColumn": 61,
+  "menuColor": "transparent",
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#e3eeff",
+      "backgroundColorDisabled": "#f1f1f1",
+      "backgroundColorHover": "#eef4ff",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "rgba(24, 24, 24, 0.4)",
+      "colorHover": "#212121",
+      "iconName": "PencilSimple",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": "{{SecurityService.isPermissionMatches({permissions: [SecurityService.permissions.person_edit, SecurityService.permissions.principal_edit, SecurityService.permissions.piidocument_edit]})}}",
+      "label": "{{i18n.translate(\"editProfileButton\")}}",
+      "onClick": "{{utils.handleNavigate(\"Edit_User\")}}",
+      "textColor": "#212121",
+      "widgetId": ""
+    },
+    "menuItemr9d512665z": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#e3eeff",
+      "backgroundColorDisabled": "#f1f1f1",
+      "backgroundColorHover": "#eef4ff",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "rgba(24, 24, 24, 0.4)",
+      "colorHover": "#212121",
+      "iconName": "ImageSquare",
+      "id": "menuItemr9d512665z",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{get_all_assignment?.data?.data?.primary[0]?.assignment_employeefestcloudid_employee?.PhotoLink === null ? i18n.translate(\"addPhotoButton\") : i18n.translate(\"editPhotoButton\")}}",
+      "onClick": "{{showModal(uploadFotoMdl.name);}}",
+      "widgetId": "i1i2qqvel8"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 197,
+  "originalTopRow": 193,
+  "parentColumnSpace": 23.921875,
+  "parentId": "5bprc3ekho",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "textColor": "#585c60",
+  "topRow": 1,
+  "type": "FC_MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1defmqkisz",
+  "widgetName": "MenuButton1"
+}

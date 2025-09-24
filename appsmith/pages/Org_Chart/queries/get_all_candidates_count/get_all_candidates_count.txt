@@ -1,0 +1,7 @@
+query GetNewEmployees($where: people_person_v0_bool_exp!) {
+  count: people_person_v0_aggregate(where: $where) {
+    aggregate {
+      count
+    }
+  }
+}

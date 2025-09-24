@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 19,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 9,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 19,
+  "originalTopRow": 17,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "usp6ukzt5k",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 17,
+  "shouldTruncate": false,
+  "text": "{{`${i18n.translate(\"phoneNumberLabel\")}:`}}",
+  "textAlign": "LEFT",
+  "textColor": "#9fa2a8",
+  "topRow": 17,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "f574odwv0c",
+  "widgetName": "phoneLabel"
+}

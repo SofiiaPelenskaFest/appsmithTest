@@ -1,0 +1,145 @@
+{
+  "align": "center",
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorActive": "#C4D1F4",
+  "backgroundColorDisabled": "#ffffff",
+  "backgroundColorHover": "#E3EEFF",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#3A77DC",
+  "borderColorDisabled": "#B3B7BE",
+  "borderColorHover": "#3A77DC",
+  "bottomRow": 4,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "OUTLINE",
+  "color": "#3A77DC",
+  "colorActive": "#3A77DC",
+  "colorDisabled": "#B3B7BE",
+  "colorHover": "#3A77DC",
+  "configureMenuItems": {
+    "config": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "iconName": "",
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Label"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "label"
+    },
+    {
+      "key": "menuItems.menuItem1.label"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "menuItems.menuItem2.label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "iconAlign": "right",
+  "iconName": "CaretDown",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{SecurityService.isPermissionMatches({\noperator: 'or', permissions: [\nSecurityService.permissions.assignment_edit, SecurityService.permissions.assignment_workgroupfestcloudid_edit\n]}) \n&& !init.isMyPage\n&& get_all_assignment?.data?.data?.blackList?.aggregate.count === 0}}",
+  "key": "oninx1s7r0",
+  "label": "{{i18n.translate(\"addButton\")}}",
+  "leftColumn": 54,
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "iconName": "Briefcase",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"addToTeamButton\")}}",
+      "onClick": "{{utils.handleNavigate(\"Add_Assigment\", {employeeFestCloudID: appsmith.URL.queryParams.employeeFestCloudID || get_all_assignment?.data?.data?.person[0]?.FestCloudID})}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "iconName": "ClockClockwise",
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"substitutionMenuOptionLabel\")}}",
+      "onClick": "{{utils.handleNavigate(\"Add_Assigment\", {employeeFestCloudID: appsmith.URL.queryParams.employeeFestCloudID || get_all_assignment?.data?.data?.person[0]?.FestCloudID, substitution: 'true'})}}",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "mobileBottomRow": 2,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 50,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 49,
+  "originalTopRow": 45,
+  "parentColumnSpace": 20.125,
+  "parentId": "gu1n318lq7",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "sourceData": [
+    "Red",
+    "Green",
+    "Blue"
+  ],
+  "tooltipPosition": "top",
+  "topRow": 0,
+  "type": "FC_MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "i5v4ag7l6j",
+  "widgetName": "MenuButton5"
+}

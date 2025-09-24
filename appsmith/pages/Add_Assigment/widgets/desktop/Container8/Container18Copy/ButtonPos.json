@@ -1,0 +1,83 @@
+{
+  "align": "flex-start",
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorActive": "#c4d1f4",
+  "backgroundColorDisabled": "#ffffff",
+  "backgroundColorHover": "#e3eeff",
+  "backgroundDisabledColor": "#ffffff",
+  "backgroundFocusColor": "#C4D1F4",
+  "backgroundHoverColor": "#E3EEFF",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#5d9aff",
+  "borderColorDisabled": "#c4d1f4",
+  "borderColorHover": "#4987ee",
+  "borderDisabledColor": "#C4D1F4",
+  "borderFocusColor": "#5D9AFF",
+  "borderHoverColor": "#4987EE",
+  "bottomRow": 8,
+  "bottomRowBeforeCollapse": 8,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "OUTLINE",
+  "color": "#3a77dc",
+  "colorActive": "#3a77dc",
+  "colorDisabled": "#777b82",
+  "colorHover": "#3a77dc",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!init.pos}}",
+  "key": "hhjx9yak81",
+  "leftColumn": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 76,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 73,
+  "needsErrorInfo": false,
+  "onClick": "{{utils.createPos()}}",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
+  "parentColumnSpace": 18.005126953125,
+  "parentId": "2nd43ipgbu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 10,
+  "text": "Згенерувати PIN-код",
+  "textColor": "#3A77DC",
+  "textDisabledColor": "#B3B7BE",
+  "textFocusColor": "#3A77DC",
+  "textHoverColor": "#3A77DC",
+  "topRow": 4,
+  "topRowBeforeCollapse": 4,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "hgcii3sy8r",
+  "widgetName": "ButtonPos"
+}

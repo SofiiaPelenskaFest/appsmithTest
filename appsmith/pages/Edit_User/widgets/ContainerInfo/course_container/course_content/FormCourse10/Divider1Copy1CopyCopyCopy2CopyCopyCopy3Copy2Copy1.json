@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "bottomRow": 28,
+  "capSide": 0,
+  "capType": "nc",
+  "dividerColor": "#edeeef",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{courses.formCounter !== 11}}",
+  "key": "zt0or733p1",
+  "leftColumn": 0,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 42,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 44,
+  "originalTopRow": 38,
+  "parentColumnSpace": 15.54931640625,
+  "parentId": "bnqdtr5xkq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "strokeStyle": "solid",
+  "thickness": 2,
+  "topRow": 24,
+  "type": "FC_DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "jruiq1lfrf",
+  "widgetLenght": "200px",
+  "widgetName": "Divider1Copy1CopyCopyCopy2CopyCopyCopy3Copy2Copy1"
+}

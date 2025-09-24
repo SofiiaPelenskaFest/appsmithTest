@@ -1,0 +1,80 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "defaultText": "{{maininfo.beforeData.email}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "validation"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "errorMessage"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "errorMessage": "{{i18n.translate(\"userEmailInputError\")}}",
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ks5mhp88rd",
+  "label": "{{i18n.translate(\"userEmailInputLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "originalBottomRow": 47,
+  "originalTopRow": 39,
+  "parentColumnSpace": 18.524322509765625,
+  "parentId": "5ybjg34u2r",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"userEmailInputPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 39,
+  "type": "FC_INPUT_WIDGET",
+  "validation": "{{emailInput.text.length > 1 && \n/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/.test(emailInput.text)}}",
+  "version": 2,
+  "widgetId": "gb1zekbgev",
+  "widgetName": "emailInput"
+}

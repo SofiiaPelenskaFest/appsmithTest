@@ -1,0 +1,86 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "bottomRowBeforeCollapse": 18,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{get_one_assignment.data?.data?.assignment[0]?.disposition[0]?.EndDate}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": "0",
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{!!get_one_assignment.data?.data?.assignment[0]?.disposition[0]?.EndDate}}",
+  "key": "cleygj3toy",
+  "label": "{{i18n.translate(\"trialDatePickerLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "originalBottomRow": 20,
+  "originalTopRow": 13,
+  "parentColumnSpace": 15.29248046875,
+  "parentId": "yarqz2jzs8",
+  "parentRowSpace": 10,
+  "placeholder": "день/місяць/рік",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 29,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 13,
+  "topRowBeforeCollapse": 11,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetHeight": "200px",
+  "widgetId": "x16hzmncdh",
+  "widgetName": "probationEndDate",
+  "widgetWidth": "200px"
+}

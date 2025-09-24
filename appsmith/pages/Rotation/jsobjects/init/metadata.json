@@ -1,0 +1,36 @@
+{
+  "gitSyncId": "68b00db619976b28d4c6e970_eaf2418c-38be-409e-957f-beb0c18ca4d5",
+  "id": "Rotation_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Rotation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "employeeFestCloudID",
+        "value": "appsmith.URL.queryParams.employeeFestCloudId"
+      },
+      {
+        "name": "selectedAssigmentId",
+        "value": "appsmith.URL.queryParams.selectedAssigmentId"
+      },
+      {
+        "name": "endDate",
+        "value": "moment()"
+      },
+      {
+        "name": "startDate",
+        "value": "moment()"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_a8389b11-2e60-412a-a35e-c6210263adbc",
+  "id": "Add_User_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Add_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isPhoneValid",
+        "value": "false"
+      },
+      {
+        "name": "isMyPage",
+        "value": "appsmith.URL.queryParams.isMyPage"
+      },
+      {
+        "name": "storage",
+        "value": "'internal'"
+      },
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "dismissalEmployee",
+        "value": "null"
+      },
+      {
+        "name": "assignmentEmployee",
+        "value": "null"
+      },
+      {
+        "name": "affiliationEmployee",
+        "value": "null"
+      },
+      {
+        "name": "employeeFestCloudId",
+        "value": "appsmith.URL.queryParams.employeeFestCloudId"
+      },
+      {
+        "name": "existingID",
+        "value": "''"
+      },
+      {
+        "name": "phoneNumber",
+        "value": "''"
+      },
+      {
+        "name": "title",
+        "value": "''"
+      },
+      {
+        "name": "description",
+        "value": "''"
+      },
+      {
+        "name": "buttonLeft",
+        "value": "''"
+      },
+      {
+        "name": "buttonRight",
+        "value": "''"
+      },
+      {
+        "name": "willBeNewPerson",
+        "value": "false"
+      },
+      {
+        "name": "Profile_PageLink",
+        "value": "\"/uk/workspaces/7b221e7d-1189-4546-ad91-ea615fb75afd/cc0eb808-bfff-444b-ad3f-9f073e4e069b\""
+      },
+      {
+        "name": "link",
+        "value": "appsmith.env.META4_URL"
+      }
+    ]
+  }
+}

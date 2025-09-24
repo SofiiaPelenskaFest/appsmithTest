@@ -1,0 +1,426 @@
+query AssignmentActualEmployeeAssignment($employeeFestCloudID: String, $today: timestamp) {
+  blackList: people_affiliation_v0_aggregate(where: {affiliation_assignmentfestcloudid_assignment: {EmployeeFestCloudID: {_eq: $employeeFestCloudID}}, Status: {_eq: "true"}, Type: {_eq: "blacklist "}}) {
+    aggregate{
+      count
+    }
+  }
+  grayList: people_affiliation_v0_aggregate(where: {affiliation_assignmentfestcloudid_assignment: {EmployeeFestCloudID: {_eq: $employeeFestCloudID}}, Status: {_eq: "true"}, Type: {_eq: "thirdWarning /greyList"}}) {
+    aggregate{
+      count
+    }
+  }
+	experienceDate: people_assignment_v0(where: {EmployeeFestCloudID: {_eq: $employeeFestCloudID}}, order_by: {StartDate: asc}) {
+    StartDate
+    EndDate
+  }
+  activeAssignments: people_assignment_v0(where: {assignment_employeefestcloudid_employee: {FestCloudID: {_eq: $employeeFestCloudID}}, _or: [{EndDate: {_gte: $today}}, {EndDate: {_is_null: true}}], assignment_festcloudid_assignmentext: {Stage: {_nin: ["Substitution", "PendingSubstitution"]}}}, order_by: [{assignment_festcloudid_assignmentext: {Type: asc}}, {AuditCreatedAt: desc}]) {
+    FestCloudID
+    EmployeeFestCloudID
+    EndDate
+    Role
+    JobTitle
+    ManagerFestCloudId
+    StartDate
+    PositionFestCloudID
+    WorkgroupFestCloudID
+    AuditCreatedAt
+    assignment_workgroupfestcloudid_workgroup {
+      StructureType
+      FestCloudID
+      WorkgroupFestCloudID
+      Name
+      Status
+      Type
+      workgroup_workgroupfestcloudid_workgroup {
+        FestCloudID
+        WorkgroupFestCloudID
+        Name
+        Status
+        Type
+        workgroup_workgroupfestcloudid_workgroup {
+          FestCloudID
+          WorkgroupFestCloudID
+          Name
+          Status
+          Type
+					workgroup_workgroupfestcloudid_workgroup {
+						FestCloudID
+						WorkgroupFestCloudID
+						Name
+						Status
+						Type
+					}
+        }
+      }
+    }
+    assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      FirstEmploymentDate
+      PhotoLink
+      Stage
+    }
+    assignment_managerfestcloudid_employee {
+      employee_festcloudid_person {
+        FamilyName
+        Name
+      }
+    }
+    assignment_festcloudid_adaptation {
+      ResponsibleEmployeeFestCloudID
+    }
+    assignment_festcloudid_assignmentext {
+      Type
+      Stage
+      Substage
+      DismissalManagerFestCloudID
+      DismissalDescription
+      DismissalReason
+    }
+    affiliation_assignmentfestcloudid_array {
+      Status
+      Type
+    }
+  }
+  activeSubstitution: people_assignment_v0(where: {assignment_employeefestcloudid_employee: {FestCloudID: {_eq: $employeeFestCloudID}}, _or: [{EndDate: {_gte: $today}}, {EndDate: {_is_null: true}}], assignment_festcloudid_assignmentext: {Stage: {_in: ["Substitution", "PendingSubstitution"]}}}, order_by: [{assignment_festcloudid_assignmentext: {Type: asc}}, {AuditCreatedAt: desc}]) {
+    FestCloudID
+    EmployeeFestCloudID
+    EndDate
+    Role
+    JobTitle
+    ManagerFestCloudId
+    StartDate
+    PositionFestCloudID
+    WorkgroupFestCloudID
+    AuditCreatedAt
+    assignment_workgroupfestcloudid_workgroup {
+      StructureType
+      FestCloudID
+      WorkgroupFestCloudID
+      Name
+      Status
+      Type
+      workgroup_workgroupfestcloudid_workgroup {
+        FestCloudID
+        WorkgroupFestCloudID
+        Name
+        Status
+        Type
+        workgroup_workgroupfestcloudid_workgroup {
+          FestCloudID
+          WorkgroupFestCloudID
+          Name
+          Status
+          Type
+					workgroup_workgroupfestcloudid_workgroup {
+						FestCloudID
+						WorkgroupFestCloudID
+						Name
+						Status
+						Type
+					}
+        }
+      }
+    }
+    assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      FirstEmploymentDate
+      PhotoLink
+      Stage
+    }
+    assignment_managerfestcloudid_employee {
+      employee_festcloudid_person {
+        FamilyName
+        Name
+      }
+    }
+    assignment_festcloudid_adaptation {
+      ResponsibleEmployeeFestCloudID
+			responsible: adaptation_responsibleemployeefestcloudid_employee {
+        fullName: employee_festcloudid_person {
+          FamilyName
+          MiddleName
+          Name
+        }
+      }
+    }
+    assignment_festcloudid_assignmentext {
+      Type
+      Stage
+      Substage
+      DismissalManagerFestCloudID
+      DismissalDescription
+      DismissalReason
+    }
+    affiliation_assignmentfestcloudid_array {
+      Status
+      Type
+    }
+  }
+  history: people_assignment_v0(where: {assignment_employeefestcloudid_employee: {FestCloudID: {_eq: $employeeFestCloudID}}, _and: [{EndDate: {_lt: $today}}, {EndDate: {_is_null: false}}]}, order_by: {AuditCreatedAt: desc}) {
+    FestCloudID
+    EmployeeFestCloudID
+    EndDate
+    Role
+    JobTitle
+    ManagerFestCloudId
+    StartDate
+    PositionFestCloudID
+    WorkgroupFestCloudID
+    AuditCreatedAt
+    assignment_workgroupfestcloudid_workgroup {
+      StructureType
+      FestCloudID
+      WorkgroupFestCloudID
+      Name
+      Status
+      Type
+      workgroup_workgroupfestcloudid_workgroup {
+        FestCloudID
+        WorkgroupFestCloudID
+        Name
+        Status
+        Type
+        workgroup_workgroupfestcloudid_workgroup {
+          FestCloudID
+          WorkgroupFestCloudID
+          Name
+          Status
+          Type
+					workgroup_workgroupfestcloudid_workgroup {
+						FestCloudID
+						WorkgroupFestCloudID
+						Name
+						Status
+						Type
+					}
+        }
+      }
+    }
+    assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      FirstEmploymentDate
+      PhotoLink
+      Stage
+    }
+    assignment_managerfestcloudid_employee {
+      employee_festcloudid_person {
+        FamilyName
+        Name
+      }
+    }
+    assignment_festcloudid_adaptation {
+      ResponsibleEmployeeFestCloudID
+			responsible: adaptation_responsibleemployeefestcloudid_employee {
+        fullName: employee_festcloudid_person {
+          FamilyName
+          MiddleName
+          Name
+        }
+      }
+    }
+    assignment_festcloudid_assignmentext {
+      Type
+      Stage
+      Substage
+      DismissalManagerFestCloudID
+      DismissalDescription
+      DismissalReason
+    }
+    affiliation_assignmentfestcloudid_array {
+      Status
+      Type
+    }
+  }
+  primary: people_assignment_v0(where: {assignment_employeefestcloudid_employee: {FestCloudID: {_eq: $employeeFestCloudID}}, assignment_festcloudid_assignmentext: {Type: {_eq: "Primary"}}}) {
+    FestCloudID
+    EmployeeFestCloudID
+    EndDate
+    Role
+    JobTitle
+    ManagerFestCloudId
+    StartDate
+    PositionFestCloudID
+    WorkgroupFestCloudID
+    AuditCreatedAt
+    assignment_workgroupfestcloudid_workgroup {
+      StructureType
+      FestCloudID
+      WorkgroupFestCloudID
+      Name
+      Status
+      Type
+      workgroup_workgroupfestcloudid_workgroup {
+        FestCloudID
+        WorkgroupFestCloudID
+        Name
+        Status
+        Type
+        workgroup_workgroupfestcloudid_workgroup {
+          FestCloudID
+          WorkgroupFestCloudID
+          Name
+          Status
+          Type
+					workgroup_workgroupfestcloudid_workgroup {
+						FestCloudID
+						WorkgroupFestCloudID
+						Name
+						Status
+						Type
+					}
+        }
+      }
+    }
+    assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      FirstEmploymentDate
+      PhotoLink
+      Stage
+    }
+    assignment_managerfestcloudid_employee {
+      employee_festcloudid_person {
+        FamilyName
+        Name
+      }
+    }
+    assignment_festcloudid_adaptation {
+      ResponsibleEmployeeFestCloudID
+			responsible: adaptation_responsibleemployeefestcloudid_employee {
+        fullName: employee_festcloudid_person {
+          FamilyName
+          MiddleName
+          Name
+        }
+      }
+    }
+    assignment_festcloudid_assignmentext {
+      Type
+      Stage
+      Substage
+      DismissalManagerFestCloudID
+      DismissalDescription
+      DismissalReason
+    }
+    affiliation_assignmentfestcloudid_array {
+      Status
+      Type
+    }
+  }
+  person: people_person_v0(where: {FestCloudID: {_eq: $employeeFestCloudID}}) {
+    FestCloudID
+    Birthday
+    FamilyName
+    Gender
+    MiddleName
+    Name
+    lokal: person_festcloudid_customer {
+      LoyaltyCard
+    }
+    contacts: person_festcloudid_principal {
+      WorkEmail: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Email"}}) {
+        ContactType
+        Email: ContactValue
+      }
+      WorkPhone: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Телефон"}}) {
+        ContactType
+        PhoneNumber: ContactValue
+      }
+      PersonalEmail: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Email"}}) {
+        ContactType
+        Email: ContactValue
+      }
+      PersonalPhone: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Телефон"}}) {
+        ContactType
+        PhoneNumber: ContactValue
+      }
+    }
+    courses: additionaleducation_personfestcloudid_array {
+      CourseName
+      ObtainingDate
+    }
+    CoursesCount: additionaleducation_personfestcloudid_array_aggregate {
+      aggregate {
+        count
+      }
+    }
+    identificationData: identificationdata_personfestcloudid_array {
+      Children
+      MilitaryRegistration
+      FamilyStatus
+      RegistrationAdress: identificationdata_registrationaddressfestcloudid_address {
+        City
+        Street
+        Country
+        BuildingNumber
+        Apartment
+      }
+      ResidenceAdress: identificationdata_residenceaddressfestcloudid_address {
+        City
+        Street
+        Country
+        BuildingNumber
+        Apartment
+      }
+    }
+    education: education_personfestcloudid_array {
+      EducationalInstitution
+      SpecialtyName
+      EducationLevel
+    }
+    EducationCount: education_personfestcloudid_array_aggregate {
+      aggregate {
+        count
+      }
+    }
+    language: language_personfestcloudid_array {
+      Name
+      Level
+    }
+    LanguageCount: language_personfestcloudid_array_aggregate {
+      aggregate {
+        count
+      }
+    }
+    workExperience: workexperience_personfestcloudid_array {
+      StartDate
+      EndDate
+      PositionName
+      CompanyName
+    }
+    WorkExperienceCount: workexperience_personfestcloudid_array_aggregate {
+      aggregate {
+        count
+      }
+    }
+    children: child_personfestcloudid_array {
+      Name
+      Birthday
+    }
+    ChildCount: child_personfestcloudid_array_aggregate {
+      aggregate {
+        count
+      }
+    }
+    additionalInfo: additionalinfo_personfestcloudid_array {
+      DrivingLicense
+      CommunityBelonging
+      Interests
+    }
+  }
+}

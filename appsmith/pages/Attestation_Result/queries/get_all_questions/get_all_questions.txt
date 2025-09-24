@@ -1,0 +1,10 @@
+query MyQuery {
+  people_contentitem_v0(where: {Category: {_eq: "Attestation"}}) {
+    ContentKey
+    ContentText
+    DictionaryName
+    SubCategory
+    ValueType
+		FestCloudID
+  }
+}

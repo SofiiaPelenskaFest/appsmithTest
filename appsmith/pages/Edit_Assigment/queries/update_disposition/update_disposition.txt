@@ -1,0 +1,9 @@
+mutation check(
+  $id: String, 
+  $dataDisposition: people_disposition_v0_set_input) {
+  update_people_disposition_v0(where: {
+    AssignmentFestCloudID: {_eq: $id}
+  }, _set: $dataDisposition) {
+    affected_rows
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_5b4f0a87-821f-4b77-9c5d-8114c5f1b34b",
+  "id": "Edit_User_workexperience",
+  "unpublishedCollection": {
+    "name": "workexperience",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "formCounter",
+        "value": "0"
+      }
+    ]
+  }
+}

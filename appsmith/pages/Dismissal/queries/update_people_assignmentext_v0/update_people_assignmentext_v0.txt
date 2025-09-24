@@ -1,0 +1,8 @@
+mutation MyMutation($FestCloudIDs: [String!]!, $Type: String!) {
+  update_people_assignmentext_v0(where: {FestCloudID: {_in: $FestCloudIDs}}, _set: {Type: $Type}) {
+    returning {
+      FestCloudID
+      Type
+    }
+  }
+}

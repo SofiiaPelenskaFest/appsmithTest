@@ -1,0 +1,9 @@
+query getPeopleCooperationType($dictionaryNames: [String!]!) {
+ dict: people_dictionary_v0(where: {DictionaryName: {_in: $dictionaryNames}}) {
+    ItemName
+    ItemType
+    ItemValue
+		DictionaryName
+		FestCloudID
+  }
+}

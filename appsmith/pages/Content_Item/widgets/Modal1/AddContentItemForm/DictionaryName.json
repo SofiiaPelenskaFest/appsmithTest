@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.triger? Table1.triggeredRow?.DictionaryName : \"\"))(DictionaryName.options, DictionaryName.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "b5otiej2no",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "DictionaryName",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "optionLabel": "DictionaryName",
+  "optionValue": "DictionaryName",
+  "originalBottomRow": 22,
+  "originalTopRow": 15,
+  "parentColumnSpace": 9.0625,
+  "parentId": "sh0lcifev7",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "{{get_all_dictionaryName.data.data.names}}",
+  "topRow": 9,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "t53gnc2238",
+  "widgetName": "DictionaryName",
+  "widgetWidth": "200px"
+}

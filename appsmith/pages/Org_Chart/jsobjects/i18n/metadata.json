@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_19afaf7c-05bc-4899-9c58-e2df38c6e7a9",
+  "id": "Org_Chart_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Org_Chart",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

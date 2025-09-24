@@ -1,0 +1,54 @@
+{
+  "borderRadius": "20px",
+  "bottomRow": 15,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "progress"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "thickness"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillBgColor": "#FBEBEB",
+  "fillColor": "#F9726C",
+  "filledDots": 2,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0isr46xqmm",
+  "leftColumn": 1,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 12.3125,
+  "parentId": "gma18nmpka",
+  "parentRowSpace": 10,
+  "progress": "{{utils.normalizeDate(currentItem?.StartDate, currentItem?.EndDate).days/30.5 * 100}}",
+  "progressType": "linear",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 17,
+  "showResult": false,
+  "steps": 1,
+  "text": "{{i18n.translate(\"daysProgressLabel\")}} ",
+  "textColor": "#9FA2A8",
+  "textTransform": "uppercase",
+  "thickness": "16",
+  "topRow": 14,
+  "type": "FC_PROGRESSBAR_WIDGET",
+  "typography": "overline4",
+  "version": 1,
+  "widgetId": "g075pzegy2",
+  "widgetName": "Progress1Copy1Copy",
+  "widgetWidth": "200px"
+}

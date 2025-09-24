@@ -1,0 +1,8 @@
+mutation changeStage($id: String_comparison_exp!, $stage: String!, $endDate: timestamp, $dismissalDescription: String) {
+  update_people_assignmentext_v0(where: {FestCloudID: $id}, _set: {Stage: $stage, Type: "Secondary", DismissalDescription: $dismissalDescription}) {
+    affected_rows
+  }
+  update_people_assignment_v0(where: {FestCloudID: $id}, _set: {EndDate: $endDate}) {
+    affected_rows
+  }
+}

@@ -1,0 +1,7 @@
+query GetAllPositions {
+  people_position_v0 {
+    FestCloudID
+    PositionName
+		WorkgroupFestCloudID
+  }
+}

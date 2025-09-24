@@ -1,0 +1,76 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 30,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_identification.data?.data?.identification[0]?.MilitaryRegistration  || \"\"))(documentSelect.options, documentSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorMessage": "",
+  "helperText": "",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "3jz193bvv4",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"militaryDocumentsSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 107,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 98,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 30,
+  "originalTopRow": 23,
+  "parentColumnSpace": 26.109375,
+  "parentId": "pnczeiqcc2",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"militaryDocumentsSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n[\n    {\n    label: `${i18n.translate(\"militaryDocumentSelectOptionNew\")}`,\n    value: \"ВОД нового зразку з VIN-кодом\"\n  },\n  {\n    label: `${i18n.translate(\"militaryDocumentSelectOptionOld\")}`,\n    value: \"ВОД старого зразку\"\n  },\n  {\n    label: `${i18n.translate(\"militaryDocumentSelectOptionPrescriptive\")}`,\n    value: \"приписне посвідчення\"\n  },\n  {\n    label: `${i18n.translate(\"militaryDocumentSelectOptionNo\")}`,\n    value: \"відсутні документи\"\n  }\n]\n}}",
+  "topRow": 23,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "aqnzv9e4ff",
+  "widgetName": "documentSelect"
+}

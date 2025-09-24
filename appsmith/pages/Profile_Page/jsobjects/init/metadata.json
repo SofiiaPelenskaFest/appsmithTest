@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_09670e58-e6df-4138-bd82-3dd5dcb3718d",
+  "id": "Profile_Page_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Profile_Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "currentUser",
+        "value": "null"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "link",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "jwtValidayionLink",
+        "value": "appsmith.env.SECURITY_SERVICE_URL"
+      },
+      {
+        "name": "Org_ChartLink",
+        "value": "'/uk/workspaces/7b221e7d-1189-4546-ad91-ea615fb75afd/3ff6a2ad-e8ae-4a67-abaa-e1e1898de3e9'"
+      },
+      {
+        "name": "isMyPage",
+        "value": "appsmith.URL.queryParams.isMyPage === 'true' ? true : false"
+      }
+    ]
+  }
+}

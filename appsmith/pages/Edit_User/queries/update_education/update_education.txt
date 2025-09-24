@@ -1,0 +1,16 @@
+mutation Update(
+  $festCloudId: String!,
+  $data: people_education_v0_set_input
+){
+  update_people_education_v0(where: 
+    {FestCloudID: {_eq: $festCloudId}
+    }, _set: $data) {
+    affected_rows
+    returning{
+      EducationLevel
+      EducationalInstitution
+      SpecialtyName
+      PersonFestCloudID
+    }
+  }
+}

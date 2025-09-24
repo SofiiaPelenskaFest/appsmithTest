@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 12,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 12,
+  "originalTopRow": 10,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "u58zoryk5r",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 12,
+  "shouldTruncate": false,
+  "text": "{{`${i18n.translate(\"positionLabel\")}:`}}",
+  "textAlign": "LEFT",
+  "textColor": "#9fa2a8",
+  "topRow": 10,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "xjc37rj1b7",
+  "widgetName": "roleLabel"
+}

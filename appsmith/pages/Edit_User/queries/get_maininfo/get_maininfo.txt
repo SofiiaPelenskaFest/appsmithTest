@@ -1,0 +1,17 @@
+query EmployeeInfo($personId: String!) {
+  person: people_person_v0(where: {FestCloudID: {_eq: $personId}}) {
+    Name
+    FamilyName
+    MiddleName
+    Birthday
+    Gender
+    contact: person_festcloudid_principal {
+      WorkPhone: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Телефон"}}) {
+        PhoneNumber: ContactValue
+    }
+      PersonalEmail: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Email"}}) {
+        Email: ContactValue
+      }
+    }
+  }
+ }

@@ -1,0 +1,16 @@
+query check($id: String!) {
+  employee: people_employee_v0(where: {FestCloudID: {_eq: $id}}) {
+    FestCloudID
+    assignment_employeefestcloudid_array {
+      PositionFestCloudID
+      WorkgroupFestCloudID
+      EndDate
+      assignment_positionfestcloudid_position {
+        PositionName
+      }
+      assignment_festcloudid_assignmentext {
+        Stage
+      }
+    }
+  }
+}

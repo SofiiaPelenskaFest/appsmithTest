@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 133,
+  "capSide": 0,
+  "capType": "nc",
+  "dividerColor": "#edeeef",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{get_all_assignment?.data?.data?.person[0]?.CoursesCount.aggregate.count >= 1}}",
+  "key": "64zt7eejjg",
+  "leftColumn": 1,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "parentColumnSpace": 20,
+  "parentId": "a1o7qao09v",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "strokeStyle": "solid",
+  "thickness": "1",
+  "topRow": 132,
+  "type": "FC_DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "rboa4zzt63",
+  "widgetLenght": "200px",
+  "widgetName": "Divider1CopyCopyCopy"
+}

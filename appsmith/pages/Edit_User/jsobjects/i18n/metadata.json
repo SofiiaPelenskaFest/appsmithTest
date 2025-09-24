@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_0da144c7-149e-43b4-9319-177b809c813d",
+  "id": "Edit_User_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

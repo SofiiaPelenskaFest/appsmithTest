@@ -1,0 +1,14 @@
+query MyQuery($limit: Int, $offset: Int, $order_by: [people_dictionary_v0_order_by!]) {
+	count: people_dictionary_v0_aggregate {
+    aggregate {
+      count
+    }
+  }
+  items: people_dictionary_v0(limit: $limit, offset: $offset, order_by: $order_by) {
+    ItemName
+    DictionaryName
+    FestCloudID
+    ItemType
+    ItemValue
+  }
+}

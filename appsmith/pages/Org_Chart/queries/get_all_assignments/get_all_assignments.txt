@@ -1,0 +1,55 @@
+query GetEmployeesInWorkgroupWithCorrectCount(
+  $where: people_assignment_v0_bool_exp!,
+  $limit: Int!,
+  $offset: Int!,
+) {
+	people_assignment_v0_aggregate(where: $where, distinct_on: EmployeeFestCloudID) {
+    aggregate {
+      count
+    }
+  }
+  people_assignment_v0(where: $where, distinct_on: EmployeeFestCloudID, limit: $limit, offset: $offset
+) {
+    FestCloudID
+    EmployeeFestCloudID
+    PositionFestCloudID
+    WorkgroupFestCloudID
+		assignment_positionfestcloudid_position {
+      PositionName
+    }
+		assignment_workgroupfestcloudid_workgroup {
+      StructureType
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      PhotoLink
+      Stage
+      employee_festcloudid_person {
+        Name
+        FamilyName
+        MiddleName
+       person_festcloudid_principal {
+          WorkEmail: contact_principalfestcloudid_array(where: {_and: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Email"}}}, distinct_on: ContactValue) {
+            Email: ContactValue
+            FestCloudID
+          }
+          WorkPhone: contact_principalfestcloudid_array(where: {_and: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Телефон"}}}, distinct_on: ContactValue) {
+            PhoneNumber: ContactValue
+            FestCloudID
+          }
+          PersonalEmail: contact_principalfestcloudid_array(where: {_and: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Email"}}}, distinct_on: ContactValue) {
+            Email: ContactValue
+            FestCloudID
+          }
+          PersonalPhone: contact_principalfestcloudid_array(where: {_and: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Телефон"}}}, distinct_on: ContactValue) {
+            PhoneNumber: ContactValue
+            FestCloudID
+          }
+        }
+      }
+    }
+		assignment_festcloudid_assignmentext{
+      Stage
+    }
+  }
+}

@@ -1,0 +1,5 @@
+mutation insert_assignmentext($id: String!) {
+  insert_people_assignmentext_v0(objects: {Type: "Secondary", AssignmentCreatorFestCloudID: "1107540b-9f69-45f9-a489-3099aad5ad59", Stage: "Employee", FestCloudID: $id}) {
+    affected_rows
+  }
+}

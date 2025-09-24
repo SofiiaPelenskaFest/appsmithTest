@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 19,
+  "capSide": 0,
+  "capType": "nc",
+  "dividerColor": "{{get_all_assignment?.data?.data?.person[0]?.WorkExperienceCount.aggregate.count >= 8 ? '#edeeef' : 'transparent'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "dividerColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "dividerColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vshkj0a4kb",
+  "leftColumn": 21,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 49,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "parentColumnSpace": 20,
+  "parentId": "qw4i8zwnpg",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "strokeStyle": "solid",
+  "thickness": "1",
+  "topRow": 12,
+  "type": "FC_DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "t9hv8ojjkd",
+  "widgetLenght": "56px",
+  "widgetName": "Divider2Copy3"
+}

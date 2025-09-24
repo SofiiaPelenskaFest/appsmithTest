@@ -1,0 +1,103 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "bottomRowBeforeCollapse": 16,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{ moment(startDatePickerAssign.selectedDate).add(1, 'months').format('YYYY-MM-DD') }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": "",
+  "helperText": "",
+  "inputPosition": "top",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": "{{ joinProbationChkbx.isChecked }}",
+  "isVisible": "{{joinProbationChkbx.isChecked}}",
+  "key": "4k1kx2on1t",
+  "label": "{{i18n.translate(\"trialDatePickerLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDate": "{{ moment(startDatePickerAssign.selectedDate).add(6, 'months').format('YYYY-MM-DD') }}\n",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{ moment(startDatePickerAssign.selectedDate).add(1, 'months').format('YYYY-MM-DD') }}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 44,
+  "needsErrorInfo": false,
+  "originalBottomRow": 17,
+  "originalTopRow": 10,
+  "parentColumnSpace": 23.921875,
+  "parentId": "n0nqzhqm05",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shortcuts": false,
+  "shouldScrollContents": true,
+  "timePrecision": "minute",
+  "topRow": 10,
+  "topRowBeforeCollapse": 9,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetId": "aoape3kl9f",
+  "widgetName": "endProbationDate"
+}

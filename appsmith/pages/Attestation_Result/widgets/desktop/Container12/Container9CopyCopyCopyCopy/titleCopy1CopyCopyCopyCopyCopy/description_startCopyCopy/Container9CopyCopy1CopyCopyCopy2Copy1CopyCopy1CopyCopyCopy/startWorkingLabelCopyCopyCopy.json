@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 17,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 7,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 17,
+  "originalTopRow": 15,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "wqp7n11927",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 16,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"attestationDate\")}}:",
+  "textAlign": "LEFT",
+  "textColor": "#9fa2a8",
+  "topRow": 15,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "fi49epskal",
+  "widgetName": "startWorkingLabelCopyCopyCopy"
+}

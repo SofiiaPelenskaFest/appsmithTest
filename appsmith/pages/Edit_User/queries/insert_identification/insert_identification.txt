@@ -1,0 +1,7 @@
+mutation Insert(
+$dataIdentification: [people_identificationdata_v0_insert_input!]!
+) {
+  insert_people_identificationdata_v0(objects: $dataIdentification) {
+    affected_rows
+  }
+}

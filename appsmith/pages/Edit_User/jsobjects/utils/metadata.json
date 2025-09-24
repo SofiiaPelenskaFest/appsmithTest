@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_c5b45d17-38ff-4b32-a4f6-311f37ede168",
+  "id": "Edit_User_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "taxonomy",
+        "value": "{\n  ID_Cards: \"ID Cards\",\n  Paper_Passport: \"Paper Passport\",\n  Individual_Tax_Number: \"Individual Tax Number\"\n}"
+      },
+      {
+        "name": "hoveredListId",
+        "value": "''"
+      },
+      {
+        "name": "selectedId",
+        "value": "''"
+      }
+    ]
+  }
+}

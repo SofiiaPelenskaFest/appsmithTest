@@ -1,0 +1,59 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "bottomRow": 5,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "ICON",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconColor": "#585c60",
+  "iconColorActive": "#585c60",
+  "iconColorDisabled": "#A3A3A3",
+  "iconColorHover": "#585c60",
+  "iconName": "X",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4vlom9db7c",
+  "leftColumn": 57,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 59,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{closeModal(submitDeletion.name)}}",
+  "parentColumnSpace": 8.53125,
+  "parentId": "9dhsk0gsun",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 61,
+  "tooltipPosition": "bottom",
+  "topRow": 1,
+  "type": "FC_ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "k9ztdlrot5",
+  "widgetName": "IconButton1Copy"
+}

@@ -1,0 +1,77 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorActive": "#C4D1F4",
+  "backgroundColorDisabled": "#ffffff",
+  "backgroundColorHover": "#E3EEFF",
+  "backgroundFocusColor": "#C4D1F4",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#3A77DC",
+  "borderColorDisabled": "#B3B7BE",
+  "borderColorHover": "#3A77DC",
+  "bottomRow": 4,
+  "bottomRowBeforeCollapse": 6,
+  "buttonSize": "LARGE",
+  "buttonVariant": "OUTLINE",
+  "color": "#3A77DC",
+  "colorActive": "#3A77DC",
+  "colorDisabled": "#B3B7BE",
+  "colorHover": "#3A77DC",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!utils.resultCounter().passed}}",
+  "key": "uq2n36kwpp",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 49,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(submitDeletion.name)}}",
+  "originalBottomRow": 6,
+  "originalTopRow": 2,
+  "parentColumnSpace": 26.109375,
+  "parentId": "vmfj7yibzr",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 9,
+  "text": "{{i18n.translate(\"endCooperationButton\")}}",
+  "textFocusColor": "#3A77DC",
+  "topRow": 0,
+  "topRowBeforeCollapse": 2,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ey4t119pxp",
+  "widgetName": "declineBtn"
+}

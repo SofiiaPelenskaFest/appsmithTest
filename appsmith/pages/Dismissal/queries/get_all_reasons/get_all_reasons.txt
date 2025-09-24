@@ -1,0 +1,9 @@
+query GetDismissalReason {
+  dismissalReason: people_dictionary_v0(where: {DictionaryName: {_eq: "DismissalReason"}}) {
+    ItemName
+    DictionaryName
+    FestCloudID
+    ItemType
+    ItemValue
+  }
+}

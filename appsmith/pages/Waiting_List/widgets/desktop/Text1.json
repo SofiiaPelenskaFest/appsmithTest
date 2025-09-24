@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 8,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "76qxhc1jcb",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 8,
+  "originalTopRow": 5,
+  "overflow": "NONE",
+  "parentColumnSpace": 26.109375,
+  "parentId": "c5ijznpx2p",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 26,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"Waiting_ListPageTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 5,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h4-b",
+  "version": 1,
+  "widgetId": "3jl5amswvn",
+  "widgetName": "Text1"
+}

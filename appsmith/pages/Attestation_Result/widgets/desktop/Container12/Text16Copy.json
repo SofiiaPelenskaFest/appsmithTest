@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 15,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "textColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cuyme6awjr",
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "originalBottomRow": 15,
+  "originalTopRow": 7,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.5625,
+  "parentId": "p68ba28wd6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 33,
+  "shouldTruncate": false,
+  "text": "{{utils.resultCounter().percentage || 'Невідомо'}}%",
+  "textAlign": "RIGHT",
+  "textColor": "{{utils.resultCounter().passed ? '#56cb82' : '#FF4A43'}}",
+  "topRow": 7,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h3-l",
+  "version": 1,
+  "widgetId": "ioo12o03ye",
+  "widgetName": "Text16Copy"
+}

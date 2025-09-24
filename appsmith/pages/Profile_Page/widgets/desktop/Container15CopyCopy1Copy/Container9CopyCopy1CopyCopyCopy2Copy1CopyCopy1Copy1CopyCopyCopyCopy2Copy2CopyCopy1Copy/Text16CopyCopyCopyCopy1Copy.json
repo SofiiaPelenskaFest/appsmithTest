@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 9,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "mwv438c14q",
+  "leftColumn": 7,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 9,
+  "originalTopRow": 7,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.675048828125,
+  "parentId": "s75bbv906r",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 48,
+  "shouldTruncate": false,
+  "text": "{{get_all_assignment?.data?.data?.blackList?.aggregate.count > 0 ? i18n.translate(\"warningBlackListTitle\") : i18n.translate(\"warningGrayListTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#dd9f26",
+  "topRow": 7,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4-b",
+  "version": 1,
+  "widgetId": "yukamigrfx",
+  "widgetName": "Text16CopyCopyCopyCopy1Copy"
+}

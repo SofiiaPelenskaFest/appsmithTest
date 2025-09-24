@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "bottomRow": 2,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cdn1p5lbs3",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 2,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.369140625,
+  "parentId": "c44r877sga",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 10,
+  "shouldTruncate": false,
+  "text": "{{utils.formatQuestion(currentItem.ContentText).options[1]}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 0,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "v4t42dghqw",
+  "widgetName": "Text16Copy"
+}

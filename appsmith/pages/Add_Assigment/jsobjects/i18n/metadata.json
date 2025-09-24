@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_15dd787b-d4ce-457b-b4ad-1f5f2b241ba0",
+  "id": "Add_Assigment_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Add_Assigment",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

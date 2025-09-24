@@ -1,0 +1,14 @@
+query GetContactByWorkEmail($workEmail: String!) {
+  people_contact_v0(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Email"}, ContactValue: {_eq: $workEmail}}) {
+    PrincipalFestCloudID
+    person: contact_principalfestcloudid_principal {
+      personData: principal_festcloudid_person {
+        Name
+        MiddleName
+        Gender
+        FamilyName
+        Birthday
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "bx9n3k64wx",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 2,
+  "overflow": "NONE",
+  "parentColumnSpace": 14.34228515625,
+  "parentId": "847mhg4ux9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"dismissalFormTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 2,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body3-b",
+  "version": 1,
+  "widgetId": "myprv7ojjt",
+  "widgetName": "Text11Copy1CopyCopy1"
+}

@@ -1,0 +1,77 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_education.data?.data?.education[2]?.EducationLevel || \"bachelor\"))(EducationLevelCopyCopy.options, EducationLevelCopyCopy.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "sawjlt6f90",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"educationlevelSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 82,
+  "originalTopRow": 75,
+  "parentColumnSpace": 12.984375,
+  "parentId": "5lno3gq8oh",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"educationLevelSelectOptionBachelor\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": {{i18n.translate(\"educationLevelSelectOptionSchool\")}},\n    \"code\": \"school\"\n  },\n  {\n    \"name\": {{i18n.translate(\"educationLevelSelectOptionCollege\")}},\n    \"code\": \"college\"\n  },\n\t{\n    \"name\": {{i18n.translate(\"educationLevelSelectOptionBachelorNotFinished\")}},\n    \"code\": \"bachelorNotFinished\"\n  },\n\t{\n    \"name\": {{i18n.translate(\"educationLevelSelectOptionBachelor\")}},\n    \"code\": \"bachelor\"\n  },\n  {\n    \"name\": {{i18n.translate(\"educationLevelSelectOptionMaster\")}},\n    \"code\": \"master\"\n  },\n\t  {\n    \"name\": {{i18n.translate(\"educationLevelSelectOptionPHD\")}},\n    \"code\": \"PHD\"\n  }\n]",
+  "topRow": 21,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "dt0ngvun1k",
+  "widgetName": "EducationLevelCopyCopy"
+}

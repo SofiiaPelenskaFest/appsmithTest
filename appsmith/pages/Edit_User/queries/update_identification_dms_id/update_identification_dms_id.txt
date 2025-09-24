@@ -1,0 +1,14 @@
+mutation Update(
+  $id: String!,
+  $dataPassport: dms_personaliddata_v0_set_input,
+
+){
+  updated_passport:update_dms_personaliddata_v0(where: {
+    FestCloudID: {_eq: $id}
+  }, _set: $dataPassport) {
+    returning {
+      DocumentNumber
+      DocumentSeries
+    }
+  }
+}

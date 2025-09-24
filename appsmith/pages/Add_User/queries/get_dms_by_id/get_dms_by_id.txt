@@ -1,0 +1,29 @@
+query CheckIfPersonExists($id: String!) {
+	dms_passport:dms_document_v0(where: {
+			document_festcloudid_personaliddata: {
+				PersonFestCloudID: {_eq: $id}
+			}
+		}, order_by: {AuditUpdatedAt: desc})  {
+			passport:document_festcloudid_personaliddata {
+				FestCloudID
+				DocumentNumber
+				DocumentSeries
+				AuditUpdatedAt
+				passport_document:personaliddata_festcloudid_document{
+					document_taxonomy:document_taxonomyfestcloudid_taxonomy{
+						Name
+					}
+				}
+			}
+		}
+		dms_tax:dms_document_v0(where: {
+			document_festcloudid_personaltaxdata: {
+				PersonFestCloudID: {_eq: $id}
+			}
+		}) {
+			tax:document_festcloudid_personaltaxdata{
+				FestCloudID
+				IndividualTaxpayerNumber
+			}
+		}
+}

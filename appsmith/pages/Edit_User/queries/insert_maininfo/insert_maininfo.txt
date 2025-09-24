@@ -1,0 +1,19 @@
+mutation Insert(
+  $dataPerson: [people_person_v0_insert_input!]!,
+  $dataContact: [people_contact_v0_insert_input!]!,
+  $dataIdentification: [people_identificationdata_v0_insert_input!]!,
+  $dataChild: [people_child_v0_insert_input!]!
+) {
+  insert_people_person_v0(objects: $dataPerson){
+    affected_rows
+  }
+  insert_people_contact_v0(objects: $dataContact){
+    affected_rows
+  }
+  insert_people_identificationdata_v0(objects: $dataIdentification){
+    affected_rows
+  }
+	insert_people_child_v0(objects: $dataChild) {
+    affected_rows
+  }
+}

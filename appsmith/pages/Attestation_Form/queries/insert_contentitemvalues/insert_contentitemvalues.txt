@@ -1,0 +1,5 @@
+mutation Insert($dataAccess: [people_contentitemvalue_v0_insert_input!]!) {
+  inserted:insert_people_contentitemvalue_v0(objects: $dataAccess) {
+    affected_rows
+  }
+} 

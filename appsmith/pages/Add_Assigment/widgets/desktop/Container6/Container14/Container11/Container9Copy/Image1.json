@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "12px",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{\ninit.fileData && utils.photoVisible()?.data\n}}",
+  "imageAlign": "flex-end",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9oorbezsab",
+  "leftColumn": 17,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{showModal(uploadFotoMdl.name)}}",
+  "parentColumnSpace": 3.3966751098632812,
+  "parentId": "p36omeo0ij",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 59,
+  "size": "122",
+  "topRow": 1,
+  "type": "FC_IMAGE_WIDGET",
+  "variant": "Style1",
+  "version": 1,
+  "widgetId": "z58pxru05l",
+  "widgetName": "Image1"
+}

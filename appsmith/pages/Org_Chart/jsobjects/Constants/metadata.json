@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_4dad9a04-e422-43e3-a66c-44337a0bcdf4",
+  "id": "Org_Chart_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Org_Chart",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"workgroupsTreeTitle\": \"Робочі групи\",\n  \"orgChartTitle\": \"Люди\",\n  \"addToTeamButton\": \"Додати в команду\",\n  \"createProfileButton\": \"Створити профіль\",\n  \"aesSortOption\": \"Сотувати за назвою А-Я\",\n  \"descSortOption\": \"Сотувати за назвою Я-А\",\n  \"positionSortOption\": \"Сотувати за Посадою\",\n  \"editMenuOption\": \"Редагувати\",\n  \"dismissalMenuOption\": \"Завершити співпрацю\",\n  \"preparingToMakeFileAlert\": \"Готуємо файл до завантаження...\",\n  \"exceededToMakeFileAlert\": \"Ви перевищили максимальну к-сть людей для завантаження\",\n  \"downloadingFileAlert1\": \"Завантаження файлу\",\n  \"downloadingFileAlert2\": \"розпочалось\",\n  \"somethingWrongFileAlert\": \"Щось пішло не так під час завантаження файлу\",\n  \"nameExelFile\": \"інфо_працівники\",\n  \"nameExelInnerSheet\": \"Лист1\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"workgroupsTreeTitle\": \"Робочі групи\",\n  \"orgChartTitle\": \"Люди\",\n  \"addToTeamButton\": \"Додати в команду\",\n  \"createProfileButton\": \"Створити профіль\",\n  \"aesSortOption\": \"Сотувати за назвою А-Я\",\n  \"descSortOption\": \"Сотувати за назвою Я-А\",\n  \"positionSortOption\": \"Сотувати за Посадою\",\n  \"editMenuOption\": \"Редагувати\",\n  \"dismissalMenuOption\": \"Завершити співпрацю\",\n  \"preparingToMakeFileAlert\": \"Готуємо файл до завантаження...\",\n  \"exceededToMakeFileAlert\": \"Ви перевищили максимальну к-сть людей для завантаження\",\n  \"downloadingFileAlert1\": \"Завантаження файлу\",\n  \"downloadingFileAlert2\": \"розпочалось\",\n  \"somethingWrongFileAlert\": \"Щось пішло не так під час завантаження файлу\",\n  \"nameExelFile\": \"інфо_працівники\",\n  \"nameExelInnerSheet\": \"Лист1\"\n}"
+      }
+    ]
+  }
+}

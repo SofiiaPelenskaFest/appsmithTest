@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 10,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ezqapnqo6c",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "sghfnyq9t4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 54,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"dismissalModalDescription1\")}}  \"{{waiting_list.triggeredItem?.FamilyName || \"\"}} {{waiting_list.triggeredItem?.Name || \"\"}}\" {{i18n.translate(\"dismissalModalDescription2\")}}.",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 6,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4",
+  "version": 1,
+  "widgetId": "8nx1b6oa0e",
+  "widgetName": "Text3"
+}

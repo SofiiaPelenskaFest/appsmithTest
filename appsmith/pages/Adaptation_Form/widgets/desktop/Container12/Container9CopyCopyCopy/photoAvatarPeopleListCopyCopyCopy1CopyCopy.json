@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{utilsTemporary.formatGoogleDriveUrl(get_all_assigments.data.data.people_assignment_v0[0].assignment_employeefestcloudid_employee?.PhotoLink)}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "3mwsalomau",
+  "leftColumn": 53,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "",
+  "parentColumnSpace": 15.1630859375,
+  "parentId": "ifwx8hqp3m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 58,
+  "size": "72",
+  "topRow": 0,
+  "type": "FC_IMAGE_WIDGET",
+  "variant": "Style4",
+  "version": 1,
+  "widgetId": "2gpcumuxug",
+  "widgetName": "photoAvatarPeopleListCopyCopyCopy1CopyCopy"
+}

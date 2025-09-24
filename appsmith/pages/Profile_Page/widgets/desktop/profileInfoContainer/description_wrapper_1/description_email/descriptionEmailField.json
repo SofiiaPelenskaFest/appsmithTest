@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "bottomRow": 6,
+  "disableLink": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 6,
+  "originalTopRow": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "uy6vgupgib",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "shouldTruncate": false,
+  "text": "{{get_all_assignment?.data?.data?.person[0]?.contacts?.WorkEmail[0]?.Email || i18n.translate(\"unknown\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 4,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5-m",
+  "version": 1,
+  "widgetId": "m7u36ej0l5",
+  "widgetName": "descriptionEmailField"
+}

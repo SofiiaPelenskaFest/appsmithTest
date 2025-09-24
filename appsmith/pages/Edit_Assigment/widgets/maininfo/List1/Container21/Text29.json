@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6xi92gc8a8",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "maxLength": "",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 2,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "overflow": "NONE",
+  "parentColumnSpace": 4.08203125,
+  "parentId": "6pxpm7qz33",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "shouldTruncate": false,
+  "text": "{{currentItem.name}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 0,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4",
+  "version": 1,
+  "widgetId": "en0cghcg6c",
+  "widgetName": "Text29"
+}

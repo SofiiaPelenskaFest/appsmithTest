@@ -1,0 +1,475 @@
+{
+  "accentColor": "#3a77dc",
+  "animateLoading": true,
+  "backgroundColor": "#f8fafc",
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 0,
+  "bottomRow": 253,
+  "boxShadow": "",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "3k29vtbnlm",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 150,
+      "minWidth": 450,
+      "mobileBottomRow": 150,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 578.625,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 578.625,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "{{i18n.translate(\"teamsTab\")}}",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "zndna8u31g",
+      "widgetName": "Canvas5"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "3k29vtbnlm",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 150,
+      "minWidth": 450,
+      "mobileBottomRow": 150,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 578.625,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 578.625,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "{{i18n.translate(\"skillsTab\")}}",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "jsgreychf4",
+      "widgetName": "Canvas6"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "3k29vtbnlm",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 900,
+      "minWidth": 450,
+      "mobileBottomRow": 901,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1543,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1543,
+      "tabId": "tabsrgn2tw60c",
+      "tabName": "{{i18n.translate(\"compensationTab\")}}",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "w3pm5b41u4",
+      "widgetName": "Canvas10"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "3k29vtbnlm",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 900,
+      "minWidth": 450,
+      "mobileBottomRow": 901,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1543,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1543,
+      "tabId": "tabn59a7pm2ba",
+      "tabName": "{{i18n.translate(\"goalsTab\")}}",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "yr67j8vdmy",
+      "widgetName": "Canvas11"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "3k29vtbnlm",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 900,
+      "minWidth": 450,
+      "mobileBottomRow": 901,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1543,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1543,
+      "tabId": "tab2eobv0aihb",
+      "tabName": "{{i18n.translate(\"achievementsTab\")}}",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "klz8u6z98n",
+      "widgetName": "Canvas12"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "voada7fv9q",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1580,
+      "minWidth": 450,
+      "mobileBottomRow": 1581,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1518.890625,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1518.890625,
+      "tabId": "tabvlgp5unz7v",
+      "tabName": "{{i18n.translate(\"extendedInfoTab\")}}",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "ipe0beqoeh",
+      "widgetName": "Canvas20"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 2020,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        },
+        {
+          "key": "tabName"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "yxnxhoz626",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 1910,
+      "minWidth": 450,
+      "mobileBottomRow": 1911,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1543,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "tdhnx6ei8w",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1543,
+      "tabId": "tabzeaxu4p17i",
+      "tabName": "{{i18n.translate(\"historyTeamsTab\")}}",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "pk84onolak",
+      "widgetName": "Canvas35"
+    }
+  ],
+  "defaultTab": "Розширена інформація",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "tabsObj.tabvlgp5unz7v.label"
+    },
+    {
+      "key": "tabsObj.tab1.label"
+    },
+    {
+      "key": "tabsObj.tabzeaxu4p17i.label"
+    },
+    {
+      "key": "tabsObj.tab2.label"
+    },
+    {
+      "key": "tabsObj.tabsrgn2tw60c.label"
+    },
+    {
+      "key": "tabsObj.tabn59a7pm2ba.label"
+    },
+    {
+      "key": "tabsObj.tab2eobv0aihb.label"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yr5lmw87tn",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "originalBottomRow": 253,
+  "originalTopRow": 47,
+  "parentColumnSpace": 24.109375,
+  "parentId": "09wpnnacg3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": false,
+  "shouldShowTabs": true,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 1,
+      "isDisabled": false,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"teamsTab\")}}",
+      "positioning": "vertical",
+      "widgetId": "zndna8u31g"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 3,
+      "isDisabled": true,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"skillsTab\")}}",
+      "positioning": "vertical",
+      "widgetId": "jsgreychf4"
+    },
+    "tab2eobv0aihb": {
+      "id": "tab2eobv0aihb",
+      "index": 6,
+      "isDisabled": true,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"achievementsTab\")}}",
+      "widgetId": "klz8u6z98n"
+    },
+    "tabn59a7pm2ba": {
+      "id": "tabn59a7pm2ba",
+      "index": 5,
+      "isDisabled": true,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"goalsTab\")}}",
+      "widgetId": "yr67j8vdmy"
+    },
+    "tabsrgn2tw60c": {
+      "id": "tabsrgn2tw60c",
+      "index": 4,
+      "isDisabled": true,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"compensationTab\")}}",
+      "widgetId": "w3pm5b41u4"
+    },
+    "tabvlgp5unz7v": {
+      "id": "tabvlgp5unz7v",
+      "index": 0,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "{{i18n.translate(\"extendedInfoTab\")}}",
+      "widgetId": "ipe0beqoeh"
+    },
+    "tabzeaxu4p17i": {
+      "id": "tabzeaxu4p17i",
+      "index": 2,
+      "isDuplicateLabel": false,
+      "isVisible": false,
+      "label": "{{i18n.translate(\"historyTeamsTab\")}}",
+      "widgetId": "pk84onolak"
+    }
+  },
+  "tabsSize": "MEDIUM",
+  "topRow": 47,
+  "type": "FC_TABS_WIDGET",
+  "version": 3,
+  "widgetId": "tdhnx6ei8w",
+  "widgetName": "Tabs1"
+}

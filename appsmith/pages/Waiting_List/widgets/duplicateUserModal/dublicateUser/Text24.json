@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ngv83kp6oh",
+  "leftColumn": 12,
+  "maxDynamicHeight": 9000,
+  "maxLength": "20",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 4,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 7.810546875,
+  "parentId": "kuc54tturk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "{{\n  checkIfPersonExists.data?.data?.people_personext_v0[0]?.personext_festcloudid_person?.Name\n  || checkIfAssignmentExists.data?.data?.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.Name\n}} {{ checkIfPersonExists.data?.data?.people_personext_v0[0]?.personext_festcloudid_person?.FamilyName|| checkIfAssignmentExists.data?.data?.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.FamilyName\n}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 1,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body2-b",
+  "version": 1,
+  "widgetId": "ydc0k2gm7o",
+  "widgetName": "Text24"
+}

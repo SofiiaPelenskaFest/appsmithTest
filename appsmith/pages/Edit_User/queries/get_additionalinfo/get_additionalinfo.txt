@@ -1,0 +1,9 @@
+query Check($personId: String!){
+  additionalinfo:people_additionalinfo_v0(where: 
+    {PersonFestCloudID :{_eq: $personId}
+   }) {
+    CommunityBelonging
+    DrivingLicense
+    Interests
+  }
+}

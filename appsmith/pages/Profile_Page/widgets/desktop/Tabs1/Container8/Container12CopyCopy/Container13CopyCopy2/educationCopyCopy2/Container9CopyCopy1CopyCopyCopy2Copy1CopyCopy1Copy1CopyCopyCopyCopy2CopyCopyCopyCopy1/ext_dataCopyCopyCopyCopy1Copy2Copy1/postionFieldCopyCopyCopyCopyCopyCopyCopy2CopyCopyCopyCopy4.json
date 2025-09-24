@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 3,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "t0hgpw8jj7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 50,
+  "shouldTruncate": false,
+  "text": "{{get_all_assignment?.data?.data?.person[0]?.education[0]?.EducationalInstitution || i18n.translate(\"unknown\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 1,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4-b",
+  "version": 1,
+  "widgetId": "ujdzyib7p9",
+  "widgetName": "postionFieldCopyCopyCopyCopyCopyCopyCopy2CopyCopyCopyCopy4"
+}

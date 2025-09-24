@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_07317abe-169b-4dc5-b2a8-8a8b5125141f",
+  "id": "Add_Assigment_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Add_Assigment",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "previousSelected",
+        "value": "[]"
+      },
+      {
+        "name": "actualSelected",
+        "value": "[]"
+      },
+      {
+        "name": "deepestWorkgroups",
+        "value": "[]"
+      },
+      {
+        "name": "positions",
+        "value": "[]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+query GetNewPrimary($id: String!, $today: timestamp) {
+  people_assignment_v0(where: {_and: [{EmployeeFestCloudID: {_eq: $id}}, {_or: [{EndDate: {_gt: $today}}, {EndDate: {_is_null: true}}]}]}, order_by: {AuditCreatedAt: desc}, limit: 1) {
+    EndDate
+    AuditCreatedAt
+    JobTitle
+    FestCloudID
+    assignment_festcloudid_assignmentext {
+      Type
+    }
+  }
+}

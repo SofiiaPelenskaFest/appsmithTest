@@ -1,0 +1,7 @@
+mutation Insert(
+  $dataContact: [people_contact_v0_insert_input!]!
+) {
+  insert_people_contact_v0(objects: $dataContact) {
+    affected_rows
+  }
+}

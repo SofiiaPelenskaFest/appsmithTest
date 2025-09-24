@@ -1,0 +1,20 @@
+query check($id: String!) {
+  assignment: people_assignment_v0(where: {FestCloudID: {_eq: $id}}) {
+    StartDate
+    EndDate
+    position: assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    assignment_festcloudid_adaptation {
+      ResponsibleEmployeeFestCloudID
+    }
+    workgroup: assignment_workgroupfestcloudid_workgroup {
+      FestCloudID
+      Name
+    }
+    stage: assignment_festcloudid_assignmentext {
+      Stage
+    }
+  }
+}

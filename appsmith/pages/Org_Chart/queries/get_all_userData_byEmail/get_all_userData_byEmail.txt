@@ -1,0 +1,5 @@
+query GetContactByWorkEmail($workEmail: String!) {
+  people_contact_v0(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Email"}, ContactValue: {_eq: $workEmail}}) {
+    PrincipalFestCloudID
+  }
+}

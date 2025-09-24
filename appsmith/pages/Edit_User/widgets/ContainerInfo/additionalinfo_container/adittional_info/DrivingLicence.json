@@ -1,0 +1,77 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_additionalinfo.data?.data?.additionalinfo[0]?.DrivingLicense ?  String(get_additionalinfo.data?.data?.additionalinfo[0]?.DrivingLicense) : \"false\"))(DrivingLicence.options, DrivingLicence.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "sawjlt6f90",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"driverLicenceSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 12,
+  "originalTopRow": 5,
+  "parentColumnSpace": 12.984375,
+  "parentId": "7m5u4iifey",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"driverLicenceSelectOptionYes\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n[\n\t{\n\t\t\"name\": `${i18n.translate(\"driverLicenceSelectOptionYes\")}`,\n\t\t\"code\": \"true\"\n\t},\n\t{\n\t\t\"name\": `${i18n.translate(\"driverLicenceSelectOptionNo\")}`,\n\t\t\"code\": \"false\"\n\t}\n]\n}}",
+  "topRow": 5,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "6n64w3o294",
+  "widgetName": "DrivingLicence"
+}

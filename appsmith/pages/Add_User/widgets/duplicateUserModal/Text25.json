@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 33,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{!init.affiliationEmployee?.Label?.startsWith('Чорний')}}",
+  "key": "ngv83kp6oh",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "originalBottomRow": 33,
+  "originalTopRow": 31,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.53125,
+  "parentId": "okhnaa50od",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "{{\ninit.dismissalEmployee ?\ni18n.translate(\"modalRenewProfileButton\") :\ni18n.translate(\"modalGotoProfileButton\") }}{{\" \" + get_person_by_fields.data?.data?.person[0]?.Name + \" \" +\nget_person_by_fields.data?.data?.person[0]?.FamilyName\n}}?",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 31,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4",
+  "version": 1,
+  "widgetId": "d8j649lc3p",
+  "widgetName": "Text25"
+}

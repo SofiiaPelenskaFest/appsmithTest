@@ -1,0 +1,65 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "bottomRow": 4,
+  "buttonSize": "LARGE",
+  "buttonVariant": "ICON",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconColor": "#575757",
+  "iconColorActive": "#E32525",
+  "iconColorDisabled": "#A3A3A3",
+  "iconColorHover": "#F13125",
+  "iconName": "Trash",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{SecurityService.userPermissions.includes(SecurityService.permissions.person_admin)}}",
+  "key": "xmux3t5gr3",
+  "leftColumn": 29,
+  "minWidth": 50,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 41,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onClick": "{{courses.removeForm(7)}}",
+  "originalBottomRow": 282,
+  "originalTopRow": 278,
+  "parentColumnSpace": 12.79833984375,
+  "parentId": "qs1hd2ghwj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 31,
+  "tooltipPosition": "bottom",
+  "topRow": 0,
+  "type": "FC_ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2z6axc5c9d",
+  "widgetName": "IconButton2CopyCopy4CopyCopyCopyCopy1CopyCopy6CopyCopy4CopyCopyCopy2CopyCopy6"
+}

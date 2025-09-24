@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_234fb5d6-e7ff-4b04-982e-fd7696a44eb3",
+  "id": "Add_User_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Add_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "taxonomy",
+        "value": "{\n  ID_Cards: \"ID Cards\",\n  Paper_Passport: \"Paper Passport\",\n  Individual_Tax_Number: \"Individual Tax Number\"\n}"
+      }
+    ]
+  }
+}

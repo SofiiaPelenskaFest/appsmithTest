@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{get_workexperience.data?.data?.workexperience[6]?.EndDate || moment()}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "0frf7y16z3",
+  "label": "Дата кінця роботи",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 15,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 56,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 49,
+  "needsErrorInfo": false,
+  "originalBottomRow": 308,
+  "originalTopRow": 301,
+  "parentColumnSpace": 12.984375,
+  "parentId": "rcsmqlmj73",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "shortcuts": false,
+  "timePrecision": "minute",
+  "topRow": 21,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetId": "6v6to7xa66",
+  "widgetName": "WorkEndDate7"
+}

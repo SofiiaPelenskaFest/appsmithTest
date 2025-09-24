@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 12,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{get_all_assignment?.data?.data?.person[0]?.CoursesCount.aggregate.count >= 8}}",
+  "key": "lb9hgg9anz",
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 12,
+  "originalTopRow": 10,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "tgjhauus61",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 50,
+  "shouldTruncate": false,
+  "text": "{{get_all_assignment?.data?.data?.person[0]?.courses[7]?.CourseName || i18n.translate(\"unknown\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 10,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4-b",
+  "version": 1,
+  "widgetId": "ks6mn7980e",
+  "widgetName": "postionFieldCopyCopyCopyCopyCopyCopyCopy2CopyCopyCopyCopyCopy1CopyCopyCopyCopyCopy1"
+}

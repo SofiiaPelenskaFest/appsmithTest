@@ -1,0 +1,6 @@
+query GetAllPositions {
+  positions:people_position_v0 {
+    FestCloudID
+    PositionName
+  }
+}

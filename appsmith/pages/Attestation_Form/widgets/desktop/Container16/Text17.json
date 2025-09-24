@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 7,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "clkz8zue8f",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 7,
+  "originalTopRow": 5,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.25,
+  "parentId": "zudet426kh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "shouldTruncate": false,
+  "text": "{{`${i18n.translate(\"checkListDescription1\")} ${get_all_assigments.data.data.people_assignment_v0[0].assignment_positionfestcloudid_position?.PositionName.toLowerCase() === 'офіціант' ? '8' : '6'} ${i18n.translate(\"checkListDescription2\")}`}}",
+  "textAlign": "LEFT",
+  "textColor": "#777b82",
+  "topRow": 5,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "25txc4b2ff",
+  "widgetName": "Text17"
+}

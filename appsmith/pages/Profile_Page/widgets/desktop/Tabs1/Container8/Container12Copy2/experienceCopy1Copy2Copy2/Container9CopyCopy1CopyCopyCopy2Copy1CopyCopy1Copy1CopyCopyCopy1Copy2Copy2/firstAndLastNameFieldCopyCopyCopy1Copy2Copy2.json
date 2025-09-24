@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{get_all_assignment?.data?.data?.person[0]?.WorkExperienceCount.aggregate.count >= 2}}",
+  "key": "lb9hgg9anz",
+  "leftColumn": 30,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 3,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "qwjrwodimp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "shouldTruncate": false,
+  "text": "{{utils.formatPreviousExperience(1) || i18n.translate(\"unknown\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#9fa2a8",
+  "topRow": 1,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "overline3",
+  "version": 1,
+  "widgetId": "e0k0h43ccb",
+  "widgetName": "firstAndLastNameFieldCopyCopyCopy1Copy2Copy2"
+}

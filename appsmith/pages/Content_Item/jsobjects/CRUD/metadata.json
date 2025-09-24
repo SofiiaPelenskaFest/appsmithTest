@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_cff05ee3-1a7d-4488-ae69-cbf0856db346",
+  "id": "Content_Item_CRUD",
+  "unpublishedCollection": {
+    "name": "CRUD",
+    "pageId": "Content_Item",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderColorActive": "#c4d1f4",
+  "borderColorDisabled": "#c4d1f4",
+  "borderColorHover": "#c4d1f4",
+  "borderRadius": "8px",
+  "bottomRow": 46,
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_one_assignment.data.data.assignment[0]?.ManagerFestCloudId))(managerSelectAssign.options, managerSelectAssign.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "labelText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": true,
+  "isFilterable": true,
+  "isLoading": false,
+  "isOneProperty": true,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "vb6jmrvcaa",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"managerSelectLabel\")}}",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 66,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 59,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionAvatar": "avatar",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "optionalLabelText": "",
+  "originalBottomRow": 46,
+  "originalTopRow": 39,
+  "parentColumnSpace": 20.71875,
+  "parentId": "51vgarlrvn",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{get_managers.data?.data?.assignment.map(item => ({\n\tlabel: `${item.assignment_employee.employee.FamilyName} ${item.assignment_employee.employee.Name}`,\n\tvalue: item.EmployeeFestCloudID,\n\tavatar: item.assignment?.assignment_employee?.PhotoLink\n})).sort((a, b) => a.label.localeCompare(b.label)).concat({label: \"Софія Пеленська\", value: \"9134be04-8351-49b2-ab73-13305d377244\", avatar: ''})}}",
+  "topRow": 39,
+  "type": "FC_LOOKUP_WIDGET",
+  "version": 1,
+  "widgetHeight": "200px",
+  "widgetId": "g1vw3mtuwm",
+  "widgetName": "managerSelectAssign",
+  "widgetWidth": "200px"
+}

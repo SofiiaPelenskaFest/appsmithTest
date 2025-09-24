@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_1eab3b04-500c-4e31-91ff-304655bf0a06",
+  "id": "Waiting_List_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Waiting_List",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

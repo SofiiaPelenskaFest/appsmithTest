@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 11,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{init.fileData.length > 0}}",
+  "key": "ecv8xp0ssq",
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 96,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 94,
+  "needsErrorInfo": false,
+  "originalBottomRow": 11,
+  "originalTopRow": 9,
+  "overflow": "NONE",
+  "parentColumnSpace": 14.9765625,
+  "parentId": "zi9qsdiqnu",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 44,
+  "shouldTruncate": false,
+  "text": "{{utils.photoVisible().size}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 9,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body7",
+  "version": 1,
+  "widgetId": "rrwvseybyy",
+  "widgetName": "Text25"
+}

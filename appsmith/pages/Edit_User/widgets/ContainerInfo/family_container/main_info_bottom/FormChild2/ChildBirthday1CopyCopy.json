@@ -1,0 +1,86 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "bottomRowBeforeCollapse": 46,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD.MM.YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{get_family_child.data?.data.children[2]?.Birthday || moment('2001-01-01')}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "dateFormat"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{ChildrenCheckbox.isChecked}}",
+  "key": "0frf7y16z3",
+  "label": "{{i18n.translate(\"familyChildBirthdayInputLabel\")}}\n",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 56,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 49,
+  "needsErrorInfo": false,
+  "originalBottomRow": 68,
+  "originalTopRow": 61,
+  "parentColumnSpace": 12.984375,
+  "parentId": "cm7emtz8v2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "shortcuts": false,
+  "timePrecision": "minute",
+  "topRow": 12,
+  "topRowBeforeCollapse": 39,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetId": "0jdac0t4tz",
+  "widgetName": "ChildBirthday1CopyCopy"
+}

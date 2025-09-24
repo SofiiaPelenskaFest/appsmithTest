@@ -1,0 +1,64 @@
+{
+  "align": "flex-end",
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorDisabled": "#ffffff",
+  "backgroundColorHover": "#E3EEFF",
+  "backgroundFocusColor": "#C4D1F4",
+  "bottomRow": 3,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "OUTLINE",
+  "color": "#3A77DC",
+  "colorDisabled": "#B3B7BE",
+  "colorHover": "#3A77DC",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "Plus",
+  "iconSize": 16,
+  "iconWeight": "bold",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "n20bnto0f4",
+  "leftColumn": 45,
+  "minWidth": 120,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Add_User', {returnTo: appsmith.currentPageName, \tchecked: appsmith.URL.queryParams.checked, expanded: appsmith.URL.queryParams.expanded}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 22.328125,
+  "parentId": "w9xnbaoc7x",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 57,
+  "text": "{{i18n.translate(\"addProfileButton\")}}",
+  "textFocusColor": "#3A77DC",
+  "topRow": 0,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "cmbbyd9n0k",
+  "widgetName": "addUserBtn"
+}

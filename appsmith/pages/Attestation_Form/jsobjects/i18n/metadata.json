@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_2062005d-ec33-4281-b0ec-7536fd256ffb",
+  "id": "Attestation_Form_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Attestation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

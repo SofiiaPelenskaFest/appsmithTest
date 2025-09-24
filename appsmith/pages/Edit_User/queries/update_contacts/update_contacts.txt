@@ -1,0 +1,5 @@
+mutation Update($id: String!,$type: String!, $source: String!, $dataContact: people_contact_v0_set_input) {
+  update_people_contact_v0(where: {PrincipalFestCloudID: {_eq: $id}, ContactType: {_eq: $type}, ContactSource: {_eq: $source}}, _set: $dataContact) {
+    affected_rows
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 12,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2mufgmohg8",
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 12,
+  "originalTopRow": 6,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "k11ba55b6j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 54,
+  "shouldTruncate": false,
+  "text": "{{`${i18n.translate(\"endCooperationModalDescription1\")} ${get_all_assigments?.data?.data?.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.FamilyName + \" \" + get_all_assigments?.data?.data?.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.Name} ${i18n.translate(\"endCooperationModalDescription2\")} \"${i18n.translate(\"endCooperationModalDescription3\")}\"`}}",
+  "textAlign": "LEFT",
+  "textColor": "#777b82",
+  "topRow": 6,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "idd6ehia70",
+  "widgetName": "Text23CopyCopy"
+}

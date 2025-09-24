@@ -1,0 +1,6 @@
+query check{
+  dms_taxonomy_v0{
+    Name
+    FestCloudID
+  }
+}

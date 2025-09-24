@@ -1,0 +1,81 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{get_one_assignment.data?.data?.assignment[0]?.StartDate}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "placeholder"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "hi8pjqdq5o",
+  "label": "{{i18n.translate(\"startDateLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 71,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 64,
+  "needsErrorInfo": false,
+  "originalBottomRow": 60,
+  "originalTopRow": 53,
+  "parentColumnSpace": 10.4833984375,
+  "parentId": "8xxx6s873n",
+  "parentRowSpace": 10,
+  "placeholder": "{{i18n.translate(\"startDatePlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "shortcuts": false,
+  "timePrecision": "minute",
+  "topRow": 53,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetHeight": "200px",
+  "widgetId": "dc6x7acj0y",
+  "widgetName": "startDatePicker",
+  "widgetWidth": "200px"
+}

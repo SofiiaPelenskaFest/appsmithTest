@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 50,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{historyAssignmentsList.listData.length >= 1 && !init.loading}}",
+  "key": "mkcsop6sap",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "originalBottomRow": 50,
+  "originalTopRow": 47,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.75,
+  "parentId": "gu1n318lq7",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"historyTeamsTab\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 47,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body3-b",
+  "version": 1,
+  "widgetId": "vmysycnp8l",
+  "widgetName": "Text24"
+}

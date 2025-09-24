@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "bottomRowBeforeCollapse": 37,
+  "boxShadow": "none",
+  "defaultText": "{{get_family_child.data?.data.children[4]?.Name || ''}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{ChildrenCheckbox.isChecked}}",
+  "key": "rc8zjvq8am",
+  "label": "{{i18n.translate(\"familyChildNameInputLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "originalBottomRow": 58,
+  "originalTopRow": 50,
+  "parentColumnSpace": 12.984375,
+  "parentId": "i0psl30a8l",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"familyChildNameInputPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "showStepArrows": false,
+  "topRow": 4,
+  "topRowBeforeCollapse": 29,
+  "type": "FC_INPUT_WIDGET",
+  "validation": "",
+  "version": 2,
+  "widgetId": "vwisklbrb4",
+  "widgetName": "ChildName1CopyCopyCopy1"
+}

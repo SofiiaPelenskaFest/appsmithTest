@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 12,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lb9hgg9anz",
+  "leftColumn": 37,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 17,
+  "originalTopRow": 15,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.875,
+  "parentId": "sin5ufhztp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 44,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"closedAssignmentReasonLabel\")}}:",
+  "textAlign": "LEFT",
+  "textColor": "#9fa2a8",
+  "topRow": 10,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "kfzdq7pd8d",
+  "widgetName": "supervisorLabel1CopyCopyCopyCopy1CopyCopy1Copy1"
+}

@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_c7d08cfa-df1d-44ee-bbf2-bfd932ce5aea",
+  "id": "Edit_User_identification",
+  "unpublishedCollection": {
+    "name": "identification",
+    "pageId": "Edit_User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isResidence",
+        "value": "false"
+      },
+      {
+        "name": "isRegistration",
+        "value": "false"
+      },
+      {
+        "name": "isIdentification",
+        "value": "false"
+      },
+      {
+        "name": "isCheckboxFirstClick",
+        "value": "false"
+      },
+      {
+        "name": "beforeData",
+        "value": "null"
+      }
+    ]
+  }
+}

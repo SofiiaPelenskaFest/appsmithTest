@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_4e3a4417-0bc7-470e-9883-600a4d287bc3",
+  "id": "Dismissal_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Dismissal",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"back\": \"Назад\",\n  \"dismissalPageTitle\": \"Завершення співпраці\",\n  \"finishDismissalButton\": \"Завершити\",\n  \"employeeFiredAlert\": \"Працівника звільнено\",\n  \"errorWhileAssignmentAlert\": \"Помилка при оновленні інформації про звільнення працівника: \",\n  \"dismissalFormTitle\": \"Інформація про звільнення\",\n  \"dismissalInfoTitle\": \"Планування дати звільнення\",\n  \"dismissalInfoDescription\": \"Щоб вчасно оформити всі документи - вкажіть дату звільнення не раніше ніж за 7-14 календарних днів до останнього робочого дня працівника.\",\n  \"endDatePickerLabel\": \"Дата завершення роботи\",\n  \"dismissalReasonSelectLabel\": \"Причина звільнення\",\n  \"dismissalReasonSelectPlaceholder\": \"Емоційне вигорання\",\n  \"dismissalReasonSelectOptionOther\": \"Інша причина\",\n  \"otherReasonInputPlaceholder\": \"Введіть іншу причину\",\n  \"responsiblePersonSelectLabel\": \"Відповідальний за звільнення\",\n  \"responsiblePersonSelectPlaceholder\": \"Тарас Шевченко\",\n  \"reasonDescription\": \"Опишіть причину звільнення\",\n  \"dismissalModalTitle\": \"Звільнити працівника\",\n  \"dismissalModalDescription1\": \"Закінчити співпрацю із працівником\",\n  \"dismissalModalDescription2\": \"Його статус буде змінено на\",\n  \"dismissalModalDescription3\": \"Екс-працівник\",\n  \"dismissalModalCancelButton\": \"Ні, скасувати\",\n  \"dismissalModalSubmitButton\": \"Так, звільнити\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"back\": \"Back\",\n  \"dismissalPageTitle\": \"End of cooperation\",\n  \"finishDismissalButton\": \"Complete\",\n  \"employeeFiredAlert\": \"Employee has been dismissed\",\n  \"errorWhileAssignmentAlert\": \"Error updating employee: \",\n  \"dismissalFormTitle\": \"Dismissal Information\",\n  \"dismissalInfoTitle\": \"Scheduling the termination date\",\n  \"dismissalInfoDescription\": \"To ensure timely processing of all documents, please specify the termination date no earlier than 7-14 calendar days before the employee's last working day.\",\n  \"endDatePickerLabel\": \"End Date\",\n  \"dismissalReasonSelectLabel\": \"Reason for Dismissal\",\n  \"dismissalReasonSelectOptionOther\": \"Another reason\",\n  \"otherReasonInputPlaceholder\": \"Enter another reason\",\n  \"responsiblePersonSelectLabel\": \"Responsible for dismissals\",\n  \"responsiblePersonSelectPlaceholder\": \"Taras Shevchenko\",\n  \"reasonDescription\": \"Опишіть причину звільнення\",\n  \"dismissalModalTitle\": \"Звільнити працівника\",\n  \"dismissalModalDescription1\": \"Закінчити співпрацю із працівником\",\n  \"dismissalModalDescription2\": \"Його статус буде змінено на\",\n  \"dismissalModalDescription3\": \"Екс-працівник\",\n  \"dismissalModalCancelButton\": \"Ні, скасувати\",\n  \"dismissalModalSubmitButton\": \"Так, звільнити\"\n}"
+      }
+    ]
+  }
+}

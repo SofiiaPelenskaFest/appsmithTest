@@ -1,0 +1,61 @@
+{
+  "activeBackgroundColor": "#E3EEFF",
+  "activeMainColor": "#5D9AFF",
+  "align": "flex-start",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "backgroundColor": "#E3EEFF",
+  "backgroundColorActive": "#e3eeff",
+  "backgroundColorHover": "#e3eeff",
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorText": "",
+  "helperText": "",
+  "hoverMainColor": "#4987EE",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{currentItem?.assignment_festcloudid_assignmentext?.Stage !== null  && currentItem?.assignment_festcloudid_assignmentext?.Stage !== undefined}}",
+  "key": "a8fq3tabey",
+  "label": "Label",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 34,
+  "mainColor": "#3A77DC",
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onCrossIcon": false,
+  "parentColumnSpace": 20,
+  "parentId": "gma18nmpka",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "tagSize": "MEDIUM",
+  "tagVariant": "FILLED",
+  "text": "{{currentItem?.assignment_festcloudid_assignmentext?.Stage\n}}",
+  "topRow": 2,
+  "type": "FC_TAG_WIDGET",
+  "version": 1,
+  "widgetId": "kdzkjymj54",
+  "widgetName": "Tag2CopyCopy"
+}

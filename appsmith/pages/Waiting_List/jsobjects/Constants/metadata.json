@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_5f70db04-5640-4361-8de5-ec62bb56bcdb",
+  "id": "Waiting_List_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Waiting_List",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"back\": \"Назад\",\n  \"Waiting_ListPageTitle\": \"Список очікування\",\n  \"unassignedListDescription\": \"Список нових співробітників, які очікують на додавання в команди\",\n  \"addEmployeeButton\": \"Додати працівника\",\n  \"newEmployeeLabel\": \"новий\",\n  \"addToTeamButton\": \"До команди\",\n  \"asc\": \"Сортувати за назвою А-Я\",\n  \"desc\": \"Сортувати за назвою Я-А\",\n  \"addProfileButton\": \"Створити профіль\",\n  \"ascDateSortOption\": \"За датою (від старих до нових)\",\n  \"descDateSortOption\": \"За датою (від нових до старих)\",\n  \"dismissalModalTitle\": \"Видалити працівника\",\n  \"dismissalModalDescription1\": \"Працівник\",\n  \"dismissalModalDescription2\": \"буде видалено з списку, і його не можна буде відновити\",\n  \"dismissaLModalCancelButton\": \"Скасувати\",\n  \"dismissaLModalSubmitButton\": \"Видалити\",\n  \"tipTitle\": \"Деякі працівники ще не в команді\",\n  \"tipDescription\": \"Додайте їх, щоб система та її функції стали доступними для них\",\n  \"tipCloseButton\": \"Закрити\",\n  \"tipActionDescription\": \"Більше не показувати\",\n  \"peopleDeletedSuccessAlert\": \"People Deleted\",\n  \"peopleDeletionErrorALert\": \"Error: People not found or could not be deleted\",\n  \"checkInfoWarningTitle\": \"Перевірте дані\",\n  \"checkInfoWarningDescription\": \"Після створення профілю, змінити ці дані буде неможливо. Введіть їх уважно\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"back\": \"Back\",\n  \"Waiting_ListPageTitle\": \"Waiting list\",\n  \"unassignedListDescription\": \"Upcoming team members\",\n  \"addEmployeeButton\": \"Add employee\",\n  \"newEmployeeLabel\": \"New\",\n  \"addToTeamButton\": \"To a team\",\n  \"asc\": \"Sort by name A-Z\",\n  \"desc\": \"Sort by name Z-A\",\n  \"addProfileButton\": \"Створити профіль\",\n  \"ascDateSortOption\": \"За датою (від старих до нових)\",\n  \"descDateSortOption\": \"За датою (від нових до старих)\",\n  \"dismissalModalTitle\": \"Видалити працівника\",\n  \"dismissalModalDescription1\": \"Працівник\",\n  \"dismissalModalDescription2\": \"буде видалено з списку, і його не можна буде відновити\",\n  \"dismissaLModalCancelButton\": \"Скасувати\",\n  \"dismissaLModalSubmitButton\": \"Видалити\",\n  \"tipTitle\": \"Деякі працівники ще не в команді\",\n  \"tipDescription\": \"Додайте їх, щоб система та її функції стали доступними для них\",\n  \"tipCloseButton\": \"Закрити\",\n  \"tipActionDescription\": \"Більше не показувати\",\n  \"peopleDeletedSuccessAlert\": \"People Deleted\",\n  \"peopleDeletionErrorALert\": \"Error: People not found or could not be deleted\",\n  \"checkInfoWarningTitle\": \"Перевірте дані\",\n  \"checkInfoWarningDescription\": \"Після створення профілю, змінити ці дані буде неможливо. Введіть їх уважно\"\n}"
+      }
+    ]
+  }
+}

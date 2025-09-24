@@ -1,0 +1,92 @@
+{
+  "align": "flex-end",
+  "animateLoading": true,
+  "backgroundColor": "#3A77DC",
+  "backgroundColorActive": "#5d9aff",
+  "backgroundColorDisabled": "#c4d1f4",
+  "backgroundColorHover": "#4987ee",
+  "backgroundDisabledColor": "#C4D1F4",
+  "backgroundFocusColor": "#5D9AFF",
+  "backgroundHoverColor": "#4987EE",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#5d9aff",
+  "borderColorDisabled": "#c4d1f4",
+  "borderColorHover": "#4987ee",
+  "borderDisabledColor": "#C4D1F4",
+  "borderFocusColor": "#5D9AFF",
+  "borderHoverColor": "#4987EE",
+  "bottomRow": 7,
+  "bottomRowBeforeCollapse": 8,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "PRIMARY",
+  "color": "#ffffff",
+  "colorActive": "#ffffff",
+  "colorDisabled": "#777b82",
+  "colorHover": "#ffffff",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{\n(\n\t!workgroupSelectAssign.isValid ||\n\t!positionSelectAssign.isValid ||\n\t!managerSelectAssign.isValid\n) ||\n(\n\t!init.substitution && (\n\t\t!legalEntitTypeSelectAssign.isValid ||\n\t\t!startDatePickerAssign.isValid ||\n\t\t(!responsibleSelectAssign.isValid && init.needAdaptation) ||\n\t\t!roleSelectAssign.isValid\n\t)\n)\n}}\n",
+  "isLoading": false,
+  "isVisible": "{{workgroupSelectAssign.selectedOptionValue !== \"\" && positionSelectAssign.selectedOptionValue !== \"\" && ((!init.substitution && roleSelectAssign.selectedOptionValue !== \"\") || init.substitution)}}",
+  "key": "n119t28v2n",
+  "leftColumn": 62,
+  "minWidth": 120,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 57,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onClick": "{{init.substitutionEdit ? init.handleSubstitutionEdit() : init.handleSubmit()}}",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
+  "parentColumnSpace": 22.328125,
+  "parentId": "g4re4y02sb",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "{{init.substitutionEdit ? i18n.translate(\"editSubstitutionSaveButton\") : i18n.translate(\"addAssignmentButton\")}}",
+  "textColor": "#ffffff",
+  "textDisabledColor": "#777B82",
+  "textFocusColor": "#ffffff",
+  "textHoverColor": "#ffffff",
+  "topRow": 3,
+  "topRowBeforeCollapse": 4,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "v0ipq6pegk",
+  "widgetName": "NextStepBtn"
+}

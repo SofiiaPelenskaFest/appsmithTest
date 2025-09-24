@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_54a3358e-75cb-43aa-bfc2-af31fe55cf96",
+  "id": "Adaptation_Form_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Adaptation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"back\": \"Назад\",\n  \"adaptationFormTitle\": \"Адаптаційна форма\",\n  \"prticipantCardTitle\": \"Учасник адаптаційної програми\",\n  \"endCooperationButton\": \"Завершити співпрацю\",\n  \"saveButton\": \"Зберегти\",\n  \"sendFormButton\": \"Відправити форму\",\n  \"checkListTitle\": \"Чекліст\",\n  \"checkListDescription\": \"Список обов'язкових завдань для успішної адаптації працівника. Процес вважатиметься завершеним, коли всі завдання будуть виконані\",\n  \"endCooperationModalTitle\": \"Завершити співпрацю\",\n  \"endCooperationModalDescription1\": \"Ця дія є незворотною. Після завершення співпраці статус стажера\",\n  \"endCooperationModalDescription2\": \"буде змінено на\",\n  \"endCooperationModalDescription3\": \"Екс-стажер\",\n  \"endCooperationModalReasonTitle\": \"Причина звільнення\",\n  \"endCooperationModalReasonHelper\": \"Це поле обовʼязкове до заповнення\",\n  \"endCooperationModalCancelButton\": \"Ні,скасувати\",\n  \"endCooperationModalSubmitButton\": \"Так, завершити\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"back\": \"Назад\",\n  \"adaptationFormTitle\": \"Адаптаційна форма\",\n  \"prticipantCardTitle\": \"Учасник адаптаційної програми\",\n  \"endCooperationButton\": \"Завершити співпрацю\",\n  \"saveButton\": \"Зберегти\",\n  \"sendFormButton\": \"Відправити форму\",\n  \"checkListTitle\": \"Чекліст\",\n  \"checkListDescription\": \"Список обов'язкових завдань для успішної адаптації працівника. Процес вважатиметься завершеним, коли всі завдання будуть виконані\",\n  \"endCooperationModalTitle\": \"Завершити співпрацю\",\n  \"endCooperationModalDescription1\": \"Ця дія є незворотною. Після завершення співпраці статус стажера\",\n  \"endCooperationModalDescription2\": \"буде змінено на\",\n  \"endCooperationModalDescription3\": \"Екс-стажер\",\n  \"endCooperationModalReasonTitle\": \"Причина звільнення\",\n  \"endCooperationModalReasonHelper\": \"Це поле обовʼязкове до заповнення\",\n  \"endCooperationModalCancelButton\": \"Ні,скасувати\",\n  \"endCooperationModalSubmitButton\": \"Так, завершити\"\n}"
+      }
+    ]
+  }
+}

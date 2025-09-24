@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_65a4c4e8-e1da-41a8-a2b0-56eb627b4e03",
+  "id": "Adaptation_Form_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Adaptation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "toUpdate",
+        "value": "[]"
+      },
+      {
+        "name": "toAdd",
+        "value": "[]"
+      },
+      {
+        "name": "adaptationList",
+        "value": "[]"
+      },
+      {
+        "name": "readOnly",
+        "value": "false"
+      }
+    ]
+  }
+}

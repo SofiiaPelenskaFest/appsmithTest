@@ -1,0 +1,10 @@
+mutation Insert(
+  $dataId: dms_personaliddata_v0_insert_input!
+)
+{
+  inserted_personalid:insert_dms_personaliddata_v0_one(object: $dataId) {
+    FestCloudID
+    DocumentNumber
+    DocumentSeries
+  }
+}

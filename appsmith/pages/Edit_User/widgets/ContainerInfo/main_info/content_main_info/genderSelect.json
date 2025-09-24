@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 56,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_maininfo.data?.data?.person[0].Gender || 'Чоловіча'))(genderSelect.options, genderSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "errorMessage"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorMessage": "{{i18n.translate(\"userSexSelectError\")}}",
+  "helperText": "",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "3jz193bvv4",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"userSexSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 107,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 98,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 56,
+  "originalTopRow": 47,
+  "parentColumnSpace": 26.109375,
+  "parentId": "5ybjg34u2r",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"userSexSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 16,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"value\": \"Чоловіча\",\n    \"label\": {{i18n.translate(\"userSexSelectOptionMale\")}}\n  },\n  {\n    \"value\": \"Жіноча\",\n    \"label\": {{i18n.translate(\"userSexSelectOptionFemale\")}}\n  }\n]",
+  "topRow": 47,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "05bet0ikdr",
+  "widgetName": "genderSelect"
+}

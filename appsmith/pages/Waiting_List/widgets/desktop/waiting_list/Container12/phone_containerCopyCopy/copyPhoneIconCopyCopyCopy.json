@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "buttonColor": "#9fa2a8",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hoverButtonColor": "#ff4a43",
+  "iconName": "CopySimple",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{currentItem?.person_festcloudid_principal?.contact_principalfestcloudid_array[1]?.ContactValue && appsmith.store.hoveredAssignmentId === currentItem.FestCloudID\n}}",
+  "key": "j957yb317c",
+  "leftColumn": 55,
+  "minWidth": 16,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{copyToClipboard(currentItem.person_festcloudid_principal.contact_principalfestcloudid_array[0].Email || \"no email\").then(() => {\n  showAlert('Емейл скопійовано', 'success');\n}).catch(() => {\n  showAlert('Сталася проблема', 'error');\n});}}",
+  "originalBottomRow": 9,
+  "originalTopRow": 6,
+  "parentColumnSpace": 20.75,
+  "parentId": "9902rozx9y",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 57,
+  "toolTipPosition": "bottom",
+  "topRow": 1,
+  "type": "FC_ICON_WIDGET",
+  "version": 1,
+  "widgetId": "1mw10jzpcr",
+  "widgetName": "copyPhoneIconCopyCopyCopy"
+}

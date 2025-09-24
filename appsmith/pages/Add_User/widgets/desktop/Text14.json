@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 6,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eruy3w4l9r",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 6,
+  "originalTopRow": 3,
+  "overflow": "NONE",
+  "parentColumnSpace": 22.328125,
+  "parentId": "vvl0xop1dq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 39,
+  "shouldTruncate": false,
+  "text": "{{init.employeeFestCloudId ? i18n.translate(\"editUserInfoPageTitle\") : i18n.translate(\"addUserPageTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 3,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h4-b",
+  "version": 1,
+  "widgetId": "204pfd0emp",
+  "widgetName": "Text14"
+}

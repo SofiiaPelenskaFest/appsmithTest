@@ -1,0 +1,44 @@
+query GetEmployeesInWorkgroupWithCorrectCount($where: people_assignment_v0_bool_exp!) {
+  people_assignment_v0(where: $where) {
+    FestCloudID
+    EmployeeFestCloudID
+    PositionFestCloudID
+    WorkgroupFestCloudID
+		ManagerFestCloudId
+    assignment_workgroupfestcloudid_workgroup {
+      FestCloudID
+      Name
+    }
+	 assignment_festcloudid_adaptation {
+      ResponsibleEmployeeFestCloudID
+    }
+    assignment_positionfestcloudid_position {
+      PositionName
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      PhotoLink
+      Stage
+      employee_festcloudid_person {
+        Name
+        FamilyName
+        MiddleName
+      }
+    }
+    assignment_festcloudid_assignmentext {
+			Type
+      Stage
+    }
+    contentitemvalue_assignmentfestcloudid_array(where: {contentitemvalue_contentitemfestcloudid_contentitem: {Category: {_eq: "Attestation"}}}) {
+      AssignmentFestCloudID
+      ContentItemFestCloudID
+      Value
+      FestCloudID
+    }
+    affiliation_assignmentfestcloudid_array(where: {Type: {_eq: "AttestationResult"}}) {
+      Description
+      FestCloudID
+      Type
+    }
+  }
+}

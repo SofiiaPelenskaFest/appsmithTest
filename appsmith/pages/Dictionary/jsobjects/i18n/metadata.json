@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_1ed6ae8b-d97c-4317-93ec-ca2f042590f7",
+  "id": "Dictionary_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Dictionary",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 71,
+  "defaultCheckedState": "{{utils.getContentItemByKey(utils.contentItemsKey.RequiresVideoMonitoringAccess)[0]?.Value === 'true'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "helperText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorText": "",
+  "helperText": "{{i18n.translate(\"accessCameraCheckboxPlaceholder\")}}",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "n7gdtdw0jg",
+  "label": "{{i18n.translate(\"accessCameraCheckboxLabel\")}}",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 71,
+  "originalTopRow": 66,
+  "parentColumnSpace": 20.515625,
+  "parentId": "e2asc759f4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "shouldScrollContents": true,
+  "topRow": 66,
+  "type": "FC_CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "v1588cy8tf",
+  "widgetName": "RequiresVideoMonitoringAccess"
+}

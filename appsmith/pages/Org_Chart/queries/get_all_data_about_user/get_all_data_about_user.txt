@@ -1,0 +1,66 @@
+query AssignmentActualEmployeeAssignment($employeeFestCloudID: String) {
+  people_assignment_v0(where: { assignment_employeefestcloudid_employee: { FestCloudID: { _eq: $employeeFestCloudID } } }, order_by: {assignment_festcloudid_assignmentext: {Type: asc}}) {
+    FestCloudID
+    EmployeeFestCloudID
+    EndDate
+   	ManagerFestCloudId
+    Role
+    JobTitle
+    StartDate
+    PositionFestCloudID
+    WorkgroupFestCloudID
+    assignment_workgroupfestcloudid_workgroup {
+      FestCloudID
+      WorkgroupFestCloudID
+      Name
+      Status
+      Type
+      workgroup_workgroupfestcloudid_workgroup {
+        FestCloudID
+        WorkgroupFestCloudID
+        Name
+        Status
+        Type
+        workgroup_workgroupfestcloudid_workgroup {
+          FestCloudID
+          WorkgroupFestCloudID
+          Name
+          Status
+          Type
+        }
+      }
+    }
+    assignment_positionfestcloudid_position {
+      FestCloudID
+      PositionName
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      FirstEmploymentDate
+      PhotoLink
+      Stage
+      employee_festcloudid_person {
+        Birthday
+        FamilyName
+        FestCloudID
+        Gender
+        MiddleName
+        Name
+        person_festcloudid_principal {
+          WorkEmail: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Email"}}) {
+            Email: ContactValue
+          }
+          WorkPhone: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Work"}, ContactSource: {_eq: "Телефон"}}) {
+            PhoneNumber: ContactValue
+          }
+          PersonalEmail: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Email"}}) {
+            Email: ContactValue
+          }
+          PersonalPhone: contact_principalfestcloudid_array(where: {ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Телефон"}}) {
+            PhoneNumber: ContactValue
+          }
+        }
+      }
+    }
+  }
+}

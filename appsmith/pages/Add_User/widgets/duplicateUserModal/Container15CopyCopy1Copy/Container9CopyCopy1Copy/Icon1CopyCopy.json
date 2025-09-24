@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "bottomRow": 4,
+  "buttonColor": "{{init.affiliationEmployee ? \"#DD9F26\" : \"#3A77DC\"}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hoverButtonColor": "",
+  "iconName": "{{init.affiliationEmployee ? \"Warning\" : \"Info\"}}",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xnw7ophkf6",
+  "leftColumn": 15,
+  "minWidth": 16,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 20.609375,
+  "parentId": "8wofgzvouo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 17,
+  "toolTipPosition": "bottom",
+  "topRow": 1,
+  "type": "FC_ICON_WIDGET",
+  "version": 1,
+  "widgetId": "orwene4gmw",
+  "widgetName": "Icon1CopyCopy"
+}

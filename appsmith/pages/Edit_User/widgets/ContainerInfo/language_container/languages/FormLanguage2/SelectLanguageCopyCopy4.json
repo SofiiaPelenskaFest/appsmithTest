@@ -1,0 +1,77 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_language.data?.data?.language[2].Name || ''))(SelectLanguageCopyCopy4.options, SelectLanguageCopyCopy4.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "sawjlt6f90",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"languagesTitle\")}}",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 18,
+  "originalTopRow": 11,
+  "parentColumnSpace": 12.984375,
+  "parentId": "ynwe0y1ltd",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"languageInputPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n[\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionEn\")}`,\n    \"code\": \"en\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionAr\")}`,\n    \"code\": \"ar\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionBn\")}`,\n    \"code\": \"bn\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionVi\")}`,\n    \"code\": \"vi\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionHi\")}`,\n    \"code\": \"hi\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionEl\")}`,\n    \"code\": \"el\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionHe\")}`,\n    \"code\": \"he\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionId\")}`,\n    \"code\": \"id\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionEs\")}`,\n    \"code\": \"es\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionIt\")}`,\n    \"code\": \"it\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionZh\")}`,\n    \"code\": \"zh\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionKo\")}`,\n    \"code\": \"ko\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionMs\")}`,\n    \"code\": \"ms\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionNl\")}`,\n    \"code\": \"nl\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionDe\")}`,\n    \"code\": \"de\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionNo\")}`,\n    \"code\": \"no\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionPl\")}`,\n    \"code\": \"pl\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionPt\")}`,\n    \"code\": \"pt\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionTh\")}`,\n    \"code\": \"th\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionTr\")}`,\n    \"code\": \"tr\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionUk\")}`,\n    \"code\": \"uk\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionUr\")}`,\n    \"code\": \"ur\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionFi\")}`,\n    \"code\": \"fi\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionFr\")}`,\n    \"code\": \"fr\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionHr\")}`,\n    \"code\": \"hr\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionCs\")}`,\n    \"code\": \"cs\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionSv\")}`,\n    \"code\": \"sv\"\n  },\n  {\n    \"name\": `${i18n.translate(\"languageSelectOptionJa\")}`,\n    \"code\": \"ja\"\n  }\n]\n}}",
+  "topRow": 5,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "2v1z7fuzlu",
+  "widgetName": "SelectLanguageCopyCopy4"
+}

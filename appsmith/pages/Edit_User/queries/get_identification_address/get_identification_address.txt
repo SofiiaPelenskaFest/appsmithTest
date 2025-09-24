@@ -1,0 +1,30 @@
+query Check($personId: String!) {
+   registration:people_address_v0(where: {
+    identificationdata_registrationaddressfestcloudid_array: {
+      PersonFestCloudID: {
+        _eq: $personId}
+    }
+  }) {
+    FestCloudID
+    Apartment
+    BuildingNumber
+    City
+    Country
+    PostalCode
+    Street
+  }
+  residence:people_address_v0(where: {
+    identificationdata_residenceaddressfestcloudid_array: {
+       PersonFestCloudID: {
+        _eq: $personId}
+    }
+  }) {
+    FestCloudID
+    Apartment
+    BuildingNumber
+    City
+    Country
+    PostalCode
+    Street
+  }
+}

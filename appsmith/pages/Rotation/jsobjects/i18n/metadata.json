@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68b00db619976b28d4c6e970_37208e57-2c55-4e67-a34f-c9affa5a32c1",
+  "id": "Rotation_i18n",
+  "unpublishedCollection": {
+    "name": "i18n",
+    "pageId": "Rotation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "resources",
+        "value": "{\n  uk: {\n    translation: Constants.defaultLanguageKeys\n  },\n  en: {\n    translation: Constants.enLanguageKeys\n  }\n}"
+      }
+    ]
+  }
+}

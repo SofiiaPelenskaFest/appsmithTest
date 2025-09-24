@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_3ee0ffa0-ff4c-4940-908f-2206bf5eb77d",
+  "id": "Profile_Page_TokenService",
+  "unpublishedCollection": {
+    "name": "TokenService",
+    "pageId": "Profile_Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isLoading",
+        "value": "true"
+      },
+      {
+        "name": "origin",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "refreshPromise",
+        "value": "null"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderActiveColor": "#3A77DC",
+  "borderColor": "#C4D1F4",
+  "borderHoverColor": "#5D9AFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 91,
+  "bottomRowBeforeCollapse": 62,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY HH:mm",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{new Date()}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "helperText": "",
+  "inputPosition": "top",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{workgroupSelectAssign.selectedOptionValue !== \"\" && roleSelectAssign.selectedOptionValue !== \"\" && positionSelectAssign.selectedOptionValue !== \"\" && !init.substitution}}",
+  "key": "4k1kx2on1t",
+  "label": "{{i18n.translate(\"startDateLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDate": "{{ moment().add(2, 'weeks').format(\"YYYY-MM-DD\") }}",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{moment().format('YYYY-MM-DD')}}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 51,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 44,
+  "needsErrorInfo": false,
+  "originalBottomRow": 99,
+  "originalTopRow": 92,
+  "parentColumnSpace": 23.921875,
+  "parentId": "l5jerhepvd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shortcuts": false,
+  "shouldScrollContents": true,
+  "timePrecision": "minute",
+  "topRow": 86,
+  "topRowBeforeCollapse": 55,
+  "type": "FC_DATE_PICKER_WIDGET",
+  "version": 2,
+  "widgetId": "uqqa03sn5d",
+  "widgetName": "startDatePickerAssign"
+}

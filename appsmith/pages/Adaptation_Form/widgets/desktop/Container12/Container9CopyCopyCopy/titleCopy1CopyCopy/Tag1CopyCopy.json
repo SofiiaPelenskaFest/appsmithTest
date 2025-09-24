@@ -1,0 +1,69 @@
+{
+  "align": "flex-start",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "backgroundColor": "#E3EEFF",
+  "backgroundColorActive": "#E3EEFF",
+  "backgroundColorHover": "#E3EEFF",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorHover": "transparent",
+  "bottomRow": 10,
+  "color": "#3A77DC",
+  "colorActive": "#5D9AFF",
+  "colorHover": "#4987EE",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorText": "",
+  "helperText": "",
+  "iconColor": "#3A77DC",
+  "iconColorActive": "#5D9AFF",
+  "iconColorHover": "#4987EE",
+  "iconCrossColor": "#3A77DC",
+  "iconCrossColorActive": "#5D9AFF",
+  "iconCrossColorHover": "#4987EE",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{get_all_assigments.data.data.people_assignment_v0[0]?.assignment_festcloudid_assignmentext?.Stage !== null\n||\nget_all_assigments.data.data.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.Stage !== null\n}}",
+  "key": "3snhcfio37",
+  "label": "Label",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 25,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 20.375,
+  "parentId": "9nmvybzfdt",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "showCrossIcon": false,
+  "tagSize": "SMALL",
+  "tagVariant": "FILLED",
+  "text": "{{get_all_assigments.data.data.people_assignment_v0[0]?.assignment_festcloudid_assignmentext?.Stage\n||\nget_all_assigments.data.data.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.Stage\n}}",
+  "topRow": 7,
+  "type": "FC_TAG_WIDGET",
+  "version": 1,
+  "widgetId": "2j5f4a61kt",
+  "widgetName": "Tag1CopyCopy"
+}

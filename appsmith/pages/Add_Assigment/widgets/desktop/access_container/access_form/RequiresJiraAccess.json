@@ -1,0 +1,58 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 60,
+  "defaultCheckedState": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "helperText"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "errorText": "",
+  "helperText": "{{i18n.translate(\"accessJiraCheckboxPlaceholder\")}}",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "n7gdtdw0jg",
+  "label": "{{i18n.translate(\"accessJiraCheckboxLabel\")}}",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 60,
+  "originalTopRow": 55,
+  "parentColumnSpace": 20.515625,
+  "parentId": "gi5hkhgwdj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "shouldScrollContents": true,
+  "topRow": 55,
+  "type": "FC_CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "xbcrqmrofg",
+  "widgetName": "RequiresJiraAccess"
+}

@@ -1,0 +1,88 @@
+{
+  "align": "flex-start",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "backgroundDisabledColor": "#ffffff",
+  "backgroundFocusColor": "#C4D1F4",
+  "backgroundHoverColor": "#E3EEFF",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "borderDisabledColor": "#C4D1F4",
+  "borderFocusColor": "#5D9AFF",
+  "borderHoverColor": "#4987EE",
+  "bottomRow": 5,
+  "bottomRowBeforeCollapse": 52,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "OUTLINE",
+  "color": "#3a77dc",
+  "colorActive": "#88b5ff",
+  "colorDisabled": "#9fa2a8",
+  "colorHover": "#5d9aff",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "Plus",
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{language.formCounter === 6}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ihjk2cfb60",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 34,
+  "needsErrorInfo": false,
+  "onClick": "{{language.addForm()}}",
+  "originalBottomRow": 218,
+  "originalTopRow": 214,
+  "parentColumnSpace": 15.5556640625,
+  "parentId": "y0xqs6dy6u",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 9,
+  "text": "{{i18n.translate(\"addLanguageButton\")}}",
+  "textColor": "#3A77DC",
+  "textDisabledColor": "#B3B7BE",
+  "textFocusColor": "#3A77DC",
+  "textHoverColor": "#3A77DC",
+  "toolTipPosition": "top",
+  "topRow": 1,
+  "topRowBeforeCollapse": 48,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zuckejlsex",
+  "widgetName": "ButtonFamilyCopy1CopyCopy"
+}

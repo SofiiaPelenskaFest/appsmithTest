@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 94,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{workgroupSelectAssign.selectedOptionValue !== \"\" && roleSelectAssign.selectedOptionValue !== \"\" && positionSelectAssign.selectedOptionValue !== \"\" && !init.substitution}}",
+  "key": "2mufgmohg8",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 71,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 69,
+  "needsErrorInfo": false,
+  "originalBottomRow": 102,
+  "originalTopRow": 100,
+  "overflow": "NONE",
+  "parentColumnSpace": 18.005126953125,
+  "parentId": "l5jerhepvd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 18,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"uploadPhotoLabel\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 92,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "a3cjewcgmg",
+  "widgetName": "Text21CopyCopy"
+}

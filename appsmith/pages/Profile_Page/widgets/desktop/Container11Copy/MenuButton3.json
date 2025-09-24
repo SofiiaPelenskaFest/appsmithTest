@@ -1,0 +1,149 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorActive": "#C4D1F4",
+  "backgroundColorDisabled": "#ffffff",
+  "backgroundColorHover": "#E3EEFF",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#3A77DC",
+  "borderColorDisabled": "#B3B7BE",
+  "borderColorHover": "#3A77DC",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 2,
+  "boxShadow": "none",
+  "buttonVariant": "OUTLINE",
+  "color": "#3A77DC",
+  "colorActive": "#3A77DC",
+  "colorDisabled": "#B3B7BE",
+  "colorHover": "#3A77DC",
+  "configureMenuItems": {
+    "config": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#e3eeff",
+      "backgroundColorDisabled": "#f1f1f1",
+      "backgroundColorHover": "#eef4ff",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "rgba(24, 24, 24, 0.4)",
+      "colorHover": "#212121",
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{MenuButton3.sourceData.map((currentItem, currentIndex) => ( currentItem.title))}}",
+      "onClick": "{{utils.handleNavigate('Attestation_Form',{selectedAssigmentId: currentItem.selectedAssigmentId})}}"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "configureMenuItems.config.label"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "configureMenuItems.config.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "configureMenuItems.config.onClick"
+    }
+  ],
+  "iconAlign": "right",
+  "iconName": "CaretDown",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{contentItems.attestationItems.length > 0}}",
+  "key": "atiqlbi6pn",
+  "label": "{{i18n.translate(\"attestationFormButton\")}}",
+  "leftColumn": 37,
+  "menuColor": "transparent",
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "First Menu Item",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Second Menu Item",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "backgroundColor": "#ffffff",
+      "backgroundColorActive": "#E3EEFF",
+      "backgroundColorDisabled": "#F1F1F1",
+      "backgroundColorHover": "#EEF4FF",
+      "color": "#212121",
+      "colorActive": "#212121",
+      "colorDisabled": "#18181866",
+      "colorHover": "#212121",
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Third Menu Item",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "DYNAMIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 2,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 10,
+  "parentId": "kq519cwx2j",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "sourceData": "{{contentItems.attestationItems}}",
+  "topRow": 0,
+  "type": "FC_MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "yk5metsc7p",
+  "widgetName": "MenuButton3"
+}

@@ -1,0 +1,64 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "bottomRow": 4,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "TEXT",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconColor": "#585c60",
+  "iconColorActive": "#ff4a43",
+  "iconColorDisabled": "#9FA2A8",
+  "iconColorHover": "#ff4a43",
+  "iconName": "PencilSimple",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{appsmith.store.hoveredAssignmentId === currentItem.FestCloudID}}",
+  "key": "rnttpqdsnq",
+  "leftColumn": 4,
+  "minWidth": 50,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 52,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{ navigateTo('Add_User', { \n  returnTo: appsmith.currentPageName, \n\temployeeFestCloudId: waiting_list.triggeredItem.FestCloudID \n})}}",
+  "parentColumnSpace": 20.1875,
+  "parentId": "y95a3invo6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 6,
+  "tooltipPosition": "bottom",
+  "topRow": 0,
+  "type": "FC_ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "wf6flf1rc7",
+  "widgetName": "edt"
+}

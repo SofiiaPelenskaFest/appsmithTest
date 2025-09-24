@@ -1,0 +1,10 @@
+mutation insert(
+  $dataAddress: [people_address_v0_insert_input!]!
+) {
+  inserted_address:insert_people_address_v0(objects: $dataAddress) {
+    affected_rows
+		returning{
+			FestCloudID
+		}
+  }
+}

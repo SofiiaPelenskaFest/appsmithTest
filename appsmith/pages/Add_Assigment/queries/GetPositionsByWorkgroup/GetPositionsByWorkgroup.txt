@@ -1,0 +1,3 @@
+{
+	"Workgroup": {{workgroupSelectAssign.selectedOptionLabel}}
+}

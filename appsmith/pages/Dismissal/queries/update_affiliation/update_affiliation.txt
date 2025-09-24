@@ -1,0 +1,9 @@
+mutation updateAffiliation($festCloudID: String!, $status: String, $type: String) {
+  update_people_affiliation_v0(where: {AssignmentFestCloudID: {_eq: $festCloudID}}, _set: {Status: $status, FestCloudID: $type}) {
+    affected_rows
+    returning {
+      Status
+      Type
+    }
+  }
+}

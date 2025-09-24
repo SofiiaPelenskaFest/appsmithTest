@@ -1,0 +1,9 @@
+query GetWorkgroups {
+  workgroups:people_workgroup_v0(order_by: {Name: asc}, where: {StructureType: {_eq: "Організаційна структура"}}) {
+    FestCloudID
+    WorkgroupFestCloudID
+    Name
+    StructureType
+    Type
+  }
+}

@@ -1,0 +1,26 @@
+mutation UpdateAssignment(
+  $assigmentId: String!, 
+  $employeeId: String!,
+  $dataAssigment: people_assignment_v0_set_input,
+  $dataAssigmentext: people_assignmentext_v0_set_input,
+  $dataEmployee: people_employee_v0_set_input
+) {
+  update_people_assignment_v0(where: {
+    FestCloudID: {_eq: $assigmentId}
+  }, _set: $dataAssigment) {
+    affected_rows
+  }
+  update_people_assignmentext_v0(where: {
+    assignmentext_festcloudid_assignment: {
+      FestCloudID: {_eq: $assigmentId
+      }
+    }
+  }, _set: $dataAssigmentext) {
+    affected_rows
+  }
+  update_people_employee_v0(where: {
+    FestCloudID: {_eq: $employeeId}
+  }, _set: $dataEmployee){
+    affected_rows
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "bottomRow": 2,
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "d4z4he3pw8",
+  "leftColumn": 31,
+  "minWidth": 200,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 16.828125,
+  "parentId": "n2xqwv3ljl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 36,
+  "sourceData": "{{utils.getBredcrumbs('substitution')[currentIndex]}}",
+  "toolTipPosition": "top",
+  "topRow": 0,
+  "type": "FC_BREADCRUMBS_WIDGET",
+  "version": 1,
+  "widgetId": "i97y28t2l1",
+  "widgetName": "Breadcrumbs1Copy"
+}

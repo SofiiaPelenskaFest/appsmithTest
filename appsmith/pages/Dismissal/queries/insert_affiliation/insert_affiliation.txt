@@ -1,0 +1,9 @@
+mutation insertAffiliation($festCloudID: String!, $status: String, $type: String) {
+  insert_people_affiliation_v0(objects: {Status: $status, Type: $type, AssignmentFestCloudID: $festCloudID}) {
+    affected_rows
+    returning {
+      Status
+      Type
+    }
+  }
+}

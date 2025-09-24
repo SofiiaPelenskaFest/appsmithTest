@@ -1,0 +1,28 @@
+mutation AddAssignment(
+  $startDate: timestamp, 
+  $endDate: timestamp,
+  $positionFestCloudId: String!, 
+  $workGroupFestCloudId: String!,
+  $employeeFestCloudId: String!, 
+	$assignmentcreator: String!, 
+) {
+  inserted:insert_people_assignmentext_v0(objects: {
+    Stage: "PendingSubstitution", 
+		Type: "Secondary",
+		AssignmentCreatorFestCloudID: $assignmentcreator,
+    assignmentext_festcloudid_assignment: {
+      data: {
+        EndDate: $endDate,
+        StartDate: $startDate, 
+        PositionFestCloudID: $positionFestCloudId, 
+        WorkgroupFestCloudID: $workGroupFestCloudId, 
+        EmployeeFestCloudID: $employeeFestCloudId, 
+      }
+    }
+  }) {
+    affected_rows
+    returning {
+      FestCloudID
+    }
+  }
+}

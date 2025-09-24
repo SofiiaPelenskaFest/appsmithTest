@@ -1,0 +1,41 @@
+query CheckIfPersonExists($name: String!, $familyName: String!, $birthday: date!) {
+	dms_passport:dms_document_v0(where: {
+    _and: [
+      {document_festcloudid_personaliddata: {
+        personaliddata_personfestcloudid_person: {
+          Name: {_ilike: $name},
+    	 		FamilyName: {_ilike: $familyName},
+       		Birthday: {_eq: $birthday}
+        }
+      }}
+    ]
+  }, order_by: {AuditUpdatedAt: desc})  {
+    passport:document_festcloudid_personaliddata {
+      FestCloudID
+      DocumentNumber
+      DocumentSeries
+			AuditUpdatedAt
+			passport_document:personaliddata_festcloudid_document{
+        document_taxonomy:document_taxonomyfestcloudid_taxonomy{
+          Name
+        }
+      }
+    }
+  }
+  dms_tax:dms_document_v0(where: {
+     _and: [
+      {document_festcloudid_personaltaxdata: {
+        personaltaxdata_personfestcloudid_person: {
+          Name: {_ilike: $name},
+    	 		FamilyName: {_ilike: $familyName},
+       		Birthday: {_eq: $birthday}
+        }
+      }}
+    ]
+  }) {
+    tax:document_festcloudid_personaltaxdata{
+      FestCloudID
+      IndividualTaxpayerNumber
+    }
+  }
+}

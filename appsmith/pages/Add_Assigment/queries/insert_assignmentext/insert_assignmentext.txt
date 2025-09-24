@@ -1,0 +1,36 @@
+mutation AddAssignment(
+  $startDate: timestamp, 
+  $positionFestCloudId: String!, 
+  $workGroupFestCloudId: String!,
+  $employeeFestCloudId: String!, 
+	$jobTitle: String!, 
+  $role: String!, 
+  $manager: String, 
+	$assignmentcreator: String!, 
+  $cooperationType: String!,
+	$substage: String,
+) {
+  inserted:insert_people_assignmentext_v0(objects: {
+    Stage: "OnboardingPending", 
+		Type: "Secondary",
+		Substage: $substage,
+		AssignmentCreatorFestCloudID: $assignmentcreator,
+    CooperationType: $cooperationType, 
+    assignmentext_festcloudid_assignment: {
+      data: {
+        StartDate: $startDate, 
+        PositionFestCloudID: $positionFestCloudId, 
+        WorkgroupFestCloudID: $workGroupFestCloudId, 
+        EmployeeFestCloudID: $employeeFestCloudId, 
+				JobTitle: $jobTitle,
+        Role: $role, 
+        ManagerFestCloudId: $manager,
+      }
+    }
+  }) {
+    affected_rows
+    returning {
+      FestCloudID
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderColorActive": "#c4d1f4",
+  "borderColorDisabled": "#CBCED4",
+  "borderColorHover": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( utils.actualSelected))(RequiresCorporateEmail.options, RequiresCorporateEmail.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "bqh2li1ap5",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"accessGoogleAppSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "label",
+  "originalBottomRow": 21,
+  "originalTopRow": 14,
+  "parentColumnSpace": 20.75,
+  "parentId": "gi5hkhgwdj",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"accessGoogleAppSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{utils.getDictionaryByName(\"EmailDomain\").sort((a,b) => a.ItemName.localeCompare(b.ItemName)).map(p => ({ \n    label: p.ItemName, \n    value: p.ItemName \n  }))\n}}",
+  "topRow": 14,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "j4zfm00di5",
+  "widgetName": "RequiresCorporateEmail",
+  "widgetWidth": "200px"
+}

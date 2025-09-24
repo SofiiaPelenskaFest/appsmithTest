@@ -1,0 +1,75 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#3A77DC",
+  "backgroundColorActive": "#5D9AFF",
+  "backgroundColorDisabled": "#C4D1F4",
+  "backgroundColorHover": "#4987EE",
+  "backgroundFocusColor": "#ef4444",
+  "borderColor": "#3A77DC",
+  "borderColorActive": "#5D9AFF",
+  "borderColorDisabled": "#C4D1F4",
+  "borderColorHover": "#4987EE",
+  "borderFocusColor": "#ef4444",
+  "bottomRow": 5,
+  "buttonSize": "LARGE",
+  "buttonVariant": "PRIMARY",
+  "color": "#ffffff",
+  "colorActive": "#ffffff",
+  "colorDisabled": "#777B82",
+  "colorHover": "#ffffff",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{DropzoneImage.files.length === 0}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "01k29ilo92",
+  "leftColumn": 25,
+  "minWidth": 120,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{init.handleSelectFile()}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 18,
+  "parentColumnSpace": 6.9375,
+  "parentId": "rpf06ovdii",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 41,
+  "text": "{{i18n.translate(\"dropzoneContinueButton\")}}",
+  "textFocusColor": "#ffffff",
+  "topRow": 0,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "er6nwiaz0r",
+  "widgetName": "SubmitBtn"
+}

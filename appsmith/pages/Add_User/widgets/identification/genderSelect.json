@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( utils.taxNumberValidation(taxpayerInput.text.trim()) ?utils.getDataFromTaxNumber(taxpayerInput.text.trim()).gender : get_person_by_id.data?.data?.person[0]?.Gender))(genderSelect.options, genderSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "errorMessage"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorMessage": "{{i18n.translate(\"userSexSelectError\")}}",
+  "helperText": "",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "3jz193bvv4",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"userSexSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 107,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 98,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 24,
+  "originalTopRow": 15,
+  "parentColumnSpace": 26.109375,
+  "parentId": "nlv0u7kgr1",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"userSexSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 15,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"value\": \"Чоловіча\",\n    \"label\": {{i18n.translate(\"userSexSelectOptionMale\")}}\n  },\n  {\n    \"value\": \"Жіноча\",\n    \"label\": {{i18n.translate(\"userSexSelectOptionFemale\")}}\n  }\n]",
+  "topRow": 15,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "474mkdf33v",
+  "widgetName": "genderSelect"
+}

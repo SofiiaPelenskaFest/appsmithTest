@@ -1,0 +1,67 @@
+{
+  "align": "flex-end",
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorDisabled": "#ffffff",
+  "backgroundColorHover": "#E3EEFF",
+  "backgroundFocusColor": "#C4D1F4",
+  "borderColor": "#3A77DC",
+  "borderColorDisabled": "#C4D1F4",
+  "borderColorHover": "#4987EE",
+  "borderFocusColor": "#5D9AFF",
+  "bottomRow": 18,
+  "buttonSize": "LARGE",
+  "buttonVariant": "OUTLINE",
+  "color": "#3A77DC",
+  "colorDisabled": "#B3B7BE",
+  "colorHover": "#3A77DC",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconSize": 16,
+  "iconWeight": "regular",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "hhjx9yak81",
+  "leftColumn": 12,
+  "minWidth": 120,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "onClick": "{{closeModal(submitDeletion.name)}}",
+  "originalBottomRow": 18,
+  "originalTopRow": 13,
+  "parentColumnSpace": 6.9375,
+  "parentId": "37m8haqvb4",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 36,
+  "text": "{{i18n.translate(\"dismissalModalCancelButton\")}}",
+  "textFocusColor": "#3A77DC",
+  "topRow": 13,
+  "type": "FC_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5fj2w57ld9",
+  "widgetName": "Button2"
+}

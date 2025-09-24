@@ -1,0 +1,35 @@
+mutation UpdateContacts(
+  $id: String!
+  $workPhone: String
+  $personalPhone: String
+  $workEmail: String
+  $personalEmail: String
+) {
+  updateWorkPhone: update_people_contact_v0(
+    where: {PrincipalFestCloudID: {_eq: $id}, ContactType: {_eq: "Work"}, ContactSource: {_eq: "Телефон"}},
+    _set: {ContactValue: $workPhone}
+  ) {
+    affected_rows
+  }
+
+  updatePersonalPhone: update_people_contact_v0(
+    where: {PrincipalFestCloudID: {_eq: $id}, ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Телефон"}},
+    _set: {ContactValue: $personalPhone}
+  ) {
+    affected_rows
+  }
+
+  updateWorkEmail: update_people_contact_v0(
+    where: {PrincipalFestCloudID: {_eq: $id}, ContactType: {_eq: "Work"}, ContactSource: {_eq: "Email"}},
+    _set: {ContactValue: $workEmail}
+  ) {
+    affected_rows
+  }
+
+  updatePersonalEmail: update_people_contact_v0(
+    where: {PrincipalFestCloudID: {_eq: $id}, ContactType: {_eq: "Personal"}, ContactSource: {_eq: "Email"}},
+    _set: {ContactValue: $personalEmail}
+  ) {
+    affected_rows
+  }
+}

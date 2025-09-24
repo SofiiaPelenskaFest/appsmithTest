@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "bottomRow": 6,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ppiph7tty7",
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "maxLength": "40",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "overflow": "SCROLL",
+  "parentColumnSpace": 15.1630859375,
+  "parentId": "oxhc5u9dib",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 49,
+  "shouldTruncate": false,
+  "text": "{{get_all_assigments.data.data.people_assignment_v0[0].assignment_positionfestcloudid_position?.PositionName}} ",
+  "textAlign": "LEFT",
+  "textColor": "#777b82",
+  "topRow": 4,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body6",
+  "version": 1,
+  "widgetId": "myo61yodd9",
+  "widgetName": "jobTitlePeopleListCopyCopyCopy1"
+}

@@ -1,0 +1,5 @@
+query GetWorkgroup($id: String!, $positions: [String!]!) {
+  people_position_v0(where: {_and: {assignment_positionfestcloudid_array: {EmployeeFestCloudID: {_eq: $id}}, PositionName: {_in: $positions}}}) {
+    PositionName
+  }
+}

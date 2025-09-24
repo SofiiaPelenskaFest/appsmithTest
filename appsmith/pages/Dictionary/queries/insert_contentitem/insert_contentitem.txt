@@ -1,0 +1,5 @@
+mutation MyMutation2($payload: people_dictionary_v0_insert_input!) {
+  insert_people_dictionary_v0_one(object: $payload) {
+    FestCloudID
+  }
+}

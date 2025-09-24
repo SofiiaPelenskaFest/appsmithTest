@@ -1,0 +1,48 @@
+{
+  "animateLoading": true,
+  "bottomRow": 10,
+  "disableLink": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ppiph7tty7",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "maxLength": "25",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "",
+  "overflow": "NONE",
+  "parentColumnSpace": 15.1630859375,
+  "parentId": "s3phr3bzfc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "{{utils.resultCounter().passed ? i18n.translate(\"attestationPassed\") : i18n.translate(\"attestationNotPassed\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 7,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4-b",
+  "version": 1,
+  "widgetId": "c2tdjgffdz",
+  "widgetName": "namePeopleListCopyCopyCopyCopyCopyCopy"
+}

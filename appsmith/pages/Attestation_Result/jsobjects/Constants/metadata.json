@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_6391fa89-fb0a-4040-87bb-ef44993b9b50",
+  "id": "Attestation_Result_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Attestation_Result",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"back\": \"Назад\",\n  \"attestationFormTitle\": \"Атестаційна форма\",\n  \"prticipantCardTitle\": \"Учасник атестації\",\n  \"endCooperationButton\": \"Завершити співпрацю\",\n  \"attestationResultTitle\": \"Результат атестації\",\n  \"attestationPassed\": \"Атестацію пройдено\",\n  \"attestationNotPassed\": \"Атестацію не пройдено\",\n  \"attestationDetails\": \"Деталі\",\n  \"amountOfQuestions\": \"Кількість питань\",\n  \"correctAnswers\": \"Правильних відповідей\",\n  \"incorrectAnswers\": \"Неправильних відповідей\",\n  \"attestationDate\": \"Дата проходження\",\n  \"continueButton\": \"Продовжити\",\n  \"endCooperationModalTitle\": \"Завершити співпрацю\",\n  \"endCooperationModalDescription1\": \"Ця дія є незворотною. Після завершення співпраці статус стажера\",\n  \"endCooperationModalDescription2\": \"буде змінено на\",\n  \"endCooperationModalDescription3\": \"Екс-стажер\",\n  \"endCooperationModalReasonTitle\": \"Причина звільнення\",\n  \"endCooperationModalReasonHelper\": \"Це поле обовʼязкове до заповнення\",\n  \"endCooperationModalCancelButton\": \"Ні,скасувати\",\n  \"endCooperationModalSubmitButton\": \"Так, завершити\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"back\": \"Назад\",\n  \"attestationFormTitle\": \"Атестаційна форма\",\n  \"prticipantCardTitle\": \"Учасник атестації\",\n  \"endCooperationButton\": \"Завершити співпрацю\",\n  \"attestationResultTitle\": \"Результат атестації\",\n  \"attestationPassed\": \"Атестацію пройдено\",\n  \"attestationNotPassed\": \"Атестацію не пройдено\",\n  \"attestationDetails\": \"Деталі\",\n  \"amountOfQuestions\": \"Кількість питань\",\n  \"correctAnswers\": \"Правильних відповідей\",\n  \"incorrectAnswers\": \"Неправильних відповідей\",\n  \"attestationDate\": \"Дата проходження\",\n  \"continueButton\": \"Продовжити\",\n  \"endCooperationModalTitle\": \"Завершити співпрацю\",\n  \"endCooperationModalDescription1\": \"Ця дія є незворотною. Після завершення співпраці статус стажера\",\n  \"endCooperationModalDescription2\": \"буде змінено на\",\n  \"endCooperationModalDescription3\": \"Екс-стажер\",\n  \"endCooperationModalReasonTitle\": \"Причина звільнення\",\n  \"endCooperationModalReasonHelper\": \"Це поле обовʼязкове до заповнення\",\n  \"endCooperationModalCancelButton\": \"Ні,скасувати\",\n  \"endCooperationModalSubmitButton\": \"Так, завершити\"\n}"
+      }
+    ]
+  }
+}

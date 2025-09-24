@@ -1,0 +1,77 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#3A77DC",
+  "animateLoading": true,
+  "borderColor": "#C4D1F4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_language.data?.data?.language[5]?.Level || 'C2'))(SelectLevelCopyCopy3.options, SelectLevelCopyCopy3.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputSize": "MEDIUM",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "sawjlt6f90",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"languageLevelSelectLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 25,
+  "originalTopRow": 18,
+  "parentColumnSpace": 12.984375,
+  "parentId": "7sde117jci",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"languageLevelSelectPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": {{i18n.translate(\"languageLevelSelectOptionA1\")}},\n    \"code\": \"A1\"\n  },\n  {\n    \"name\": {{i18n.translate(\"languageLevelSelectOptionA2\")}},\n    \"code\": \"A2\"\n  },\n  {\n    \"name\": {{i18n.translate(\"languageLevelSelectOptionB1\")}},\n    \"code\": \"B1\"\n  },\n  {\n    \"name\": {{i18n.translate(\"languageLevelSelectOptionB2\")}},\n    \"code\": \"B2\"\n  },\n  {\n    \"name\": {{i18n.translate(\"languageLevelSelectOptionC1\")}},\n    \"code\": \"C1\"\n  },\n  {\n    \"name\": {{i18n.translate(\"languageLevelSelectOptionC2\")}},\n    \"code\": \"C2\"\n  }\n]",
+  "topRow": 13,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "iyajyoged3",
+  "widgetName": "SelectLevelCopyCopy3"
+}

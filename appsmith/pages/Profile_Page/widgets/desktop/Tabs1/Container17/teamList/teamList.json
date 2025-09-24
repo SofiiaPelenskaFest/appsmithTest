@@ -1,0 +1,145 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderColor": "",
+  "borderRadius": "1.5rem",
+  "bottomRow": 24,
+  "bottomRowBeforeCollapse": 107,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 210,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dropDisabled": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "wf7t8jrjof",
+      "leftColumn": 12,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 412,
+      "mobileLeftColumn": 12,
+      "mobileRightColumn": 312,
+      "mobileTopRow": 12,
+      "needsErrorInfo": false,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "funvd5nu36",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 312,
+      "topRow": 12,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "xpendfustw",
+      "widgetName": "Canvas28"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "dividerColor": "",
+  "dividerHeight": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "listData"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "primaryKeys"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "flexVerticalAlignment": "start",
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "isCanvas": true,
+  "isLoading": false,
+  "isLoadingState": false,
+  "isVisible": "{{teamList.listData.length >= 1 && !init.loading}}",
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": "20",
+  "key": "ksrktn11j4",
+  "leftColumn": 0,
+  "listData": "{{get_all_assignment.data.data.activeAssignments}}",
+  "listDataLength": 0,
+  "mainCanvasId": "xpendfustw",
+  "mainContainerId": "2u94qbulv0",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 80,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 40,
+  "needsErrorInfo": false,
+  "originalBottomRow": 24,
+  "originalTopRow": 4,
+  "pageSize": 5,
+  "parentColumnSpace": 12.5,
+  "parentId": "gu1n318lq7",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{teamList.listData.map((currentItem, currentIndex) =>currentItem[\"FestCloudID\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "selectedItemView": "{{{}}}",
+  "shouldScrollContents": true,
+  "templateHeight": 160,
+  "topRow": 4,
+  "topRowBeforeCollapse": 39,
+  "triggeredItemView": "{{{}}}",
+  "type": "FC_LIST_WIDGET",
+  "widgetHeight": "200px",
+  "widgetId": "funvd5nu36",
+  "widgetName": "teamList",
+  "widgetWidth": "200px"
+}

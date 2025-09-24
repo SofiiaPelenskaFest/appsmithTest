@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 35,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ngv83kp6oh",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "originalBottomRow": 35,
+  "originalTopRow": 33,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.53125,
+  "parentId": "wwtg2po4dh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "Відновити профіль {{\n  checkIfPersonExists.data?.data?.people_personext_v0[0]?.personext_festcloudid_person?.Name\n  || checkIfAssignmentExists.data?.data?.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.Name\n}} {{ checkIfPersonExists.data?.data?.people_personext_v0[0]?.personext_festcloudid_person?.FamilyName|| checkIfAssignmentExists.data?.data?.people_assignment_v0[0]?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.FamilyName\n}} ?",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 33,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4",
+  "version": 1,
+  "widgetId": "tq7i9c5z91",
+  "widgetName": "Text25"
+}

@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_21ba6828-6e8d-4fe8-82b5-d38c0509c974",
+  "id": "Org_Chart_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Org_Chart",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "role",
+        "value": "null"
+      },
+      {
+        "name": "fileExcel",
+        "value": "null"
+      },
+      {
+        "name": "fileName",
+        "value": "`${i18n.translate(\"nameExelFile\")}.xlsx`"
+      },
+      {
+        "name": "limitExcel",
+        "value": "500"
+      },
+      {
+        "name": "isExcelLoading",
+        "value": "false"
+      },
+      {
+        "name": "stages",
+        "value": "[]"
+      },
+      {
+        "name": "startStages",
+        "value": "[\"Intern\", \"NewComer\", \"Employee\", \"Substitution\", \"Outsourcing\"]"
+      }
+    ]
+  }
+}

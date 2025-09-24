@@ -1,0 +1,13 @@
+mutation Delete(
+	$id: String!,
+  $values: [String!]!
+){
+  deleted:delete_people_contentitemvalue_v0(where: {
+		_and: [
+			{Value: {_in: $values}}
+			{AssignmentFestCloudID: {_eq: $id}}
+		]
+	}) {
+    affected_rows
+  }
+}

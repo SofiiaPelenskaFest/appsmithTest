@@ -1,0 +1,8 @@
+mutation changeStage($id: String!, $stage: String!, $endDate: timestamp, $dismissalDescription: String, $Substage: String!) {
+  update_people_assignmentext_v0(where: {FestCloudID: {_eq: $id}}, _set: {Stage: $stage, DismissalDescription: $dismissalDescription, Substage: $Substage, Type: "Secondary", DismissalDate: $endDate}) {
+    affected_rows
+  }
+  update_people_assignment_v0(where: {FestCloudID: {_eq: $id}}, _set: {EndDate: $endDate}) {
+    affected_rows
+  }
+}

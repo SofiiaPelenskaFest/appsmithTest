@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6890f343b31174677503362c_a85961e6-aafe-480d-876a-edfa08adabeb",
+  "id": "Dictionary_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Dictionary",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLanguageKeys",
+        "value": "{\n  \"dictionaryTitle\": \"Словник\",\n  \"addDictionaryButton\": \"Додати словник\",\n  \"modalDublicateTitle\": \"Дублювати елемент\",\n  \"modalEditTitle\": \"Редагувати елемент\",\n  \"modalCreateTitle\": \"Створити елемент\",\n  \"modalCancelButton\": \"Скасувати\",\n  \"modalCreateButton\": \"Додати\",\n  \"modalEditButton\": \"Редагувати\"\n}"
+      },
+      {
+        "name": "enLanguageKeys",
+        "value": "{\n  \"dictionaryTitle\": \"Dictionary\",\n  \"addDictionaryButton\": \"Add dictionary\",\n  \"modalDublicateTitle\": \"Duplicate Item\",\n  \"modalEditTitle\": \"Edit item\",\n  \"modalCreateTitle\": \"Create item\",\n  \"modalCancelButton\": \"Cancel\",\n  \"modalCreateButton\": \"Create\",\n  \"modalEditButton\": \"Edit\"\n}"
+      }
+    ]
+  }
+}

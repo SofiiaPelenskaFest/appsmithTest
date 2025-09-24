@@ -1,0 +1,4 @@
+{
+    "Category": "DismissalCheckList",
+    "AssignmentFestCloudID": {{`${init.assigmentId}`}}
+}

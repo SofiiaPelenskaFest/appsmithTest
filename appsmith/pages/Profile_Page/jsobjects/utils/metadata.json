@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_4e32a885-cfc3-4d9b-be99-aff0e2b9eace",
+  "id": "Profile_Page_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Profile_Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ukMonths",
+        "value": "[i18n.translate(\"monthOptionJan\"), i18n.translate(\"monthOptionFeb\"), i18n.translate(\"monthOptionMar\"), i18n.translate(\"monthOptionAp\"), i18n.translate(\"monthOptionMay\"), i18n.translate(\"monthOptionJun\"), i18n.translate(\"monthOptionJul\"), i18n.translate(\"monthOptionAu\"), i18n.translate(\"monthOptionSep\"), i18n.translate(\"monthOptionOct\"), i18n.translate(\"monthOptionNov\"), i18n.translate(\"monthOptionDec\")]"
+      },
+      {
+        "name": "edLevels",
+        "value": "{\n  \"master\": i18n.translate(\"educationLevelSelectOptionMaster\"),\n  \"bachelor\": i18n.translate(\"educationLevelSelectOptionBachelor\"),\n  \"PHD\": i18n.translate(\"educationLevelSelectOptionPHD\"),\n  \"bachelorNotFinished\": i18n.translate(\"educationLevelSelectOptionBachelorNotFinished\"),\n  \"college\": i18n.translate(\"educationLevelSelectOptionCollege\"),\n  \"school\": i18n.translate(\"educationLevelSelectOptionSchool\")\n}"
+      },
+      {
+        "name": "langLevels",
+        "value": "{\n  \"A1\": i18n.translate(\"languageLevelSelectOptionA1\"),\n  \"A2\": i18n.translate(\"languageLevelSelectOptionA2\"),\n  \"B1\": i18n.translate(\"languageLevelSelectOptionB1\"),\n  \"B2\": i18n.translate(\"languageLevelSelectOptionB2\"),\n  \"C1\": i18n.translate(\"languageLevelSelectOptionC1\"),\n  \"C2\": i18n.translate(\"languageLevelSelectOptionC2\")\n}"
+      },
+      {
+        "name": "langs",
+        "value": "{\n  \"en\": i18n.translate(\"languageSelectOptionEn\"),\n  \"ar\": i18n.translate(\"languageSelectOptionAr\"),\n  \"bn\": i18n.translate(\"languageSelectOptionBn\"),\n  \"vi\": i18n.translate(\"languageSelectOptionVi\"),\n  \"hi\": i18n.translate(\"languageSelectOptionHi\"),\n  \"el\": i18n.translate(\"languageSelectOptionEl\"),\n  \"he\": i18n.translate(\"languageSelectOptionHe\"),\n  \"id\": i18n.translate(\"languageSelectOptionId\"),\n  \"es\": i18n.translate(\"languageSelectOptionEs\"),\n  \"it\": i18n.translate(\"languageSelectOptionIt\"),\n  \"zh\": i18n.translate(\"languageSelectOptionZh\"),\n  \"ko\": i18n.translate(\"languageSelectOptionKo\"),\n  \"ms\": i18n.translate(\"languageSelectOptionMs\"),\n  \"nl\": i18n.translate(\"languageSelectOptionNl\"),\n  \"de\": i18n.translate(\"languageSelectOptionDe\"),\n  \"no\": i18n.translate(\"languageSelectOptionNo\"),\n  \"pl\": i18n.translate(\"languageSelectOptionPl\"),\n  \"pt\": i18n.translate(\"languageSelectOptionPt\"),\n  \"th\": i18n.translate(\"languageSelectOptionTh\"),\n  \"tr\": i18n.translate(\"languageSelectOptionTr\"),\n  \"uk\": i18n.translate(\"languageSelectOptionUk\"),\n  \"ur\": i18n.translate(\"languageSelectOptionUr\"),\n  \"fi\": i18n.translate(\"languageSelectOptionFi\"),\n  \"fr\": i18n.translate(\"languageSelectOptionFr\"),\n  \"hr\": i18n.translate(\"languageSelectOptionHr\"),\n  \"cs\": i18n.translate(\"languageSelectOptionCs\"),\n  \"sv\": i18n.translate(\"languageSelectOptionSv\"),\n  \"ja\": i18n.translate(\"languageSelectOptionJa\")\n}"
+      },
+      {
+        "name": "roleTranslations",
+        "value": "{\n  manager: \"Менеджер\",\n  GM: \"Глобальний менеджер\",\n  worker: \"Працівник\",\n  globaladmin: \"Глобальний адміністратор\",\n  \"fca-globaladmin\": \"Глобальний адміністратор FCA\",\n  \"people-dev\": \"Розробник персоналу\"\n}"
+      }
+    ]
+  }
+}

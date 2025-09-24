@@ -1,0 +1,5 @@
+mutation Mutation($data: [people_additionaleducation_v0_insert_input!]!) {
+  insert_people_additionaleducation_v0(objects: $data){
+    affected_rows
+  }
+}

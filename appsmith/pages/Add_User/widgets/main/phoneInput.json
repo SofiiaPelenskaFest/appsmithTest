@@ -1,0 +1,95 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": "{{init.loading}}",
+  "autoFocus": false,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 41,
+  "boxShadow": "none",
+  "debounceValue": "300",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "validation"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "errorMessage"
+    },
+    {
+      "key": "animateLoading"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "animateLoading"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "{{i18n.translate(\"userPhoneInputError\")}}",
+  "helperText": "",
+  "iconAlign": "left",
+  "inputSize": "MEDIUM",
+  "inputType": "TEXT",
+  "isDebounce": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isSpellCheck": false,
+  "isVisible": true,
+  "key": "ks5mhp88rd",
+  "label": "{{i18n.translate(\"userPhoneInputLabel\")}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "14px",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "onTextChanged": "{{init.handlePhoneChange()}}/",
+  "originalBottomRow": 41,
+  "originalTopRow": 33,
+  "parentColumnSpace": 18.524322509765625,
+  "parentId": "mssg4j8k3b",
+  "parentRowSpace": 10,
+  "placeholderText": "{{i18n.translate(\"userPhoneInputPlaceholder\")}}",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 33,
+  "type": "FC_INPUT_WIDGET",
+  "validation": "{{init.isPhoneValid}}",
+  "version": 2,
+  "widgetId": "8b2hv098m3",
+  "widgetName": "phoneInput"
+}

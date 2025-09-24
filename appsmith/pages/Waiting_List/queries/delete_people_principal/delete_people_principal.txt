@@ -1,0 +1,19 @@
+mutation DeleteUser($festCloudId: String!) {
+  delete_people_contact_v0(
+    where: { PrincipalFestCloudID: { _eq: $festCloudId } }
+  ) {
+    affected_rows
+  }
+
+  delete_people_principal_v0(
+    where: { FestCloudID: { _eq: $festCloudId } }
+  ) {
+    affected_rows
+  }
+
+  delete_people_person_v0(
+    where: { FestCloudID: { _eq: $festCloudId } }
+  ) {
+    affected_rows
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ngv83kp6oh",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "maxLength": "20",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 3,
+  "originalTopRow": 0,
+  "overflow": "NONE",
+  "parentColumnSpace": 7.810546875,
+  "parentId": "bw2lf15i84",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "shouldTruncate": false,
+  "text": "{{get_person_by_fields.data?.data?.person[0]?.Name + \" \" +\nget_person_by_fields.data?.data?.person[0]?.FamilyName\n}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 0,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body2-b",
+  "version": 1,
+  "widgetId": "ksyjsw8i23",
+  "widgetName": "Text24"
+}

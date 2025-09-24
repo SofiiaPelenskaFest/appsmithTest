@@ -1,0 +1,15 @@
+mutation Update(
+  $personId: String!,
+  $data: people_additionalinfo_v0_set_input
+) {
+  update_people_additionalinfo_v0(where: {
+    PersonFestCloudID: {_eq: $personId}
+  }, _set: $data) {
+    affected_rows
+    returning{
+      DrivingLicense
+      Interests
+      CommunityBelonging
+    }
+  }
+}

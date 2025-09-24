@@ -1,0 +1,11 @@
+mutation Insert($data: [people_education_v0_insert_input!]!){
+  insert_people_education_v0(objects: $data) {
+    affected_rows
+    returning{
+      EducationLevel
+      EducationalInstitution
+      SpecialtyName
+      PersonFestCloudID
+    }
+  }
+}

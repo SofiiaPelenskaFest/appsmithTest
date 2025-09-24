@@ -1,0 +1,26 @@
+query GetNewEmployees($limit: Int!, $offset: Int!, $where: people_person_v0_bool_exp!, $order_by: [people_person_v0_order_by!]) {
+  count: people_person_v0_aggregate(where: $where) {
+    aggregate {
+      count
+    }
+  }
+  person: people_person_v0(limit: $limit, offset: $offset, order_by: $order_by, where: $where) {
+    AuditCreatedAt
+    FestCloudID
+    FamilyName
+    Name
+    Gender
+    Birthday
+    MiddleName
+    person_festcloudid_employee {
+      Stage
+    }
+    person_festcloudid_principal {
+      FestCloudID
+      contact_principalfestcloudid_array(where: {ContactType: {_eq: "Work"}}, order_by: {ContactType: asc}) {
+        ContactSource
+        ContactValue
+      }
+    }
+  }
+}

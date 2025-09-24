@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 14,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{!!get_one_assignment.data?.data?.assignment[0]?.assigment_ext?.Token}}",
+  "key": "ri0s7a1rhx",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "originalBottomRow": 14,
+  "originalTopRow": 12,
+  "overflow": "NONE",
+  "parentColumnSpace": 20.515625,
+  "parentId": "l1r8zatv54",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 17,
+  "shouldTruncate": false,
+  "text": "{{i18n.translate(\"POSLabel\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 12,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body5",
+  "version": 1,
+  "widgetId": "ab5jpodnis",
+  "widgetName": "Text18Copy2CopyCopy"
+}

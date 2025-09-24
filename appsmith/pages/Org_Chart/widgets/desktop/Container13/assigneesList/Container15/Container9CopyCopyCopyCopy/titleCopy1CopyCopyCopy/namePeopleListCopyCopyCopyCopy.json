@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "disableLink": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ppiph7tty7",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "maxLength": "25",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n  navigateTo('Profile_Page', { \n\t\treturnTo: appsmith.currentPageName,\n\t\tfestCloudID: currentItem.festCloudID,\n\t\t\t\t\t\t\t\t\t\t\t\t\temployeeFestCloudID: currentItem.EmployeeFestCloudID});\n}} ",
+  "overflow": "NONE",
+  "parentColumnSpace": 15.1630859375,
+  "parentId": "rwxmcgc3qx",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "{{currentItem?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.FamilyName}} {{currentItem?.assignment_employeefestcloudid_employee?.employee_festcloudid_person?.Name}} ",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 0,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4-b",
+  "version": 1,
+  "widgetId": "0ajyo1edrl",
+  "widgetName": "namePeopleListCopyCopyCopyCopy"
+}

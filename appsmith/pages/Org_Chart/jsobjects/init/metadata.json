@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_9d6ed5a4-d7bc-4c27-bf14-dc7b78c39b4c",
+  "id": "Org_Chart_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Org_Chart",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "currentUser",
+        "value": "null"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "treeData",
+        "value": "[]"
+      },
+      {
+        "name": "link",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "jwtValidayionLink",
+        "value": "appsmith.env.SECURITY_SERVICE_URL"
+      },
+      {
+        "name": "Profile_PageLink",
+        "value": "\"/uk/workspaces/7b221e7d-1189-4546-ad91-ea615fb75afd/cc0eb808-bfff-444b-ad3f-9f073e4e069b\""
+      }
+    ]
+  }
+}

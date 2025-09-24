@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 14,
+  "capSide": 0,
+  "capType": "nc",
+  "dividerColor": "{{gget_all_assignment?.data?.data?.person[0]?.ChildCount.aggregate.count  >= 5 ? '#edeeef' : 'transparent'}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "dividerColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "dividerColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vshkj0a4kb",
+  "leftColumn": 21,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 49,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "parentColumnSpace": 20,
+  "parentId": "oe0y0uumne",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 22,
+  "strokeStyle": "solid",
+  "thickness": "1",
+  "topRow": 7,
+  "type": "FC_DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "kfb114oyda",
+  "widgetLenght": "40px",
+  "widgetName": "Divider2Copy3CopyCopyCopy4Copy"
+}

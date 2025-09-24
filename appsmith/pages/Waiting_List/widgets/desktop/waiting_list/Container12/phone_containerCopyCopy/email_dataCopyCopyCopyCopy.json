@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "bottomRow": 2,
+  "disableLink": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "ppiph7tty7",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "maxLength": "25",
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onClick": "",
+  "overflow": "NONE",
+  "parentColumnSpace": 15.1630859375,
+  "parentId": "9902rozx9y",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "shouldTruncate": false,
+  "text": "{{currentItem?.person_festcloudid_principal?.contact_principalfestcloudid_array[1]?.ContactValue || \"no email\"}}",
+  "textAlign": "LEFT",
+  "textColor": "#777b82",
+  "topRow": 0,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body4",
+  "version": 1,
+  "widgetId": "va7a68pl14",
+  "widgetName": "email_dataCopyCopyCopyCopy"
+}

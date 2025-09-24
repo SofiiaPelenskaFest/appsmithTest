@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_62893af6-5ff5-4238-9e48-6366afa5463d",
+  "id": "Attestation_Form_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Attestation_Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "assigmentId",
+        "value": "appsmith.URL.queryParams.selectedAssigmentId"
+      }
+    ]
+  }
+}

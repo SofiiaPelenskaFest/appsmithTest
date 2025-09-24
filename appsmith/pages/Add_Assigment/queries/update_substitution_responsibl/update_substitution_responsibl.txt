@@ -1,0 +1,5 @@
+mutation MyMutation($id: String, $newResponsible: String!) {
+  update_people_adaptation_v0(where: {AssignmentFestCloudID: {_eq: $id}}, _set: {ResponsibleEmployeeFestCloudID: $newResponsible}) {
+    affected_rows
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 3,
+  "buttonColor": "{{utils.starState(currentItem.assignment_festcloudid_assignmentext.Type).starColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "hoverButtonColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "hoverButtonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hoverButtonColor": "{{utils.starState(currentItem.assignment_festcloudid_assignmentext.Type).starColor}}",
+  "iconName": "Star",
+  "iconSize": 16,
+  "iconWeight": "fill",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "j957yb317c",
+  "leftColumn": 55,
+  "minWidth": 16,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 20.75,
+  "parentId": "46ad6dpmig",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 57,
+  "toolTipPosition": "bottom",
+  "topRow": 0,
+  "type": "FC_ICON_WIDGET",
+  "version": 1,
+  "widgetId": "5qkhsmghs4",
+  "widgetName": "roleIconCopyCopy"
+}

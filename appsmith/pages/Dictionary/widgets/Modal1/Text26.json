@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ezqapnqo6c",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 3,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 2,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "v14n0wuihw",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "shouldTruncate": false,
+  "text": "{{appsmith.store.triger === 'copy'? i18n.translate(\"modalDublicateTitle\") : appsmith.store.triger ? i18n.translate(\"modalEditTitle\") : i18n.translate(\"modalCreateTitle\")}}",
+  "textAlign": "LEFT",
+  "textColor": "#212121",
+  "topRow": 2,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "h5-b",
+  "version": 1,
+  "widgetId": "w9g01qvg9w",
+  "widgetName": "Text26"
+}

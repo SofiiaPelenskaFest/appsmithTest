@@ -1,0 +1,61 @@
+{
+  "activeBackgroundColor": "#E3EEFF",
+  "activeMainColor": "#5D9AFF",
+  "align": "flex-start",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "backgroundColor": "#E3EEFF",
+  "backgroundColorHover": "#EEF4FF",
+  "bottomRow": 8,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "errorText": "",
+  "helperText": "",
+  "hoverMainColor": "#4987EE",
+  "iconSize": 24,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{ checkIfPersonExists.data.data.people_personext_v0.Stage != null \n}}",
+  "key": "a8fq3tabey",
+  "label": "Label",
+  "labelPosition": "Right",
+  "labelTextColor": "#212121",
+  "leftColumn": 12,
+  "mainColor": "#3A77DC",
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onCrossIcon": false,
+  "originalBottomRow": 8,
+  "originalTopRow": 5,
+  "parentColumnSpace": 1.23382568359375,
+  "parentId": "kuc54tturk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 34,
+  "tagSize": "LARGE",
+  "tagVariant": "FILLED",
+  "text": "{{ checkIfPersonExists.data?.data?.people_personext_v0[0]?.Stage\n  ||\n  checkIfAssignmentExists.data?.data?.people_assignment_v0[0]?.assignment_festcloudid_assignmentext?.Stage\n}}",
+  "topRow": 5,
+  "type": "FC_TAG_WIDGET",
+  "version": 1,
+  "widgetId": "gwwj91vcss",
+  "widgetName": "Tag1"
+}

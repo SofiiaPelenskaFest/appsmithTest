@@ -1,0 +1,18 @@
+query GetWorkgroup($id: String!) {
+  people_assignment_v0(where: {FestCloudID: {_eq: $id}}) {
+    WorkgroupFestCloudID
+    assignment_festcloudid_assignmentext {
+      Type
+    }
+    assignment_workgroupfestcloudid_workgroup {
+      Name
+    }
+    assignment_employeefestcloudid_employee {
+      FestCloudID
+      employee_festcloudid_person {
+        Name
+        FamilyName
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+query GetAffiliation($festCloudID: String!) {
+  people_affiliation_v0_aggregate(where: {AssignmentFestCloudID: {_eq: $festCloudID}, Status: {_eq: "true"}, Type: {_in: ["blacklist ", "thirdWarning /greyList"]}}) {
+   aggregate {
+    count
+  	}
+  }
+}

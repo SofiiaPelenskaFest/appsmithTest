@@ -1,0 +1,6 @@
+mutation Insert( 
+$dataCustomer: [people_customer_v0_insert_input!]!)
+	insert_people_customer_v0(objects: $dataCustomer){
+    affected_rows
+	}
+}

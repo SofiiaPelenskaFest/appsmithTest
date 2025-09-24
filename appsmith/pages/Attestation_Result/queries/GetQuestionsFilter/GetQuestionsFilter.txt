@@ -1,0 +1,4 @@
+{
+	"Workgroup" : {{get_all_assigments.data.data.people_assignment_v0[0].assignment_workgroupfestcloudid_workgroup.Name || null}},
+	"Position" : {{get_all_assigments.data.data.people_assignment_v0[0].assignment_positionfestcloudid_position.PositionName || null}}
+}

@@ -1,0 +1,52 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_5e6ab1fc-6a9f-4876-81c1-cd15f9dc668c",
+  "id": "Add_Assigment_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Add_Assigment",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "fileData",
+        "value": "null"
+      },
+      {
+        "name": "pos",
+        "value": "null"
+      },
+      {
+        "name": "employeeFestCloudID",
+        "value": "appsmith.URL.queryParams.employeeFestCloudID"
+      },
+      {
+        "name": "link",
+        "value": "appsmith.env.META4_URL"
+      },
+      {
+        "name": "Profile_PageLink",
+        "value": "\"/uk/workspaces/7b221e7d-1189-4546-ad91-ea615fb75afd/cc0eb808-bfff-444b-ad3f-9f073e4e069b\""
+      },
+      {
+        "name": "substitution",
+        "value": "false"
+      },
+      {
+        "name": "substitutionEdit",
+        "value": "false"
+      },
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "needAdaptation",
+        "value": "true"
+      }
+    ]
+  }
+}

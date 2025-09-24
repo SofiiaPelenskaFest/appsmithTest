@@ -1,0 +1,10 @@
+query MyQuery($personId: String!) {
+  education:people_education_v0(where: 
+    {PersonFestCloudID: {_eq: $personId}
+    }) {
+    EducationLevel
+    EducationalInstitution
+    SpecialtyName
+		FestCloudID
+  }
+}

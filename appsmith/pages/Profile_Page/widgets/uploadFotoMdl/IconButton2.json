@@ -1,0 +1,59 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "backgroundColorActive": "transparent",
+  "backgroundColorDisabled": "transparent",
+  "backgroundColorHover": "transparent",
+  "borderColor": "transparent",
+  "borderColorActive": "transparent",
+  "borderColorDisabled": "transparent",
+  "borderColorHover": "transparent",
+  "bottomRow": 5,
+  "buttonSize": "MEDIUM",
+  "buttonVariant": "ICON",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconColor": "#575757",
+  "iconColorActive": "#E32525",
+  "iconColorDisabled": "#A3A3A3",
+  "iconColorHover": "#F13125",
+  "iconName": "X",
+  "iconSize": 24,
+  "iconWeight": "regular",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5sqnvks8qp",
+  "leftColumn": 58,
+  "minWidth": 50,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 58,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "onClick": "{{utils.handleCancelFile()}}",
+  "parentColumnSpace": 6.9375,
+  "parentId": "gz2prrwi79",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "tooltipPosition": "bottom",
+  "topRow": 1,
+  "type": "FC_ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1fi5hs65w6",
+  "widgetName": "IconButton2"
+}

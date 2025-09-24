@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "688f7c8487c169738493a99c_8784a912-6c6c-4e75-8afd-511ed9567114",
+  "id": "Dismissal_init",
+  "unpublishedCollection": {
+    "name": "init",
+    "pageId": "Dismissal",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "showCow",
+        "value": "false"
+      },
+      {
+        "name": "endDate",
+        "value": "moment()"
+      },
+      {
+        "name": "responsiblePeople",
+        "value": "[]"
+      },
+      {
+        "name": "allReasons",
+        "value": "[]"
+      }
+    ]
+  }
+}

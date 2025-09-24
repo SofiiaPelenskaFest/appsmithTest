@@ -1,0 +1,76 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#c4d1f4",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 54,
+  "bottomRowBeforeCollapse": 54,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( get_one_assignment.data?.data?.assignment[0]?.assigment_ext?.CooperationType || ''))(legalEntitTypeSelectAssign.options, legalEntitTypeSelectAssign.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "helperText": "",
+  "inputPosition": "top",
+  "isDisabled": true,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "qp1yjudhlx",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "{{i18n.translate(\"typeOfEmploymentLabel\")}}",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 57,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 48,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 54,
+  "originalTopRow": 47,
+  "parentColumnSpace": 20.515625,
+  "parentId": "51vgarlrvn",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "requiredMode": "required",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{get_all__dictionary.data?.data && utils.getDictionaryByName(\"CooperationType\").map(p => ({ \n    label: p.ItemName, \n    value: p.ItemName \n  })).sort((a, b) => a.label.localeCompare(b.label))}}",
+  "topRow": 47,
+  "topRowBeforeCollapse": 47,
+  "type": "FC_SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "0vw5gs22se",
+  "widgetName": "legalEntitTypeSelectAssign"
+}

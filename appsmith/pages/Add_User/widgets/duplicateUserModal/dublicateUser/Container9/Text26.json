@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "bottomRow": 5,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isLoading": false,
+  "isVisible": "{{!!init.assignmentEmployee?.assignment_position?.PositionName}}",
+  "key": "0cnjbd13fk",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 2,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 9,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 3,
+  "overflow": "NONE",
+  "parentColumnSpace": 5.42633056640625,
+  "parentId": "bw2lf15i84",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 35,
+  "shouldTruncate": false,
+  "text": "{{init.assignmentEmployee?.assignment_position?.PositionName || 'перевірка'}}",
+  "textAlign": "LEFT",
+  "textColor": "#777b82",
+  "topRow": 3,
+  "type": "FC_TEXT_WIDGET",
+  "typography": "body6",
+  "version": 1,
+  "widgetId": "804kyed28u",
+  "widgetName": "Text26"
+}
