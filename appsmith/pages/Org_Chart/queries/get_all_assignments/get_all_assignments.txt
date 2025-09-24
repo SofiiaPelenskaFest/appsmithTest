@@ -1,4 +1,4 @@
-query GetEmployeesInWorkgroupWithCorrectCount(
+query teeeeeeeestGetEmployeesInWorkgroupWithCorrectCount(
   $where: people_assignment_v0_bool_exp!,
   $limit: Int!,
   $offset: Int!,
